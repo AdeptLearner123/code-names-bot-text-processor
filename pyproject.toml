@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "code-names-bot-text-processor"
+version = "0.1.0"
+description = ""
+authors = ["Nalu Zou <zonalu@amazon.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+spacy = "^3.4.1"
+nltk = "^3.7"
+black = "^22.6.0"
+isort = "^5.10.1"
+PyYAML = "^6.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+format                  = "tasks:format"
+setup                   = "tasks:setup"
+
+dependency-parse        = "tools.dependency_parse:main"
+
+generate-definition-sentences   = "data_scripts.definition_sentence_generator:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
