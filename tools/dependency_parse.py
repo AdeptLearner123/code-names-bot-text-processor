@@ -4,9 +4,7 @@ from spacy import displacy
 
 def main():
     nlp = spacy.load("en_core_web_sm")
-    doc = nlp(
-        "A tablet computer, commonly shortened to tablet, is a mobile device, typically with a mobile operating system and touchscreen display processing circuitry, and a rechargeable battery in a single, thin and flat package."
-    )
+    doc = nlp("a teddy bear.")
 
     for token in doc:
         print(token.text, token.pos_)

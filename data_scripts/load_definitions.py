@@ -1,17 +1,18 @@
-import json
-
 import yaml
 from tqdm import tqdm
 
-from config import DEFINITION_SENTENCES_PATH, TERMS_PATH
+from config import DATASET_PATH, TERMS_PATH
+from data_scripts.key_terms_parser import KeyTermsParser
 from oxford_definitions.oxford_definitions import OxfordDefinitions
+
+parser = KeyTermsParser()
 
 
 def add_definition(output, key, definition):
     if key in output:
         raise Exception("Key already exists", key)
 
-    output[key] = {"definition": definition}
+    output[key] = {"definition": definition, "key_terms": parser.parse(definition)}
 
 
 def add_result_definitions(output, result, query):
@@ -20,7 +21,6 @@ def add_result_definitions(output, result, query):
         return
 
     query = query.lower().replace(" ", "_")
-    print(query)
     oxford_prefix = "OX"
     for i1 in range(0, len(result["results"])):
         search_result = result["results"][i1]
@@ -65,7 +65,7 @@ def main():
         add_result_definitions(output, result, term)
 
     print("Writing", len(output))
-    with open(DEFINITION_SENTENCES_PATH, "w") as file:
+    with open(DATASET_PATH, "w") as file:
         yaml.dump(output, file)
 
 

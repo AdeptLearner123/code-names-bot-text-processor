@@ -19,9 +19,10 @@ format                  = "tasks:format"
 setup                   = "tasks:setup"
 
 dependency-parse        = "tools.dependency_parse:main"
+parse-key-terms         = "tools.parse_key_terms:main"
 get-oxford-definition   = "tools.get_oxford_definition:main"
 
-generate-definition-sentences   = "data_scripts.definition_sentence_generator:main"
+load-definitions   = "data_scripts.load_definitions:main"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
