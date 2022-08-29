@@ -1,10 +1,11 @@
 import spacy
 from spacy import displacy
+import sys
 
 
 def main():
     nlp = spacy.load("en_core_web_sm")
-    doc = nlp("a teddy bear.")
+    doc = nlp(sys.argv[1])
 
     for token in doc:
         print(token.text, token.pos_)
