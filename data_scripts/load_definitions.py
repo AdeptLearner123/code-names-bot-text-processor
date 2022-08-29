@@ -1,18 +1,21 @@
 import yaml
 from tqdm import tqdm
 
+from code_names_bot_text_processor.term_chunker.term_chunker import TermChunker
 from config import DATASET_PATH, TERMS_PATH
-from data_scripts.key_terms_parser import KeyTermsParser
 from oxford_definitions.oxford_definitions import OxfordDefinitions
 
-parser = KeyTermsParser()
+term_chunker = TermChunker()
 
 
 def add_definition(output, key, definition):
     if key in output:
         raise Exception("Key already exists", key)
 
-    output[key] = {"definition": definition, "key_terms": parser.parse(definition)}
+    output[key] = {
+        "definition": definition,
+        "term_tags": term_chunker.chunk(definition),
+    }
 
 
 def add_result_definitions(output, result, query):
@@ -66,7 +69,12 @@ def main():
 
     print("Writing", len(output))
     with open(DATASET_PATH, "w") as file:
-        yaml.dump(output, file)
+        yaml.dump(
+            output,
+            file,
+            default_flow_style=None,
+            sort_keys=False,
+        )
 
 
 if __name__ == "__main__":
