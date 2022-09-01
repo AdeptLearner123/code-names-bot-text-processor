@@ -1,6 +1,7 @@
+import sys
+
 import spacy
 from spacy import displacy
-import sys
 
 
 def main():
@@ -8,7 +9,7 @@ def main():
     doc = nlp(sys.argv[1])
 
     for token in doc:
-        print(token.text, token.pos_)
+        print(token.text, token.pos_, token.lemma_)
 
     for chunk in doc.noun_chunks:
         print(chunk.text, chunk.root.text, chunk.root.dep_, chunk.root.head.text)

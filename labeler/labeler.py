@@ -4,7 +4,7 @@ import spacy
 import yaml
 from tqdm import tqdm
 
-from config import DATASET_PATH
+from config import DEFINITIONS_PATH, LABELS_PATH
 
 nlp = spacy.load("en_core_web_sm")
 
@@ -39,21 +39,40 @@ class Ansi:
 
 
 class Label(Enum):
-    NONE = "", ""
-    UNRELATED = "UR", Ansi.YELLOW
-    RELATED = "RE", Ansi.RED
-    IS = "IS", Ansi.BLUE
-    EXAMPLE = "EX", Ansi.BLUE
-    EQUALS = "EQ", Ansi.BLUE
-    COULD_BE = "CB", Ansi.BLUE
+    NONE = "X"
+    UNRELATED = "UR"
+    RELATED = "RE"
+    RELATED_ADJ = "RA"
+    RELATED_VERB = "RV"
+    IS = "IS"
+    EXAMPLE = "EX"
+    EQUALS = "EQ"
+    COULD_BE = "CB"
 
 
-def label(definition, term_labels):
+LABEL_COLORS = {
+    Label.NONE: "",
+    Label.UNRELATED: Ansi.YELLOW,
+    Label.RELATED: Ansi.RED,
+    Label.RELATED_ADJ: Ansi.RED,
+    Label.RELATED_VERB: Ansi.RED,
+    Label.IS: Ansi.BLUE,
+    Label.EXAMPLE: Ansi.BLUE,
+    Label.EQUALS: Ansi.BLUE,
+    Label.COULD_BE: Ansi.BLUE
+}
+
+
+def label_definition(definition, term_labels, labels):
     print_legend()
     print()
     doc = nlp(definition, disable=["parser", "ner"])
     label_options = [label for label in Label]
-    labels = [Label.NONE for token in doc]
+
+    if labels is None:
+        labels = [Label.NONE for token in doc]
+    else:
+        labels = [Label(label) for label in labels]
 
     for i in range(len(doc)):
         if term_labels[i] != "BT":
@@ -65,11 +84,11 @@ def label(definition, term_labels):
             key = input()
             try:
                 idx = int(key)
+                labels[i] = label_options[idx]
             except:
-                continue
+                pass
             break
 
-        labels[i] = label_options[idx]
         print(
             Ansi.LINE_UP,
             Ansi.LINE_CLEAR,
@@ -79,7 +98,7 @@ def label(definition, term_labels):
             Ansi.LINE_CLEAR,
         )
 
-    label_names = [label.value[0] for label in labels]
+    label_names = [label.value for label in labels]
     print_state(doc, term_labels, len(labels), labels)
     return label_names
 
@@ -88,8 +107,7 @@ def print_legend():
     label_options = [label for label in Label]
 
     for i in range(len(label_options)):
-        key, color = label_options[i].value
-        print(f"{color}[{i}]: {key}{Ansi.END}")
+        print(f"{LABEL_COLORS[label_options[i]]}[{i}]: {label_options[i].value}{Ansi.END}")
 
 
 def print_state(doc, term_labels, index, current_labels):
@@ -101,7 +119,7 @@ def print_state(doc, term_labels, index, current_labels):
             output += token.text
         else:
             if term_labels[i] == "BT":
-                output += current_labels[i].value[1]
+                output += LABEL_COLORS[current_labels[i]]
                 output += Ansi.UNDERLINE
 
                 if index == i:
@@ -111,7 +129,7 @@ def print_state(doc, term_labels, index, current_labels):
 
             if i + 1 >= len(term_labels) or term_labels[i + 1] != "T":
                 if current_labels[i] is not None:
-                    output += f"[{current_labels[i].value[0]}]"
+                    output += f"[{current_labels[i].value}]"
                 output += Ansi.END
 
         output += " "
@@ -119,8 +137,14 @@ def print_state(doc, term_labels, index, current_labels):
 
 
 def main():
-    with open(DATASET_PATH, "r") as file:
+    with open(DEFINITIONS_PATH, "r") as file:
         definitions = yaml.safe_load(file)
+    
+    with open(LABELS_PATH, "r") as file:
+        labels = yaml.safe_load(file)
+    
+    if labels is None:
+        labels = dict()
 
     keys = list(
         filter(
@@ -132,11 +156,12 @@ def main():
     )
 
     for key in tqdm(keys):
-        labels = label(definitions[key]["definition"], definitions[key]["term_tags"])
-        definitions[key]["labels"] = labels
+        curr_labels = labels[key] if key in labels else None
+        definition_labels = label_definition(definitions[key]["definition"], definitions[key]["term_tags"], curr_labels)
+        labels[key] = definition_labels
 
-        with open(DATASET_PATH, "w") as file:
-            yaml.dump(definitions, file, default_flow_style=None, sort_keys=False)
+        with open(LABELS_PATH, "w+") as file:
+            yaml.dump(labels, file, default_flow_style=None, sort_keys=False)
 
 
 if __name__ == "__main__":

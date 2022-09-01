@@ -1,3 +1,6 @@
 TERMS_PATH = "static/terms.txt"
-DATASET_PATH = "data/definition_sentences.yaml"
+DEFINITIONS_PATH = "data/definition_sentences.yaml"
+LABELS_PATH = "data/labels.yaml"
 OXFORD_CACHE_PATH = "data/oxford_cache.sqlite"
+COMPOUNDS_LIST_PATH = "static/compounds.txt"
+PROCESSED_COMPOUNDS_LIST_PATH = "static/processed_compounds.txt"
