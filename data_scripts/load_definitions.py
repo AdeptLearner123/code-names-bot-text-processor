@@ -1,5 +1,6 @@
 import yaml
 from tqdm import tqdm
+import json
 
 from code_names_bot_text_processor.term_chunker.term_chunker import TermChunker
 from config import DEFINITIONS_PATH, TERMS_PATH
@@ -65,8 +66,10 @@ def main():
     oxford_definitions = OxfordDefinitions()
 
     for term in tqdm(terms):
-        result = OxfordResults(oxford_definitions.get_result(term))
-        add_result_definitions(output, result, term)
+        row = oxford_definitions.get_cached_row(term.lower())
+        if row is not None:
+            result = OxfordResults(json.loads(row[1]))
+            add_result_definitions(output, result, term)
 
     print("Writing", len(output))
     with open(DEFINITIONS_PATH, "w") as file:

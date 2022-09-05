@@ -56,6 +56,10 @@ class OxfordDefinitions:
         row = self.cur.fetchone()
         return row
 
+    def get_cached_entries(self, term):
+        row = self.get_cached_row(term)
+        return json.loads(row[1])
+
     def cache_entries(self, term, entries):
         self.cur.execute(
             "UPDATE oxford_cache SET entries=? WHERE term=?;", [entries, term]
