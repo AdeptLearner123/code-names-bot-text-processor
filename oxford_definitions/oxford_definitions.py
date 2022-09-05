@@ -6,7 +6,7 @@ import requests
 from config import OXFORD_CACHE_PATH
 from credentials import OXFORD_APP_ID, OXFORD_APP_KEY
 
-API_PREFIX = "https://od-api.oxforddictionaries.com/api/v2/entries/en-us/"
+GET_URL = lambda is_us, term: f"https://od-api.oxforddictionaries.com/api/v2/entries/{'en-us' if is_us else 'en-gb'}/{term}"
 
 
 class OxfordDefinitions:
@@ -19,44 +19,52 @@ class OxfordDefinitions:
         self.cur.execute(
             """
                 CREATE TABLE IF NOT EXISTS oxford_cache (
-                    query TEXT NOT NULL UNIQUE,
-                    result TEXT NOT NULL
+                    term TEXT NOT NULL UNIQUE,
+                    is_us INT NOT NULL,
+                    entries TEXT,
+                    inflections TEXT
                 );
             """
         )
         self.cur.execute(
             """
-                CREATE INDEX IF NOT EXISTS query_index ON oxford_cache (query);
+                CREATE INDEX IF NOT EXISTS term_index ON oxford_cache (term);
             """
         )
 
-    def get_result(self, query):
-        query = query.lower()
-        cached_result = self.get_cached_result(query)
-        if cached_result is not None:
-            return cached_result
+    def insert_term(self, term, is_us):
+        self.cur.execute("INSERT INTO oxford_cache (term, is_us) VALUES (?, ?);", [term, is_us])
 
-        url = f"{API_PREFIX}{query}"
+    def get_entries(self, term):
+        term = term.lower()
+        is_us, cached_entries = self.get_cached_row(term)
+        if cached_entries is not None:
+            return json.loads(cached_entries), True
+
+        url = GET_URL(is_us, term)
         r = requests.get(
             url, headers={"app_id": OXFORD_APP_ID, "app_key": OXFORD_APP_KEY}
         )
-        self.cache_result(query, json.dumps(r.json()))
+        self.cache_entries(term, json.dumps(r.json()))
         self.commit()
-        return r.json()
+        return r.json(), False
 
-    def get_cached_result(self, query):
+    def get_cached_row(self, term):
         self.cur.execute(
-            "SELECT result FROM oxford_cache WHERE query=? LIMIT 1", [query]
+            "SELECT is_us, entries FROM oxford_cache WHERE term=? LIMIT 1", [term]
         )
         row = self.cur.fetchone()
-        if row is None:
-            return None
-        return json.loads(row[0])
+        return row
 
-    def cache_result(self, query, result):
+    def cache_entries(self, term, entries):
         self.cur.execute(
-            "INSERT INTO oxford_cache (query, result) VALUeS (?,?);", [query, result]
+            "UPDATE oxford_cache SET entries=? WHERE term=?;", [entries, term]
         )
+
+    def get_all_cached(self):
+        self.cur.execute("SELECT term FROM oxford_cache WHERE entries IS NOT NULL")
+        rows = self.cur.fetchall()
+        return [row[0] for row in rows]
 
     def commit(self):
         self.con.commit()

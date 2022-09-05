@@ -1,0 +1,33 @@
+africa.OX.0.n.0.0.d0: [X, UR, RAJ, IS, X, X, X, UR, UR, X, X, X, UR, UR, X, X, X,
+  RAJ, UR, X, X, IN, X, RE, UR, UR, X, UR, X, X, RE, X, UR, X, RE, X, X, X, RE, X,
+  X, UR, X, X, RE, X]
+agent.OX.0.n.0.0.d0: [X, IS, X, RV, RE, X, X, X, X, X, X]
+air.OX.0.n.0.0.d0: [X, RAJ, RAJ, IS, RV, X, RE, X, X, IS, UR, X, RE, X, RE, X]
+air.OX.0.v.0.0.d0: [IS, X, X, RE, X, RE, X, RAV]
+alien.OX.0.a.0.0.d0: [X, X, X, RV, RE, X, RE, X]
+alien.OX.0.n.0.0.d0: [X, IS, X, UR, UR, X, UR, UR, X, NT, NT, X, X, RE, X, X, UR,
+  UR]
+alps.OX.0.n.0.0.d0: [X, RE, X, X, IN, X, UR, X, X, X, X, X, UR, X, UR, RE, X, UR,
+  RE, X, RE, X, RE, X, UR, RE, X, X, RE, X, X, RE, X, X, X, RE, X, RE, X, X, X, X,
+  X, X, X, X, UR, X, X, X, X, X]
+amazon.OX.0.n.0.0.d0: [X, IS, X, IN, X, X, RV, UR, X, X, UR, X, X, UR, X, X, RE, X,
+  RE, X, X, RE, X, X, RE, X, X, X, X, X, X, UR, X, X, X, X, X, X, UR, X, RE, X, RE,
+  X, UR, X, RAJ, IS, X, X, X, X]
+ambulance.OX.0.n.0.0.d0: [X, IS, UR, X, X, UR, RE, X, RE, X, X, X, X, X, RE, X, UR,
+  X, RE]
+america.OX.0.n.0.0.d0: [UR, X, X, X, X, X, EQ, X, X]
+angel.OX.0.n.0.0.d0: [X, RAJ, IS, UR, X, X, X, X, RE, X, RE, X, X, RE, X, RE, X, UR,
+  UR, X, RE, UR, X, RE, X, X, UR, RE]
+antarctica.OX.0.n.0.0.d0: [X, IS, X, X, RE, X, X, UR, UR, X, X, RE, X, X, UR, UR,
+  UR, X, RE, X, X, X, UR, UR, UR, X, X, UR, RE, X, X, X, X, UR, UR, X, X, X]
+apple.OX.0.n.0.0.d0: [X, RE, IS, X, X, RE, X, X, RE, UR, X, X, UR, UR, UR, RE, X,
+  RE, RE, X, RE, RE, X, UR, RE, UR, UR, UR, X, RE, X, UR, RE, X, X, UR, RE, X]
+arm.OX.0.n.0.0.d0: [X, X, X, X, RAJ, IS, X, X, RE, RE, X, X, RE, X, X, RE]
+atlantis.OX.0.n.0.0.d0: [X, RAJ, IS, X, RAJ, X, RAJ, X, X, RV, X, X, RE, X]
+australia.OX.0.n.0.0.d0: [X, RAJ, IS, X, IS, X, X, IN, X, X, X, X, UR, IN, X, X, X,
+  UR, IS, X, RE, X, X, X, X, RE, X, X, UR, X, X, X, RE, X, RE, X, X, X, X, RE, X]
+aztec.OX.0.n.0.0.d0: [X, UR, X, X, RAJ, IS, X, X, IN, X, X, RE, X, X, X, UR, UR, X]
+aztec.OX.0.a.0.0.d0: [UR, X, X, RE, X, X, X, X]
+back.OX.0.n.0.0.d0: [X, RAJ, IS, X, X, RE, RE, X, X, RE, X, X, RE]
+back.OX.0.v.0.0.d0: [UR, RE, X, RE, X, X, RE, X, X]
+back.OX.0.a.0.0.d0: [X, X, X, X, RE, X, UR]
