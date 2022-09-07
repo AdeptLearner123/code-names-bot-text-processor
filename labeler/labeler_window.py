@@ -34,6 +34,7 @@ class LabelerWindow(QtWidgets.QWidget):
         self.setLayout(self.layout)
         self.label_options = [label for label in Label]
 
+        self._add_title()
         self._add_legend()
         self.sentence_widget = None
 
@@ -54,6 +55,10 @@ class LabelerWindow(QtWidgets.QWidget):
             )
             legend_layout.addWidget(legend_label_widget)
 
+    def _add_title(self):
+        self.title = QtWidgets.QLabel()
+        self.layout.addWidget(self.title)
+
     def _add_sentence(self):
         sentence_widget = QtWidgets.QWidget()
         sentence_layout = QtWidgets.QHBoxLayout(self)
@@ -71,11 +76,12 @@ class LabelerWindow(QtWidgets.QWidget):
 
         self._add_sentence()
 
-    def set_definition(self, tokens, labels, term_labels):
+    def set_definition(self, tokens, labels, term_labels, title):
         self.current = -1
         self.tokens = tokens
         self.labels = labels
         self.term_labels = term_labels
+        self.title.setText(f"<h1>{title}</h1>")
         self._next_term()
         self._render()
 

@@ -25,10 +25,14 @@ def add_result_definitions(output, results: OxfordResults, query):
         print("Skipping", query)
         return
 
-    query = query.lower().replace(" ", "_")
+    query_key = query.lower().replace(" ", "_")
     oxford_prefix = "OX"
-    for i1 in range(len(results.results)):
-        search_result = results.results[i1]
+
+    i1 = 0
+    for search_result in results.results:
+        if search_result.id.lower() != query.lower():
+            continue
+
         for lexical_entry in search_result.lexical_entries:
             pos = lexical_entry.lexical_category
 
@@ -44,11 +48,14 @@ def add_result_definitions(output, results: OxfordResults, query):
             for i2 in range(len(lexical_entry.entries)):
                 entry = lexical_entry.entries[i2]
 
+                if entry.senses is None:
+                    continue
+                    
                 for i3 in range(len(entry.senses)):
                     sense = entry.senses[i3]
                     if sense.definitions is not None:
                         for di in range(len(sense.definitions)):
-                            key = f"{query}.{oxford_prefix}.{i1}.{pos_tag}.{i2}.{i3}.d{di}"
+                            key = f"{query_key}.{oxford_prefix}.{i1}.{pos_tag}.{i2}.{i3}.d{di}"
                             add_definition(output, key, sense.definitions[di])
 
                 if sense.subsenses is not None:
@@ -56,8 +63,10 @@ def add_result_definitions(output, results: OxfordResults, query):
                         subsense = sense.subsenses[i4]
                         if subsense.definitions is not None:
                             for di in range(len(subsense.definitions)):
-                                key = f"{query}.{oxford_prefix}.{i1}.{pos_tag}.{i2}.{i3}.{i4}.d{di}"
+                                key = f"{query_key}.{oxford_prefix}.{i1}.{pos_tag}.{i2}.{i3}.{i4}.d{di}"
                                 add_definition(output, key, subsense.definitions[di])
+        
+        i1 += 1
 
 
 def main():

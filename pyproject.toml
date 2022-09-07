@@ -26,7 +26,7 @@ get-oxford-definition   = "tools.get_oxford_definition:main"
 list-lemmas             = "tools.list_lemmas:main"
 test-term-chunker       = "tools.test_term_chunker:main"
 get-synsets             = "tools.get_synsets:main"
-transfer-cache          = "tools.transfer_cache:main"
+download-terms          = "tools.download_terms:main"
 
 labeler                 = "labeler.labeler:main"
 

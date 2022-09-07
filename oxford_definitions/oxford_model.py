@@ -27,7 +27,8 @@ class LexicalEntry:
 class Entry:
     def __init__(self, json):
         self.notes = Notes(json["notes"]) if "notes" in json else None
-        self.senses = [Sense(sense_json) for sense_json in json["senses"]]
+        self.senses = [Sense(sense_json) for sense_json in json["senses"]] if "senses" in json else None
+        self.inflections = [inflection_json["inflectedForm"] for inflection_json in json["inflections"]] if "inflections" in json else None
 
 
 class Notes:
@@ -49,11 +50,8 @@ class Sense:
         )
         self.notes = Notes(json["notes"]) if "notes" in json else None
 
-        self.variant_forms = None
-        if "variantForms" in json:
-            self.variant_forms = []
-            for variant_form_json in json["variantForms"]:
-                self.variant_forms.append(variant_form_json["text"])
+        self.variant_forms = [variant_form_json["text"] for variant_form_json in json["variantForms"]] if "variantForms" in json else None
+        self.registers = [register_json["id"] for register_json in json["registers"]] if "registers" in json else None
 
 
 class Subsense:

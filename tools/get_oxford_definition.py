@@ -7,7 +7,7 @@ from oxford_definitions.oxford_definitions import OxfordDefinitions
 def main():
     term = sys.argv[1]
     oxford_definitions = OxfordDefinitions()
-    result, is_cached = oxford_definitions.get_entries(term)
+    result, is_cached = oxford_definitions.get_words_result(term)
     
     if is_cached:
         print(" ----  From Cache  ---- ")

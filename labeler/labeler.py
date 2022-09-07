@@ -36,7 +36,9 @@ class Labeler:
 
         self.current = 0
 
-    def start(self):
+    def start(self, current = 0):
+        self.current = current
+
         app = QtWidgets.QApplication([])
 
         self.widget = LabelerWindow()
@@ -73,6 +75,7 @@ class Labeler:
         print("Current", str(self.current) + " / " + str(len(self.keys)))
         current_key = self.keys[self.current]
         definition = self.definitions[current_key]["definition"]
+        print(definition)
         doc = nlp(definition, disable=["parser", "ner"])
         tokens = [token.text for token in doc]
         term_tags = self.definitions[current_key]["term_tags"]
@@ -80,12 +83,17 @@ class Labeler:
             labels = [Label(label) for label in self.definition_labels[current_key]]
         else:
             labels = [Label.NONE for token in tokens]
-        self.widget.set_definition(tokens, labels, term_tags)
+        title = f"{str(self.current)} / {str(len(self.keys))}    {current_key}"
+        self.widget.set_definition(tokens, labels, term_tags, title)
 
 
 def main():
     labeler = Labeler()
-    labeler.start()
+
+    if len(sys.argv) == 1:
+        labeler.start()
+    else:
+        labeler.start(int(sys.argv[1]))
 
 
 if __name__ == "__main__":
