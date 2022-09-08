@@ -12,6 +12,7 @@ class OxfordResults:
 class OxfordResult:
     def __init__(self, json):
         self.id = json["id"]
+        self.word = json["word"]
         self.lexical_entries = [
             LexicalEntry(lexical_entry_json)
             for lexical_entry_json in json["lexicalEntries"]

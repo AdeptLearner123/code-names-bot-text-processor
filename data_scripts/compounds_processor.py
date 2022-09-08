@@ -1,11 +1,17 @@
+import urllib.parse
+
 from concurrent.futures import process
 
 from config import COMPOUNDS_LIST_PATH, WORDLIST_PATH
 from oxford_definitions.oxford_definitions import OxfordDefinitions
 from oxford_definitions.oxford_model import OxfordResults
 
+MANUAL_IGNORE = ["the Atlantic", "get on", "small round"]
+MANUAL_INCLUDE = ["East Berlin"]
+
 oxford_definitions = OxfordDefinitions()
 
+ignored_registers = ["informal", "rare"]
 
 def main():
     with open(WORDLIST_PATH, "r") as file:
@@ -18,7 +24,9 @@ def main():
 
     compounds = map(format_compound, compounds)
     compounds = map(set_compound_context, compounds)
+    compounds = filter(lambda compound: compound not in MANUAL_IGNORE, compounds)
     compounds = list(compounds)
+    compounds += MANUAL_INCLUDE
 
     test_passed = sanity_test(compounds)
 
@@ -28,60 +36,57 @@ def main():
 
 
 def get_compounds(lemma):
-    compounds = []
-
-    if is_compound(lemma):
-        compounds.append(lemma)
-
     results = oxford_definitions.get_cached_words_result(lemma.lower())
 
     if results is None:
-        return compounds
+        if is_compound(lemma):
+            return [lemma]
+        return []
 
     results = OxfordResults(results)
+    compounds = []
 
     for result in results.results:
         # Since Oxford API is case-insensitive, ensure that result id has same capitalization to verify is same lemma.
-        if result.id.replace("_", " ") != lemma:
+        if result.word != lemma:
             continue
 
         for lexical_entry in result.lexical_entries:
             if lexical_entry.lexical_category == "idiomatic":
                 # Idiomatic phrases like "by sea" should not be considered a compound
-                if lemma in compounds:
-                    compounds.remove(lemma)
                 continue
 
             for entry in lexical_entry.entries:
                 if entry.notes is not None and entry.notes.word_form_notes is not None:
                     compounds.append(entry.notes.word_form_notes[0])
+                    continue
 
-                    if lemma in compounds:
-                        compounds.remove(
-                            lemma
-                        )  # ie "other world" is not a compound but "the other world" is
-                elif entry.inflections is not None:
+                inflections = []
+                if entry.inflections is not None:
                     # don't include "the land" or "a time"
-                    compounds += list(filter(lambda inflection: not inflection.startswith("the ") and not inflection.startswith("a ") and not inflection.startswith("an "), entry.inflections))
+                    # don't include inflections if has word form note (other world)
+                    inflections = list(filter(lambda inflection: not inflection.startswith("the ") and not inflection.startswith("a ") and not inflection.startswith("an "), entry.inflections))
 
                 if entry.senses is None:
                     continue
                     
                 for sense in entry.senses:
-                    if sense.registers is not None and "informal" in sense.registers:
+                    if sense.registers is not None and any(ir in sense.registers for ir in ignored_registers):
                         continue
 
                     if sense.variant_forms is not None:
-                        compounds += list(filter(is_compound, sense.variant_forms))
-                    
-                    if sense.notes is not None and sense.notes.word_form_notes is not None:
-                        compounds.append(sense.notes.word_form_notes[0])
-                        if lemma in compounds:
-                            compounds.remove(
-                                lemma
-                            )  # ie "other world" is not a compound but "the other world" is
+                            compounds += list(filter(is_compound, sense.variant_forms))
 
-    return compounds
+                    if sense.notes is not None and sense.notes.word_form_notes is not None:
+                        compounds.append(sense.notes.word_form_notes[0])  # ie "other world" is not a compound but "the other world" is
+                        continue
+
+                    compounds += inflections
+                    compounds.append(lemma)
+
+    if "the same" in compounds:
+        print("Added same", lemma)
+    return list(set(filter(is_compound, compounds)))
 
 def set_compound_context(compound):
     compound_padded = " " + compound + " "
@@ -116,9 +121,10 @@ def sanity_test(compounds):
         "Atlantic Ocean",
         "mountain system",
         "egg-shaped",
-        "roe deer"
+        "roe deer",
+        "Republic of China"
     ]
-    SHOULDNT_HAVE = ["other world", "by sea", "in the world", "the earth", "take in", "on behalf of", "such as", "in order", "the land", "that is", "a time", "a bomb", "by means of"]
+    SHOULDNT_HAVE = ["other world", "by sea", "in the world", "the earth", "take in", "on behalf of", "such as", "in order", "the land", "that is", "a time", "a bomb", "by means of", "long robe"]
 
     for compound in SHOULD_HAVE:
         if compound not in compounds:

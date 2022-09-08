@@ -40,7 +40,7 @@ air.OX.0.v.0.0.d0:
   term_tags: [BT, N, N, BT, N, BT, N, BT]
 air.OX.0.v.0.1.d0:
   definition: expose (a room) to the open air in order to ventilate it
-  term_tags: [BT, N, N, BT, N, N, N, BT, T, N, BT, N, BT, N]
+  term_tags: [BT, N, N, BT, N, N, BT, T, BT, N, BT, N, BT, N]
 air.OX.0.v.0.1.0.d0:
   definition: go out in the fresh air
   term_tags: [BT, T, N, N, BT, T]
@@ -80,7 +80,7 @@ amazon.OX.0.n.0.0.d0:
   definition: a river in South America that flows more than 4,150 miles (6,683 km)
     through Peru, Colombia, and Brazil into the Atlantic Ocean. It drains two-fifths
     of the continent and, in terms of water-flow, is the largest river in the world.
-  term_tags: [N, BT, N, BT, T, N, BT, BT, T, N, BT, N, N, BT, N, N, BT, N, BT, N,
+  term_tags: [N, BT, N, BT, T, N, BT, BT, N, N, BT, N, N, BT, N, N, BT, N, BT, N,
     N, BT, N, N, BT, T, N, N, BT, N, N, BT, N, N, BT, N, N, N, BT, N, BT, N, BT, N,
     BT, N, BT, BT, N, N, BT, N]
 amazon.OX.1.n.0.0.d0:
@@ -108,7 +108,7 @@ angel.OX.0.n.0.0.d0:
   definition: a spiritual being believed to act as an attendant, agent, or messenger
     of God, conventionally represented in human form with wings and a long robe
   term_tags: [N, BT, BT, BT, N, BT, N, N, BT, N, BT, N, N, BT, N, BT, N, BT, BT, N,
-    BT, BT, N, BT, N, N, BT, T]
+    BT, BT, N, BT, N, N, BT, BT]
 angel.OX.0.n.0.1.d0:
   definition: a person of exemplary conduct or virtue
   term_tags: [N, BT, N, BT, BT, N, BT]
@@ -150,7 +150,7 @@ arm.OX.0.n.0.0.d0:
 arm.OX.0.n.0.1.d0:
   definition: a thing comparable to an arm in form or function, typically something
     that projects from a larger structure
-  term_tags: [N, BT, BT, N, N, BT, BT, T, N, BT, N, BT, BT, N, BT, N, N, BT, BT]
+  term_tags: [N, BT, BT, N, N, BT, N, BT, N, BT, N, BT, BT, N, BT, N, N, BT, BT]
 arm.OX.0.n.0.2.d0:
   definition: a branch or division of a company or organization
   term_tags: [N, BT, N, BT, N, N, BT, N, BT]
@@ -265,7 +265,7 @@ band.OX.0.n.0.1.d0:
 band.OX.0.n.0.2.d0:
   definition: a range of frequencies or wavelengths in a spectrum (especially of radio
     frequencies)
-  term_tags: [N, BT, N, BT, N, BT, N, N, BT, N, BT, N, BT, BT, N]
+  term_tags: [N, BT, N, BT, N, BT, N, N, BT, N, BT, N, BT, T, N]
 band.OX.0.n.0.3.d0:
   definition: a thing that restrains, binds, or unites
   term_tags: [N, BT, N, BT, N, BT, N, N, BT]
@@ -322,8 +322,8 @@ bank.OX.0.v.0.3.d0:
 bank.OX.1.n.0.0.d0:
   definition: a financial establishment that invests money deposited by customers,
     pays it out when required, makes loans at interest, and exchanges currency
-  term_tags: [N, BT, BT, N, BT, BT, BT, N, BT, N, BT, N, N, N, BT, N, BT, BT, BT,
-    T, N, N, BT, BT]
+  term_tags: [N, BT, BT, N, BT, BT, BT, N, BT, N, BT, N, N, N, BT, N, BT, BT, N, BT,
+    N, N, BT, BT]
 bank.OX.1.n.0.1.d0:
   definition: a stock of something available for use when required
   term_tags: [N, BT, N, BT, BT, N, BT, N, BT]
@@ -349,13 +349,13 @@ bar.OX.0.n.0.2.d0:
   term_tags: [N, BT, N, BT, N, N, BT, N, BT]
 bar.OX.0.n.0.3.d0:
   definition: a measure of music or the time of a piece of music
-  term_tags: [N, BT, N, BT, N, N, BT, BT, T, T, N, BT]
+  term_tags: [N, BT, N, BT, N, N, BT, N, N, BT, N, BT]
 bar.OX.0.n.0.4.d0:
   definition: a partition in a courtroom or legislative assembly, now usually notional,
     beyond which most people may not pass and, in court, at which an accused person
     stands
   term_tags: [N, BT, N, N, BT, N, BT, T, N, BT, BT, BT, N, N, N, BT, BT, N, BT, BT,
-    N, N, BT, T, N, N, N, N, BT, BT, BT]
+    N, N, N, BT, N, N, N, N, BT, BT, BT]
 bar.OX.0.n.0.5.d0:
   definition: the legal profession
   term_tags: [BT, T, T]
@@ -427,7 +427,7 @@ bat.OX.0.n.0.0.0.d0:
 bat.OX.0.n.0.0.1.d0:
   definition: each of a pair of objects resembling table tennis bats, used by a person
     on the ground to guide a taxiing aircraft.
-  term_tags: [N, N, N, BT, N, BT, BT, BT, T, BT, N, BT, N, N, BT, BT, T, T, N, BT,
+  term_tags: [N, N, N, BT, N, BT, BT, BT, T, BT, N, BT, N, N, BT, N, BT, T, N, BT,
     N, BT, BT, N]
 bat.OX.0.v.0.0.d0:
   definition: (of a team or a player in sports such as baseball) take in turns the
@@ -476,7 +476,7 @@ beach.OX.0.n.0.0.d0:
   definition: a strip of land covered with sand, pebbles, or small stones at the edge
     of a body of water, especially by the ocean between high- and low-water marks
   term_tags: [N, BT, N, BT, BT, N, BT, N, BT, N, N, BT, BT, N, N, BT, N, N, BT, N,
-    BT, N, BT, N, N, BT, N, BT, N, BT, N, BT, BT]
+    BT, N, BT, N, N, BT, N, BT, N, BT, T, T, T]
 beach.OX.0.v.0.0.d0:
   definition: run or haul up (a boat or ship) on to a beach
   term_tags: [BT, N, BT, N, N, N, BT, N, BT, N, BT, T, N, BT]
@@ -485,7 +485,7 @@ beach.OX.0.v.0.0.0.d0:
   term_tags: [N, N, N, BT, N, BT, N, N, BT, N, N, N, BT]
 beach.OX.0.v.0.0.1.d0:
   definition: (of a whale or similar animal) become stranded out of the water
-  term_tags: [N, N, N, BT, N, BT, BT, N, BT, BT, BT, T, BT, T]
+  term_tags: [N, N, N, BT, N, BT, BT, N, BT, BT, N, N, BT, T]
 beach.OX.0.v.0.0.2.d0:
   definition: cause (someone) to suffer a loss
   term_tags: [BT, N, BT, N, N, BT, N, BT]
@@ -500,7 +500,7 @@ bear.OX.0.v.0.2.d0:
   term_tags: [N, N, N, BT, N, BT, N, BT, N, BT, N]
 bear.OX.0.v.0.3.d0:
   definition: give birth to (a child)
-  term_tags: [BT, T, N, N, N, BT, N]
+  term_tags: [BT, BT, N, N, N, BT, N]
 bear.OX.0.v.0.4.d0:
   definition: turn and proceed in a specified direction
   term_tags: [BT, N, BT, N, N, BT, BT]
@@ -522,7 +522,7 @@ bear.OX.1.n.0.2.d0:
 beat.OX.0.v.0.0.d0:
   definition: strike (a person or an animal) repeatedly and violently so as to hurt
     or injure them, typically with an implement such as a club or whip
-  term_tags: [BT, N, N, BT, N, N, BT, N, BT, N, BT, BT, BT, T, BT, N, BT, N, N, BT,
+  term_tags: [BT, N, N, BT, N, N, BT, N, BT, N, BT, BT, N, N, BT, N, BT, N, N, BT,
     N, N, BT, BT, N, N, BT, N, BT]
 beat.OX.0.v.0.1.d0:
   definition: defeat (someone) in a game or other competitive situation
@@ -535,7 +535,7 @@ beat.OX.0.v.0.3.d0:
   term_tags: [N, N, N, BT, N, BT]
 beat.OX.0.v.0.4.d0:
   definition: (of a bird) move (the wings) up and down
-  term_tags: [N, N, N, BT, N, BT, N, N, BT, N, N, N, BT]
+  term_tags: [N, N, N, BT, N, BT, N, BT, T, N, N, N, BT]
 beat.OX.0.v.0.5.d0:
   definition: stir (cooking ingredients) vigorously with a fork, whisk, or beater
     to make a smooth or frothy mixture
@@ -588,7 +588,7 @@ bed.OX.0.n.0.5.0.d0:
   term_tags: [N, BT, N, N, BT, N, BT]
 bed.OX.0.n.0.5.1.d0:
   definition: the open part of a truck, wagon, or railroad car, where goods are carried
-  term_tags: [N, BT, BT, N, N, BT, N, BT, N, N, BT, BT, N, N, BT, BT, BT]
+  term_tags: [BT, T, BT, N, N, BT, N, BT, N, N, BT, BT, N, N, BT, BT, BT]
 bed.OX.0.n.0.5.2.d0:
   definition: the flat surface beneath the baize of a billiard table.
   term_tags: [N, BT, BT, N, N, BT, N, N, BT, T, N]
@@ -710,7 +710,7 @@ berry.OX.0.v.0.0.d0:
 bill.OX.0.n.0.0.d0:
   definition: an amount of money owed for goods supplied or services rendered, set
     out in a printed or written statement of charges
-  term_tags: [N, BT, N, BT, BT, N, BT, BT, N, BT, BT, N, BT, N, N, N, BT, N, BT, BT,
+  term_tags: [N, BT, N, BT, BT, N, BT, BT, N, BT, BT, N, BT, T, N, N, BT, N, BT, BT,
     N, BT]
 bill.OX.0.n.0.1.d0:
   definition: a draft of a proposed law presented to parliament for discussion
@@ -805,16 +805,16 @@ board.OX.0.n.0.2.d0:
 board.OX.0.n.0.3.d0:
   definition: the provision of regular meals when one stays somewhere, in return for
     payment or services
-  term_tags: [N, BT, N, BT, BT, N, N, BT, BT, N, BT, T, N, BT, N, BT]
+  term_tags: [N, BT, N, BT, BT, N, N, BT, BT, N, N, BT, N, BT, N, BT]
 board.OX.0.n.0.4.d0:
   definition: a distance covered by a vessel in a single tack
   term_tags: [N, BT, BT, N, N, BT, N, N, BT, BT]
 board.OX.0.v.0.0.d0:
   definition: get on or into (a ship, aircraft, or other vehicle)
-  term_tags: [BT, T, N, N, N, N, BT, N, BT, N, N, BT, BT, N]
+  term_tags: [BT, N, N, N, N, N, BT, N, BT, N, N, BT, BT, N]
 board.OX.0.v.0.1.d0:
   definition: live and receive regular meals in a house in return for payment or services
-  term_tags: [BT, N, BT, BT, BT, N, N, BT, BT, T, N, BT, N, BT]
+  term_tags: [BT, N, BT, BT, BT, N, N, BT, N, BT, N, BT, N, BT]
 board.OX.0.v.0.2.d0:
   definition: cover or seal a window, storefront, or other structure with pieces of
     wood
@@ -839,7 +839,7 @@ bolt.OX.0.v.0.0.0.d0:
   term_tags: [BT, N, N, BT, N, N, BT, BT, N, N, BT]
 bolt.OX.1.v.0.0.d0:
   definition: (of a horse or other animal) run away suddenly out of control
-  term_tags: [N, N, N, BT, N, BT, BT, N, BT, T, BT, BT, T, T]
+  term_tags: [N, N, N, BT, N, BT, BT, N, BT, T, BT, N, N, BT]
 bolt.OX.1.v.0.1.d0:
   definition: eat or swallow (food) quickly
   term_tags: [BT, N, BT, N, BT, N, BT]
@@ -897,7 +897,7 @@ bond.OX.0.n.0.2.d0:
 bond.OX.0.n.0.3.d0:
   definition: a pattern in which bricks are laid in order to ensure the strength of
     the resulting structure
-  term_tags: [N, BT, N, N, BT, BT, BT, N, BT, N, BT, BT, T, T, N, BT, BT]
+  term_tags: [N, BT, N, N, BT, BT, BT, N, BT, N, BT, N, BT, N, N, BT, BT]
 bond.OX.0.v.0.0.d0:
   definition: join or be joined securely to something else, especially by means of
     an adhesive substance, heat, or pressure
@@ -908,7 +908,7 @@ bond.OX.0.v.0.1.d0:
   term_tags: [BT, N, BT, BT, N, N, BT, T]
 bond.OX.0.v.0.2.d0:
   definition: lay (bricks) in an overlapping pattern so as to form a strong structure.
-  term_tags: [BT, N, BT, N, N, N, BT, BT, N, BT, T, BT, N, BT, BT, N]
+  term_tags: [BT, N, BT, N, N, N, BT, BT, N, N, N, BT, N, BT, BT, N]
 bond.OX.0.v.0.3.d0:
   definition: place (dutiable goods) in bond
   term_tags: [BT, N, BT, BT, N, N, BT]
@@ -950,7 +950,7 @@ boom.OX.2.n.0.0.1.d0:
 boom.OX.2.n.0.0.2.d0:
   definition: a floating beam used to contain oil spills or to form a barrier across
     the mouth of a harbor or river.
-  term_tags: [N, BT, BT, BT, N, BT, BT, BT, N, N, BT, N, BT, N, N, BT, N, N, BT, N,
+  term_tags: [N, BT, BT, BT, T, BT, BT, BT, N, N, BT, N, BT, N, N, BT, N, N, BT, N,
     BT, N]
 boom.OX.2.n.0.0.3.d0:
   definition: a retractable tube for inflight transfer of fuel from a tanker airplane
@@ -993,7 +993,7 @@ bottle.OX.0.n.0.0.0.d0:
   term_tags: [N, BT, N, N, BT]
 bottle.OX.0.n.0.0.1.d0:
   definition: used in reference to heavy drinking
-  term_tags: [BT, BT, T, T, BT, BT]
+  term_tags: [BT, N, BT, N, BT, BT]
 bottle.OX.0.n.0.0.2.d0:
   definition: a bottle fitted with a nipple for giving milk or other drinks to babies
     and very young children
@@ -1010,7 +1010,7 @@ bottle.OX.0.v.0.0.0.d0:
 bow.OX.0.n.0.0.d0:
   definition: a knot tied with two loops and two loose ends, used especially for tying
     shoelaces and decorative ribbons
-  term_tags: [N, BT, BT, N, N, BT, N, N, BT, BT, N, BT, BT, N, BT, BT, N, BT, BT]
+  term_tags: [N, BT, BT, N, N, BT, N, N, BT, T, N, BT, BT, N, BT, BT, N, BT, BT]
 bow.OX.0.n.0.1.d0:
   definition: a weapon for shooting arrows, typically made of a curved piece of wood
     whose ends are joined by a taut string.
@@ -1075,7 +1075,7 @@ box.OX.0.n.0.5.d0:
   term_tags: [N, BT, N, BT, N]
 box.OX.0.v.0.0.d0:
   definition: put in or provide with a box
-  term_tags: [BT, N, N, BT, N, N, BT]
+  term_tags: [BT, T, N, BT, N, N, BT]
 box.OX.0.v.0.0.0.d0:
   definition: enclose (a piece of text) within printed lines
   term_tags: [BT, N, N, BT, N, BT, N, N, BT, BT]
@@ -1085,7 +1085,7 @@ box.OX.1.v.0.0.d0:
 box.OX.1.n.0.0.d0:
   definition: a slap with the hand on the side of a person's head given as a punishment
     or in anger
-  term_tags: [N, BT, N, N, BT, BT, T, T, N, N, BT, N, BT, BT, N, N, BT, N, N, BT]
+  term_tags: [N, BT, N, N, BT, N, N, BT, N, N, BT, N, BT, BT, N, N, BT, N, N, BT]
 box.OX.2.n.0.0.d0:
   definition: a slow-growing European evergreen shrub or small tree with glossy dark
     green leaves. It is often grown as a hedge and for topiary.
@@ -1123,7 +1123,7 @@ bridge.OX.0.n.0.7.d0:
   definition: an electric circuit with two branches across which a detector or load
     is connected, used to measure resistance or other property by equalizing the potential
     across the two ends of a detector, or to rectify an alternating voltage or current.
-  term_tags: [N, BT, T, N, N, BT, N, N, N, BT, N, BT, BT, BT, N, BT, N, BT, BT, N,
+  term_tags: [N, BT, T, N, N, BT, N, N, N, BT, N, BT, BT, BT, N, BT, T, BT, BT, N,
     BT, BT, N, BT, N, BT, N, N, N, BT, N, N, BT, N, N, N, BT, N, BT, BT, N, BT, N]
 bridge.OX.0.v.0.0.d0:
   definition: be a bridge over (something)
@@ -1140,7 +1140,7 @@ bridge.OX.1.n.0.0.d0:
     suit, the highest bid also representing a contract to make a specified number
     of tricks with a specified suit as trumps
   term_tags: [N, BT, T, BT, N, BT, N, BT, N, N, BT, N, N, BT, N, N, N, BT, N, N, BT,
-    BT, N, N, BT, N, BT, N, BT, BT, N, N, BT, BT, BT, BT, N, BT, N, BT, N, BT, BT,
+    BT, N, BT, T, N, BT, N, BT, BT, N, N, BT, BT, BT, BT, N, BT, N, BT, N, BT, BT,
     N, BT, N, N, BT, BT, N, BT]
 brush.OX.0.n.0.0.d0:
   definition: an implement with a handle, consisting of bristles, hair, or wire set
@@ -1157,7 +1157,7 @@ brush.OX.0.n.0.2.d0:
 brush.OX.0.n.0.3.d0:
   definition: a thin stick set with long wire bristles, used to make a soft hissing
     sound on drums or cymbals.
-  term_tags: [N, BT, BT, BT, N, BT, BT, BT, N, BT, N, BT, N, BT, BT, BT, N, BT, N,
+  term_tags: [N, BT, BT, BT, N, BT, BT, BT, N, BT, T, BT, N, BT, BT, BT, N, BT, N,
     BT, N]
 brush.OX.0.n.0.4.d0:
   definition: a piece of carbon or metal serving as an electrical contact with a moving
@@ -1326,7 +1326,7 @@ cap.OX.0.n.0.0.d0:
 cap.OX.0.n.0.1.d0:
   definition: a protective lid or cover for an object such as a bottle, the point
     of a pen, or a camera lens
-  term_tags: [N, BT, BT, N, BT, T, N, BT, BT, N, N, BT, N, N, BT, N, N, BT, N, N,
+  term_tags: [N, BT, BT, N, BT, N, N, BT, BT, N, N, BT, N, N, BT, N, N, BT, N, N,
     N, BT, BT]
 cap.OX.0.n.0.2.d0:
   definition: an upper limit imposed on spending or other activities
@@ -1334,7 +1334,7 @@ cap.OX.0.n.0.2.d0:
 cap.OX.0.n.0.3.d0:
   definition: the broad upper part of the fruiting body of most mushrooms and toadstools,
     at the top of a stem and bearing gills or pores.
-  term_tags: [N, BT, BT, BT, N, N, BT, T, N, BT, BT, N, BT, N, N, N, BT, N, N, BT,
+  term_tags: [N, BT, BT, BT, N, N, BT, T, N, BT, BT, N, BT, N, N, BT, T, N, N, BT,
     N, BT, BT, N, BT, N]
 cap.OX.0.v.0.0.d0:
   definition: put a lid or cover on
@@ -1357,14 +1357,14 @@ capital.OX.0.n.0.1.d0:
     N, BT, BT, BT, N, BT, N, BT, N, BT]
 capital.OX.0.n.0.2.d0:
   definition: a letter of the size and form used to begin sentences and names
-  term_tags: [N, BT, N, N, BT, N, BT, BT, N, BT, BT, N, BT]
+  term_tags: [N, BT, N, N, BT, N, BT, BT, T, BT, BT, N, BT]
 capital.OX.0.a.0.0.d0:
   definition: (of an offense or charge) liable to the death penalty
   term_tags: [N, N, N, BT, N, BT, N, BT, N, N, BT, T]
 capital.OX.0.a.0.1.d0:
   definition: (of a letter of the alphabet) large in size and of the form used to
     begin sentences and names.
-  term_tags: [N, N, N, BT, N, N, BT, N, BT, N, BT, N, N, N, BT, BT, N, BT, BT, N,
+  term_tags: [N, N, N, BT, N, N, BT, N, BT, N, BT, N, N, N, BT, BT, T, BT, BT, N,
     BT, N]
 capital.OX.0.a.0.2.d0:
   definition: excellent
@@ -1395,7 +1395,7 @@ card.OX.0.n.0.1.d0:
   definition: a small rectangular piece of plastic containing personal data in a machine-readable
     form and used to obtain cash or credit or to pay for a phone call, gain entry
     to a room or building, etc.
-  term_tags: [N, BT, BT, BT, N, BT, BT, BT, T, N, N, BT, T, T, BT, N, BT, N, BT, BT,
+  term_tags: [N, BT, BT, BT, N, BT, BT, BT, T, N, N, BT, T, T, BT, N, BT, T, BT, BT,
     N, BT, N, N, BT, N, N, BT, T, N, BT, BT, N, N, BT, N, BT, N, N, N]
 card.OX.0.n.0.2.d0:
   definition: a playing card
@@ -1421,7 +1421,7 @@ card.OX.1.v.0.0.d0:
 card.OX.1.n.0.0.d0:
   definition: a toothed implement or machine used to comb and clean raw fibers before
     spinning.
-  term_tags: [N, BT, BT, N, BT, BT, N, BT, N, BT, BT, BT, N, BT, N]
+  term_tags: [N, BT, BT, N, BT, BT, T, BT, N, BT, BT, BT, N, BT, N]
 carrot.OX.0.n.0.0.d0:
   definition: a tapering orange-colored root eaten as a vegetable
   term_tags: [N, BT, BT, N, BT, BT, BT, N, N, BT]
@@ -1526,7 +1526,7 @@ cat.OX.0.v.0.0.d0:
 cell.OX.0.n.0.0.d0:
   definition: a small room in which a prisoner is locked up or in which a monk or
     nun sleeps
-  term_tags: [N, BT, T, N, N, N, BT, BT, BT, N, N, N, N, N, BT, N, BT, BT]
+  term_tags: [N, BT, BT, N, N, N, BT, BT, BT, N, N, N, N, N, BT, N, BT, BT]
 cell.OX.0.n.0.1.d0:
   definition: the smallest structural and functional unit of an organism, typically
     microscopic and consisting of cytoplasm and a nucleus enclosed in a membrane.
@@ -1582,18 +1582,18 @@ center.OX.0.v.0.1.2.d0:
   term_tags: [BT, N, BT, BT, N, N, N, BT, N, N, BT, N]
 chair.OX.0.n.0.0.d0:
   definition: a separate seat for one person, typically with a back and four legs.
-  term_tags: [N, BT, BT, BT, T, BT, N, BT, N, N, BT, N, N, BT, N]
+  term_tags: [N, BT, BT, N, N, BT, N, BT, N, N, BT, N, N, BT, N]
 chair.OX.0.n.0.1.d0:
   definition: the person in charge of a meeting or of an organization (used as a neutral
     alternative to chairman or chairwoman)
-  term_tags: [N, BT, BT, T, N, N, BT, N, N, N, BT, N, BT, N, N, BT, BT, N, BT, N,
+  term_tags: [N, BT, N, BT, N, N, BT, N, N, N, BT, N, BT, N, N, BT, BT, N, BT, N,
     BT, N]
 chair.OX.0.n.0.2.d0:
   definition: a professorship
   term_tags: [N, BT]
 chair.OX.0.n.0.3.d0:
   definition: a metal socket holding a railroad rail in place.
-  term_tags: [N, BT, BT, BT, N, BT, BT, BT, T, N]
+  term_tags: [N, BT, BT, BT, N, BT, BT, N, BT, N]
 chair.OX.0.n.0.4.d0:
   definition: a particular seat in an orchestra
   term_tags: [N, BT, BT, N, N, BT]
@@ -1624,7 +1624,7 @@ change.OX.0.n.0.0.d0:
   term_tags: [N, BT, N, BT, N, BT, N, BT, BT]
 change.OX.0.n.0.1.d0:
   definition: coins as opposed to paper currency
-  term_tags: [BT, N, BT, N, BT, T]
+  term_tags: [BT, N, BT, T, BT, T]
 change.OX.0.n.0.2.d0:
   definition: an order in which a peal of bells can be rung.
   term_tags: [N, BT, N, N, N, BT, N, BT, N, BT, BT, N]
@@ -1686,7 +1686,7 @@ check.OX.0.v.0.1.d0:
 check.OX.0.v.0.2.d0:
   definition: (of a passenger) consign (baggage) to the care of the transport provider
     with whom they are traveling
-  term_tags: [N, N, N, BT, N, BT, N, BT, N, N, N, BT, T, N, BT, BT, N, N, N, BT, BT]
+  term_tags: [N, N, N, BT, N, BT, N, BT, N, N, N, BT, N, N, BT, BT, N, N, N, BT, BT]
 check.OX.0.v.0.3.d0:
   definition: mark or click on (a box) in order to select a particular option on a
     form, questionnaire, etc.
@@ -1702,7 +1702,7 @@ check.OX.0.v.0.5.d0:
     N, BT, N]
 check.OX.0.v.0.6.d0:
   definition: (of a hound) pause to make sure of or regain a scent.
-  term_tags: [N, N, N, BT, N, BT, N, BT, T, N, N, BT, N, BT, N]
+  term_tags: [N, N, N, BT, N, BT, N, BT, BT, N, N, BT, N, BT, N]
 check.OX.0.v.0.6.0.d0:
   definition: (of a trained hawk) abandon the intended quarry and fly after other
     prey.
@@ -1822,10 +1822,10 @@ circle.OX.0.n.0.1.d0:
 circle.OX.0.v.0.0.d0:
   definition: move all the way around (someone or something), especially more than
     once
-  term_tags: [BT, N, N, BT, BT, N, BT, N, BT, N, N, BT, BT, T, BT]
+  term_tags: [BT, N, N, BT, BT, N, BT, N, BT, N, N, BT, BT, N, BT]
 circle.OX.0.v.0.0.0.d0:
   definition: move in a wide loop back toward one's starting point
-  term_tags: [BT, N, N, BT, BT, BT, N, N, N, BT, T]
+  term_tags: [BT, T, N, BT, BT, BT, N, N, N, BT, T]
 circle.OX.0.v.0.0.1.d0:
   definition: form a ring around
   term_tags: [BT, N, BT, BT]
@@ -1864,7 +1864,7 @@ club.OX.0.n.0.0.2.d0:
   term_tags: [N, BT, N, BT, N, BT, BT, BT, T, N]
 club.OX.0.n.0.0.3.d0:
   definition: an organization constituted to play games in a particular sport
-  term_tags: [N, BT, BT, N, BT, T, N, N, BT, BT]
+  term_tags: [N, BT, BT, N, BT, BT, N, N, BT, BT]
 club.OX.0.n.0.0.4.d0:
   definition: a commercial organization offering subscribers special benefits
   term_tags: [N, BT, BT, BT, BT, BT, BT]
@@ -1880,7 +1880,7 @@ club.OX.1.n.0.0.d0:
 club.OX.1.n.0.1.d0:
   definition: one of the four suits in a conventional deck of playing cards, denoted
     by a black trefoil.
-  term_tags: [N, N, N, N, BT, N, N, BT, BT, N, BT, BT, N, BT, N, N, BT, BT, N]
+  term_tags: [N, N, N, N, BT, N, N, BT, BT, N, BT, T, N, BT, N, N, BT, BT, N]
 club.OX.1.n.0.1.0.d0:
   definition: a playing card of the suit of clubs.
   term_tags: [N, BT, T, N, N, BT, N, BT, N]
@@ -1928,7 +1928,7 @@ cold.OX.0.a.0.1.d0:
 cold.OX.0.a.0.2.d0:
   definition: (of the scent or trail of a hunted person or animal) no longer fresh
     and easy to follow
-  term_tags: [N, N, N, BT, N, BT, N, N, BT, BT, N, BT, N, BT, T, BT, N, BT, N, BT]
+  term_tags: [N, N, N, BT, N, BT, N, N, BT, BT, N, BT, N, BT, BT, BT, N, BT, N, BT]
 cold.OX.0.a.0.3.d0:
   definition: without preparation or rehearsal; unawares
   term_tags: [N, BT, N, BT, N, BT]
@@ -1953,7 +1953,7 @@ comic.OX.0.n.0.0.d0:
   term_tags: [N, BT, N, BT, N, BT, N]
 comic.OX.0.n.0.1.d0:
   definition: comic strips.
-  term_tags: [BT, BT, N]
+  term_tags: [BT, T, N]
 compound.OX.0.n.0.0.d0:
   definition: a thing that is composed of two or more separate elements; a mixture
   term_tags: [N, BT, N, BT, BT, N, N, N, BT, BT, BT, N, N, BT]
@@ -1977,7 +1977,7 @@ compound.OX.0.a.0.0.1.d0:
     N, BT, N]
 compound.OX.0.v.0.0.d0:
   definition: make up (a composite whole); constitute
-  term_tags: [BT, N, N, N, BT, BT, N, N, BT]
+  term_tags: [BT, T, N, N, BT, BT, N, N, BT]
 compound.OX.0.v.0.1.d0:
   definition: make (something bad) worse; intensify the negative aspects of
   term_tags: [BT, N, BT, BT, N, BT, N, BT, N, BT, BT, N]
@@ -2007,7 +2007,7 @@ conductor.OX.0.n.0.0.d0:
 conductor.OX.0.n.0.1.d0:
   definition: a person in charge of a train, streetcar, or other public conveyance,
     who collects fares and sells tickets.
-  term_tags: [N, BT, BT, T, N, N, BT, N, BT, N, N, BT, BT, BT, N, N, BT, BT, N, BT,
+  term_tags: [N, BT, N, BT, N, N, BT, N, BT, N, N, BT, BT, BT, N, N, BT, BT, N, BT,
     BT, N]
 conductor.OX.0.n.0.2.d0:
   definition: a material or device that conducts or transmits heat, electricity, or
@@ -2037,7 +2037,7 @@ contract.OX.0.v.0.0.d0:
   term_tags: [BT, N, BT, N, BT, N, N, BT]
 contract.OX.0.v.0.1.d0:
   definition: enter into a formal and legally binding agreement
-  term_tags: [BT, T, N, BT, N, BT, BT, BT]
+  term_tags: [BT, N, N, BT, N, BT, BT, BT]
 contract.OX.0.v.0.2.d0:
   definition: catch or develop (a disease or infectious agent)
   term_tags: [BT, N, BT, N, N, BT, N, BT, BT, N]
@@ -2066,10 +2066,10 @@ copper.OX.0.n.0.0.d0:
   term_tags: [N, BT, T, T, BT, N, N, BT, T, N, BT, T, N, N]
 copper.OX.0.n.0.1.d0:
   definition: a copper coin, especially a penny
-  term_tags: [N, BT, BT, N, BT, N, BT]
+  term_tags: [N, BT, BT, N, BT, BT, T]
 copper.OX.0.n.0.2.d0:
   definition: a reddish-brown color like that of copper
-  term_tags: [N, BT, N, BT, BT, BT, T, N, BT]
+  term_tags: [N, BT, N, BT, BT, N, N, N, BT]
 copper.OX.0.n.0.3.d0:
   definition: a small butterfly of North America and Eurasia. The upper surface of
     its wings is typically bright reddish-orange or purple.
@@ -2098,7 +2098,7 @@ court.OX.0.n.0.0.d0:
 court.OX.0.n.0.1.d0:
   definition: a quadrangular area, either open or covered, marked out for ball games
     such as tennis or basketball
-  term_tags: [N, BT, BT, N, N, BT, N, BT, N, BT, BT, T, BT, T, BT, N, BT, N, BT]
+  term_tags: [N, BT, BT, N, N, BT, N, BT, N, BT, N, N, BT, T, BT, N, BT, N, BT]
 court.OX.0.n.0.2.d0:
   definition: the establishment, retinue, and courtiers of a sovereign
   term_tags: [N, BT, N, BT, N, N, BT, N, N, BT]
@@ -2127,7 +2127,7 @@ court.OX.0.v.0.0.3.d0:
 cover.OX.0.v.0.0.d0:
   definition: put something on top of or in front of (something), especially in order
     to protect or conceal it
-  term_tags: [BT, BT, BT, T, N, N, BT, T, T, N, BT, N, N, BT, N, BT, N, BT, N, BT,
+  term_tags: [BT, BT, N, BT, N, N, N, BT, N, N, BT, N, N, BT, N, BT, N, BT, N, BT,
     N]
 cover.OX.0.v.0.1.d0:
   definition: extend over (an area)
@@ -2167,7 +2167,7 @@ cover.OX.0.n.0.1.d0:
 cover.OX.0.n.0.2.d0:
   definition: a recording or performance of a previously recorded song made especially
     to take advantage of the original's success
-  term_tags: [N, BT, N, BT, N, N, BT, BT, BT, BT, BT, N, BT, T, T, N, BT, N, BT]
+  term_tags: [N, BT, N, BT, N, N, BT, BT, BT, BT, BT, N, BT, BT, N, N, BT, N, BT]
 cover.OX.0.n.0.3.d0:
   definition: a place setting at a table in a restaurant
   term_tags: [N, BT, T, N, N, BT, N, N, BT]
@@ -2208,7 +2208,7 @@ crash.OX.0.v.0.4.d0:
   term_tags: [BT, N, N, BT, N, N, N, BT, N, BT, N]
 crash.OX.0.v.0.5.d0:
   definition: go to sleep, especially suddenly or in an improvised setting
-  term_tags: [BT, T, T, N, BT, BT, N, N, N, BT, BT]
+  term_tags: [BT, N, BT, N, BT, BT, N, N, N, BT, BT]
 crash.OX.0.n.0.0.d0:
   definition: a violent collision, typically of one vehicle with another or with an
     obstacle
@@ -2222,7 +2222,7 @@ crash.OX.0.n.0.2.d0:
   term_tags: [N, BT, BT, BT, N, N, BT, N, BT, N, BT, N, BT, BT, N, BT]
 crash.OX.0.n.0.3.d0:
   definition: a sudden failure which puts a system out of action
-  term_tags: [N, BT, BT, N, BT, N, BT, BT, T, T]
+  term_tags: [N, BT, BT, N, BT, N, BT, N, N, BT]
 crash.OX.0.a.0.0.d0:
   definition: done rapidly or urgently and involving a concentrated effort
   term_tags: [BT, BT, N, BT, N, BT, N, BT, BT]
@@ -2274,7 +2274,7 @@ cross.OX.0.v.0.2.d0:
 cross.OX.0.v.0.3.d0:
   definition: (of a person) make the sign of the cross in front of one's chest as
     a sign of Christian reverence or to invoke divine protection
-  term_tags: [N, N, N, BT, N, BT, N, BT, N, N, BT, BT, T, T, N, N, BT, N, N, BT, N,
+  term_tags: [N, N, N, BT, N, BT, N, BT, N, N, BT, N, BT, N, N, N, BT, N, N, BT, N,
     BT, BT, N, N, BT, BT, BT]
 cross.OX.0.v.0.4.d0:
   definition: pass (the ball) across the field toward the center when attacking
@@ -2286,7 +2286,7 @@ cross.OX.0.v.0.5.d0:
     BT, N, N, BT]
 cross.OX.0.v.0.6.d0:
   definition: oppose or stand in the way of (someone)
-  term_tags: [BT, N, BT, BT, T, T, T, N, BT, N]
+  term_tags: [BT, N, BT, T, N, BT, N, N, BT, N]
 cross.OX.0.a.0.0.d0:
   definition: annoyed
   term_tags: [BT]
@@ -2297,7 +2297,7 @@ crown.OX.0.n.0.0.d0:
     BT, T, N, BT, N]
 crown.OX.0.n.0.1.d0:
   definition: the top or highest part of something
-  term_tags: [N, BT, N, BT, BT, N, BT]
+  term_tags: [BT, T, N, BT, BT, N, BT]
 crown.OX.0.n.0.2.d0:
   definition: the part of a tooth projecting from the gum
   term_tags: [N, BT, N, N, BT, BT, N, N, BT]
@@ -2321,7 +2321,7 @@ crown.OX.0.v.0.0.d0:
   term_tags: [BT, BT, N, BT, N, N, BT, N, N, BT, N, N, BT, N, BT, N, N, N, BT]
 crown.OX.0.v.0.1.d0:
   definition: rest on or form the top of
-  term_tags: [BT, N, N, BT, N, BT, N]
+  term_tags: [BT, N, N, BT, BT, T, N]
 crown.OX.0.v.0.2.d0:
   definition: be the triumphant culmination of (an effort or endeavor, especially
     a prolonged one)
@@ -2353,7 +2353,7 @@ cycle.OX.0.v.0.0.d0:
   term_tags: [BT, N, BT]
 cycle.OX.0.v.0.1.d0:
   definition: move in or follow a regularly repeated sequence of events
-  term_tags: [BT, BT, N, BT, N, BT, BT, BT, N, BT]
+  term_tags: [BT, T, N, BT, N, BT, BT, BT, N, BT]
 czech.OX.0.n.0.0.d0:
   definition: a native or inhabitant of the Czech Republic or (formerly) Czechoslovakia,
     or a person of Czech descent.
@@ -2371,17 +2371,17 @@ dance.OX.0.v.0.0.d0:
   term_tags: [BT, BT, N, BT, N, BT, BT, N, BT, BT, N, BT]
 dance.OX.0.v.0.1.d0:
   definition: (of a person) move in a quick and lively way
-  term_tags: [N, N, N, BT, N, BT, N, N, BT, N, BT, BT]
+  term_tags: [N, N, N, BT, N, BT, T, N, BT, N, BT, BT]
 dance.OX.0.v.0.1.0.d0:
   definition: move up and down lightly and quickly
   term_tags: [BT, BT, N, BT, BT, N, BT]
 dance.OX.0.v.0.1.1.d0:
   definition: (of someone's eyes) sparkle brightly with pleasure or excitement
-  term_tags: [N, N, BT, N, BT, N, BT, BT, BT, T, N, BT]
+  term_tags: [N, N, BT, N, BT, N, BT, BT, N, BT, N, BT]
 dance.OX.0.n.0.0.d0:
   definition: a series of movements that match the speed and rhythm of a piece of
     music
-  term_tags: [N, BT, N, BT, N, BT, N, BT, N, BT, BT, T, T, N, BT]
+  term_tags: [N, BT, N, BT, N, BT, N, BT, N, BT, N, N, BT, N, BT]
 dance.OX.0.n.0.0.0.d0:
   definition: an act of dancing
   term_tags: [N, BT, N, BT]
@@ -2486,7 +2486,7 @@ deck.OX.0.n.0.0.d0:
     across a ship or boat at any of various levels, especially one of those at the
     highest level and open to the weather
   term_tags: [N, BT, N, BT, N, BT, N, BT, BT, N, BT, N, N, BT, N, BT, N, N, N, BT,
-    BT, N, BT, N, N, N, N, N, BT, BT, N, BT, T, N, BT]
+    BT, N, BT, N, N, N, N, N, BT, BT, N, BT, N, N, BT]
 deck.OX.0.n.0.1.d0:
   definition: a component or unit in sound-reproduction equipment that incorporates
     a playing or recording mechanism for discs or tapes
@@ -2535,7 +2535,7 @@ diamond.OX.0.n.0.1.d0:
 diamond.OX.0.n.0.1.0.d0:
   definition: one of the four suits in a conventional deck of playing cards, denoted
     by a red diamond.
-  term_tags: [N, N, N, N, BT, N, N, BT, BT, N, BT, BT, N, BT, N, N, BT, BT, N]
+  term_tags: [N, N, N, N, BT, N, N, BT, BT, N, BT, T, N, BT, N, N, BT, BT, N]
 diamond.OX.0.n.0.1.1.d0:
   definition: a playing card of the suit of diamonds
   term_tags: [N, BT, T, N, N, BT, N, BT]
@@ -2631,7 +2631,7 @@ dog.OX.0.v.0.2.d0:
   term_tags: [BT, N, BT, N, N, N, BT, BT]
 draft.OX.0.n.0.0.d0:
   definition: a preliminary version of a piece of writing
-  term_tags: [N, BT, BT, BT, T, T, N, BT]
+  term_tags: [N, BT, BT, N, N, BT, N, BT]
 draft.OX.0.n.0.1.d0:
   definition: compulsory recruitment for military service
   term_tags: [BT, BT, N, BT, T]
@@ -2743,7 +2743,7 @@ drill.OX.0.n.0.2.d0:
   term_tags: [N, BT, BT, N, BT, N, N, BT, N, BT, BT, N, BT, N, BT, N, N, BT, T, N]
 drill.OX.0.v.0.0.d0:
   definition: produce (a hole) in something by or as if by boring with a drill
-  term_tags: [BT, N, N, BT, N, N, BT, N, N, BT, T, N, BT, N, N, BT]
+  term_tags: [BT, N, N, BT, N, N, BT, N, N, N, N, N, BT, N, N, BT]
 drill.OX.0.v.0.1.d0:
   definition: subject (someone) to military training exercises
   term_tags: [BT, N, BT, N, N, BT, BT, T]
@@ -2763,7 +2763,7 @@ drill.OX.1.n.0.0.0.d0:
   term_tags: [N, BT, BT, N, BT, N, BT, N, N, BT]
 drill.OX.1.n.0.0.1.d0:
   definition: a ridge with a furrow on top made by a drill.
-  term_tags: [N, BT, N, N, BT, BT, T, BT, N, N, BT, N]
+  term_tags: [N, BT, N, N, BT, N, BT, BT, N, N, BT, N]
 drill.OX.1.n.0.0.2.d0:
   definition: a row of plants sown in a furrow made by a drill
   term_tags: [N, BT, N, BT, BT, N, N, BT, BT, N, N, BT]
@@ -2808,7 +2808,7 @@ drop.OX.0.v.0.6.d0:
 drop.OX.0.n.0.0.d0:
   definition: a small round or pear-shaped portion of liquid that hangs or falls or
     adheres to a surface
-  term_tags: [N, BT, T, N, BT, T, T, BT, N, BT, N, BT, N, BT, N, BT, N, N, BT]
+  term_tags: [N, BT, BT, N, BT, T, T, BT, N, BT, N, BT, N, BT, N, BT, N, N, BT]
 drop.OX.0.n.0.1.d0:
   definition: an instance of falling or dropping
   term_tags: [N, BT, N, BT, N, BT]
@@ -2846,7 +2846,7 @@ duck.OX.0.n.0.2.d0:
 duck.OX.1.v.0.0.d0:
   definition: lower the head or the body quickly to avoid a blow or so as not to be
     seen
-  term_tags: [BT, N, BT, N, N, BT, BT, N, BT, N, BT, BT, T, N, BT, N, BT, BT]
+  term_tags: [BT, N, BT, N, N, BT, BT, N, BT, N, BT, N, BT, N, BT, N, BT, BT]
 duck.OX.1.v.0.1.d0:
   definition: plunge one's head or body underwater briefly
   term_tags: [BT, N, N, BT, N, BT, BT, BT]
@@ -2860,7 +2860,7 @@ duck.OX.1.n.0.0.d0:
 duck.OX.2.n.0.0.d0:
   definition: dear; darling (used as an informal or affectionate form of address,
     especially among cockneys)
-  term_tags: [BT, N, BT, N, BT, N, N, BT, N, BT, BT, T, T, N, BT, N, BT, N]
+  term_tags: [BT, N, BT, N, BT, N, N, BT, N, BT, BT, N, BT, N, BT, N, BT, N]
 duck.OX.3.n.0.0.d0:
   definition: a strong linen or cotton fabric, used chiefly for casual or work clothes
     and sails
@@ -2909,7 +2909,7 @@ eagle.OX.0.n.0.2.d0:
   term_tags: [N, N, BT, N, N, BT, BT, T, BT, N, BT, N]
 eagle.OX.0.v.0.0.d0:
   definition: play (a hole) in two strokes under par
-  term_tags: [BT, N, N, BT, N, BT, T, BT, N, BT]
+  term_tags: [BT, N, N, BT, N, N, N, BT, N, BT]
 egypt.OX.0.n.0.0.d0:
   definition: a country in northeastern Africa, on the Mediterranean Sea; population
     91,500,000 (estimated 2015); capital, Cairo; official language, Arabic.
@@ -2973,11 +2973,11 @@ eye.OX.0.n.0.2.0.d0:
 eye.OX.0.n.0.2.1.d0:
   definition: a loop at the end of a rope, especially one at the top end of a shroud
     or stay.
-  term_tags: [N, BT, N, N, BT, N, N, BT, N, BT, N, N, N, BT, BT, N, N, BT, N, BT,
+  term_tags: [N, BT, N, N, BT, N, N, BT, N, BT, N, N, BT, T, BT, N, N, BT, N, BT,
     N]
 eye.OX.0.v.0.0.d0:
   definition: look at or watch closely or with interest
-  term_tags: [BT, T, N, BT, BT, N, BT, T]
+  term_tags: [BT, T, N, BT, BT, N, N, BT]
 face.OX.0.n.0.0.d0:
   definition: the front part of a person's head from the forehead to the chin, or
     the corresponding part in an animal.
@@ -3080,10 +3080,10 @@ fall.OX.0.v.0.4.d0:
   term_tags: [BT, N, N, BT, BT, N, BT, N, N, BT]
 fall.OX.0.v.0.4.0.d0:
   definition: occur or take place
-  term_tags: [BT, N, BT, T]
+  term_tags: [BT, N, BT, BT]
 fall.OX.0.v.0.4.1.d0:
   definition: be classified or ordered in the way specified
-  term_tags: [BT, BT, N, BT, BT, T, T, BT]
+  term_tags: [BT, BT, N, BT, N, N, BT, BT]
 fall.OX.0.n.0.0.d0:
   definition: an act of falling or collapsing; a sudden uncontrollable descent
   term_tags: [N, BT, N, BT, N, BT, N, N, BT, BT, BT]
@@ -3108,7 +3108,7 @@ fan.OX.0.n.0.1.d0:
     spread out, that is held in the hand and waved so as to cool the person holding
     it by causing the air to move
   term_tags: [N, BT, N, BT, BT, N, BT, N, N, BT, N, N, BT, N, BT, N, N, N, BT, BT,
-    N, N, BT, N, BT, N, BT, T, BT, N, BT, BT, N, N, BT, N, BT, N, BT]
+    N, N, BT, N, BT, N, N, N, BT, N, BT, BT, N, N, BT, N, BT, N, BT]
 fan.OX.0.n.0.2.d0:
   definition: a device for winnowing grain.
   term_tags: [N, BT, N, BT, BT, N]
@@ -3120,7 +3120,7 @@ fan.OX.0.v.0.0.d0:
 fan.OX.0.v.0.1.d0:
   definition: increase the strength of (a fire) by blowing on it or stirring up the
     air near it
-  term_tags: [BT, BT, T, T, N, N, BT, N, N, BT, N, N, N, BT, N, N, BT, N, N]
+  term_tags: [BT, N, BT, N, N, N, BT, N, N, BT, N, N, N, BT, N, N, BT, N, N]
 fan.OX.0.v.0.2.d0:
   definition: disperse or radiate from a central point to cover a wide area
   term_tags: [BT, N, BT, N, N, BT, BT, N, BT, N, BT, BT]
@@ -3155,7 +3155,7 @@ fence.OX.0.v.0.2.d0:
 fence.OX.0.v.0.2.0.d0:
   definition: conduct a discussion or argument in such a way as to avoid the direct
     mention of something
-  term_tags: [BT, N, BT, N, BT, N, N, N, BT, BT, T, BT, N, BT, BT, N, BT]
+  term_tags: [BT, N, BT, N, BT, N, N, N, BT, N, N, BT, N, BT, BT, N, BT]
 field.OX.0.n.0.0.d0:
   definition: an area of open land, especially one planted with crops or pasture,
     typically bounded by hedges or fences
@@ -3178,7 +3178,7 @@ field.OX.0.n.0.5.d0:
     in which a force or influence is effective regardless of the presence or absence
     of a material medium.
   term_tags: [N, BT, N, N, N, BT, BT, BT, N, BT, N, N, N, N, BT, N, BT, BT, BT, BT,
-    T, N, BT, N, BT, N, N, BT, BT, N]
+    N, N, BT, N, BT, N, N, BT, BT, N]
 field.OX.0.n.0.6.d0:
   definition: a system subject to two binary operations analogous to those for the
     multiplication and addition of real numbers, and having similar commutative and
@@ -3190,7 +3190,7 @@ field.OX.0.v.0.0.d0:
   term_tags: [BT, N, N, BT, N]
 field.OX.0.v.0.1.d0:
   definition: send out (a team or individual) to play in a game
-  term_tags: [BT, T, N, N, BT, N, BT, N, N, BT, N, N, BT]
+  term_tags: [BT, N, N, N, BT, N, BT, N, N, BT, N, N, BT]
 field.OX.0.v.0.2.d0:
   definition: deal with (a difficult question, phone call, etc.)
   term_tags: [BT, T, N, N, BT, BT, N, BT, T, N, N, N, N]
@@ -3204,7 +3204,7 @@ field.OX.0.a.0.0.0.d0:
 field.OX.0.a.0.0.1.d0:
   definition: used in names of animals or plants found in the open country, rather
     than among buildings or as cultivated varieties
-  term_tags: [BT, N, BT, N, BT, N, BT, BT, N, N, BT, T, N, BT, N, N, BT, N, N, BT,
+  term_tags: [BT, N, BT, N, BT, N, BT, BT, N, BT, T, BT, N, BT, N, N, BT, N, N, BT,
     BT]
 field.OX.0.a.0.0.2.d0:
   definition: denoting a game played outdoors on a marked field.
@@ -3232,7 +3232,7 @@ figure.OX.0.n.0.3.d0:
     as a circle or a triangle), or one or more surfaces in three dimensions (such
     as a sphere or a cuboid), either considered mathematically in geometry or used
     as a decorative design
-  term_tags: [N, BT, N, BT, BT, N, N, N, BT, BT, BT, T, BT, N, BT, N, N, BT, N, N,
+  term_tags: [N, BT, N, BT, BT, N, N, N, BT, BT, N, N, BT, N, BT, N, N, BT, N, N,
     BT, N, N, N, N, N, BT, BT, N, N, BT, N, BT, N, N, BT, N, N, BT, N, N, N, BT, BT,
     N, BT, N, BT, N, N, BT, BT]
 figure.OX.0.n.0.4.d0:
@@ -3247,10 +3247,10 @@ figure.OX.0.v.0.0.d0:
   term_tags: [BT, N, BT, N, BT, BT, N, BT]
 figure.OX.0.v.0.1.d0:
   definition: think, consider, or expect to be the case
-  term_tags: [BT, N, BT, N, N, BT, N, BT, T, T]
+  term_tags: [BT, N, BT, N, N, BT, N, BT, N, BT]
 figure.OX.0.v.0.2.d0:
   definition: calculate or work out (an amount or value) arithmetically
-  term_tags: [BT, N, BT, N, N, N, BT, N, BT, N, BT]
+  term_tags: [BT, N, BT, T, N, N, BT, N, BT, N, BT]
 figure.OX.0.v.0.3.d0:
   definition: represent (something) in a diagram or picture
   term_tags: [BT, N, BT, N, N, N, BT, N, BT]
@@ -3310,7 +3310,7 @@ film.OX.0.n.0.0.d0:
   definition: a thin flexible strip of plastic or other material coated with light-sensitive
     emulsion for exposure in a camera, used to produce photographs or motion pictures
   term_tags: [N, BT, BT, BT, N, BT, N, BT, BT, BT, N, BT, T, T, BT, N, BT, N, N, BT,
-    N, BT, N, BT, BT, N, BT, BT]
+    N, BT, T, BT, BT, N, BT, T]
 film.OX.0.n.0.1.d0:
   definition: a motion picture; a movie
   term_tags: [N, BT, T, N, N, BT]
@@ -3390,7 +3390,7 @@ fish.OX.0.v.0.0.2.d0:
   term_tags: [BT, BT, N, BT, N, BT, N, BT, N, N, BT, N, BT]
 fish.OX.0.v.0.0.3.d0:
   definition: pull or take something out of water or a container
-  term_tags: [BT, N, BT, BT, BT, T, BT, N, N, BT]
+  term_tags: [BT, N, BT, BT, N, N, BT, N, N, BT]
 fish.OX.1.n.0.0.d0:
   definition: a flat plate of metal, wood, or another material that is fixed on a
     beam or across a joint in order to give additional strength, especially on a ship's
@@ -3485,7 +3485,7 @@ foot.OX.0.n.0.2.d0:
   term_tags: [N, BT, N, BT, BT, N, BT, N, N, BT, N, BT]
 foot.OX.0.n.0.3.d0:
   definition: a unit of linear measure equal to 12 inches (30.48 cm)
-  term_tags: [N, BT, N, BT, BT, BT, N, N, BT, N, N, BT, N]
+  term_tags: [N, BT, N, BT, BT, BT, T, N, BT, N, N, BT, N]
 foot.OX.0.n.0.4.d0:
   definition: a group of syllables constituting a metrical unit. In English poetry
     it consists of stressed and unstressed syllables, while in ancient classical poetry
@@ -3531,7 +3531,7 @@ force.OX.0.v.0.1.0.d0:
   definition: put out (a runner), or cause (a runner) to be put out, at the base to
     which they are advancing when they are forced to run on a batted ball
   term_tags: [BT, T, N, N, BT, N, N, N, BT, N, N, BT, N, N, BT, BT, T, N, N, N, BT,
-    N, N, N, BT, BT, N, N, BT, BT, N, BT, N, N, BT, BT]
+    N, N, N, BT, BT, N, N, BT, BT, N, BT, T, N, BT, BT]
 force.OX.0.v.0.1.1.d0:
   definition: (in cards) make a play or bid that compels another player to make (a
     particular response); make a play or bid that compels (another player) to make
@@ -3609,13 +3609,13 @@ game.OX.0.a.0.0.d0:
   term_tags: [BT, N, BT, N, BT, BT, BT, N, BT]
 game.OX.0.v.0.0.d0:
   definition: manipulate (a situation), typically in a way that is unfair or unscrupulous
-  term_tags: [BT, N, N, BT, N, N, BT, BT, T, T, N, BT, BT, N, BT]
+  term_tags: [BT, N, N, BT, N, N, BT, N, N, BT, N, BT, BT, N, BT]
 game.OX.0.v.0.1.d0:
   definition: play video or computer games
   term_tags: [BT, BT, N, BT, T]
 game.OX.0.v.0.2.d0:
   definition: play games of chance for money; gamble
-  term_tags: [BT, T, N, BT, N, BT, N, BT]
+  term_tags: [BT, BT, N, BT, N, BT, N, BT]
 game.OX.1.a.0.0.d0:
   definition: (of a person's leg) permanently injured or disabled
   term_tags: [N, N, N, BT, N, BT, N, BT, BT, N, BT]
@@ -3703,7 +3703,7 @@ glass.OX.0.n.0.0.d0:
     by fusing sand with soda, lime, and sometimes other ingredients and cooling rapidly.
     It is used to make windows, drinking containers, and other articles
   term_tags: [N, BT, N, BT, BT, N, BT, BT, N, BT, N, BT, N, BT, BT, N, BT, N, BT,
-    N, N, BT, BT, BT, N, BT, BT, N, N, BT, BT, N, BT, BT, N, BT, BT, N, N, BT, BT]
+    N, N, BT, BT, BT, N, BT, BT, N, N, BT, BT, T, BT, BT, N, BT, BT, N, N, BT, BT]
 glass.OX.0.n.0.1.d0:
   definition: a drinking container made from glass
   term_tags: [N, BT, BT, BT, N, BT]
@@ -3726,7 +3726,7 @@ glass.OX.0.v.0.1.d0:
   term_tags: [N, BT, N, BT, N, BT, N, N, N, BT, N, N, BT]
 glass.OX.0.v.0.2.d0:
   definition: reflect as if in a mirror
-  term_tags: [BT, BT, T, N, N, BT]
+  term_tags: [BT, N, N, N, N, BT]
 glove.OX.0.n.0.0.d0:
   definition: a covering for the hand worn for protection against cold or dirt and
     typically having separate parts for each finger and the thumb
@@ -3852,7 +3852,7 @@ green.OX.0.v.0.0.d0:
   term_tags: [BT, N, BT, BT, N, BT]
 green.OX.0.v.0.1.d0:
   definition: make less harmful or more sensitive to the environment
-  term_tags: [BT, BT, BT, N, BT, BT, N, N, BT]
+  term_tags: [BT, BT, BT, N, BT, BT, N, BT, T]
 ground.OX.0.n.0.0.d0:
   definition: the solid surface of the earth
   term_tags: [N, BT, BT, N, N, BT]
@@ -3885,17 +3885,17 @@ ground.OX.0.v.0.2.d0:
   term_tags: [BT, N, BT, BT, N, N, BT, BT, N, BT, BT]
 ground.OX.0.v.0.3.d0:
   definition: place or lay (something) on the ground or hit the ground with it
-  term_tags: [BT, N, BT, N, BT, N, BT, T, T, N, BT, BT, T, BT, T]
+  term_tags: [BT, N, BT, N, BT, N, N, BT, T, N, BT, BT, T, N, N]
 ground.OX.0.v.0.4.d0:
   definition: connect (an electrical device) with the ground.
   term_tags: [BT, N, N, BT, BT, N, N, BT, T, N]
 ground.OX.0.v.0.5.d0:
   definition: (of a batter) hit a pitched ball so that it bounces on the ground
-  term_tags: [N, N, N, BT, N, BT, N, BT, BT, BT, T, N, BT, BT, T, T]
+  term_tags: [N, N, N, BT, N, BT, N, BT, BT, BT, T, N, BT, N, BT, T]
 ground.OX.0.v.0.5.0.d0:
   definition: (of a batter) be put out by hitting a ball on the ground to a fielder
     who throws it to or touches first base before the batter touches that base
-  term_tags: [N, N, N, BT, N, BT, BT, T, N, BT, N, BT, BT, T, T, N, N, BT, N, BT,
+  term_tags: [N, N, N, BT, N, BT, BT, T, N, BT, N, BT, N, BT, T, N, N, BT, N, BT,
     N, N, N, BT, BT, T, N, N, BT, BT, N, BT]
 ground.OX.1.a.0.0.d0:
   definition: reduced to fine particles by crushing or mincing
@@ -3931,7 +3931,7 @@ hand.OX.0.n.0.1.d0:
   term_tags: [N, BT, N, N, BT, N, BT, BT, N, BT, N, BT, N, BT]
 hand.OX.0.n.0.2.d0:
   definition: used in reference to the power to direct something
-  term_tags: [BT, BT, T, T, N, BT, N, BT, BT]
+  term_tags: [BT, N, BT, N, N, BT, N, BT, BT]
 hand.OX.0.n.0.3.d0:
   definition: a person's workmanship, especially in artistic work
   term_tags: [N, BT, N, BT, N, BT, N, BT, BT]
@@ -3946,7 +3946,7 @@ hand.OX.0.n.0.5.d0:
 hand.OX.0.n.0.6.d0:
   definition: a unit of measurement of a horse's height, equal to 4 inches (10.16
     cm).
-  term_tags: [N, BT, N, BT, N, N, BT, N, BT, N, BT, N, N, BT, N, N, BT, N, N]
+  term_tags: [N, BT, N, BT, N, N, BT, N, BT, N, BT, T, N, BT, N, N, BT, N, N]
 hand.OX.0.n.0.7.d0:
   definition: a bunch of bananas
   term_tags: [N, BT, N, BT]
@@ -3956,7 +3956,7 @@ hand.OX.0.v.0.0.d0:
 hand.OX.0.v.0.1.d0:
   definition: hold the hand of (someone) in order to help them move in the specified
     direction
-  term_tags: [BT, N, BT, N, N, BT, N, N, BT, N, BT, N, BT, N, N, BT, BT]
+  term_tags: [BT, N, BT, N, N, BT, N, N, BT, N, BT, N, BT, T, N, BT, BT]
 hand.OX.0.v.0.2.d0:
   definition: take in or furl (a sail)
   term_tags: [BT, N, N, BT, N, N, BT, N]
@@ -3974,11 +3974,11 @@ hawk.OX.0.v.0.0.d0:
   term_tags: [N, N, N, BT, N, BT, BT, N, N, BT, BT]
 hawk.OX.0.v.0.1.d0:
   definition: (of a bird or dragonfly) hunt on the wing for food
-  term_tags: [N, N, N, BT, N, BT, N, BT, BT, T, T, N, BT]
+  term_tags: [N, N, N, BT, N, BT, N, BT, N, N, BT, N, BT]
 hawk.OX.1.v.0.0.d0:
   definition: carry around and offer (goods) for sale, typically advertising them
     by shouting
-  term_tags: [BT, N, N, BT, N, BT, N, BT, T, N, BT, BT, N, N, BT]
+  term_tags: [BT, N, N, BT, N, BT, N, N, BT, N, BT, BT, N, N, BT]
 hawk.OX.2.v.0.0.d0:
   definition: clear the throat noisily
   term_tags: [BT, N, BT, BT]
@@ -3994,17 +3994,17 @@ head.OX.0.n.0.0.d0:
     body of an animal, typically separated from the rest of the body by a neck, and
     containing the brain, mouth, and sense organs.
   term_tags: [N, BT, BT, N, N, BT, BT, N, N, N, BT, N, BT, BT, N, N, BT, N, N, BT,
-    N, BT, BT, N, N, BT, N, N, BT, N, N, BT, N, N, BT, N, BT, N, BT, N, N, BT, BT,
+    N, BT, BT, N, N, BT, N, N, BT, N, N, BT, N, N, BT, N, BT, N, BT, N, N, BT, T,
     N]
 head.OX.0.n.0.1.d0:
   definition: a thing resembling a head either in form or in relation to a whole.
-  term_tags: [N, BT, BT, N, BT, N, BT, T, N, N, BT, N, N, BT, N]
+  term_tags: [N, BT, BT, N, BT, N, N, BT, N, N, BT, N, N, BT, N]
 head.OX.0.n.0.2.d0:
   definition: the front, forward, or upper part or end of something.
   term_tags: [N, BT, N, BT, N, N, BT, BT, N, BT, N, BT, N]
 head.OX.0.n.0.3.d0:
   definition: a person in charge of something; a director or leader
-  term_tags: [N, BT, BT, T, N, BT, N, N, BT, N, BT]
+  term_tags: [N, BT, N, BT, N, BT, N, N, BT, N, BT]
 head.OX.0.n.0.4.d0:
   definition: a person considered as a numerical unit
   term_tags: [N, BT, BT, N, N, BT, BT]
@@ -4041,7 +4041,7 @@ head.OX.0.v.0.1.d0:
   term_tags: [BT, N, BT, N, BT, N]
 head.OX.0.v.0.2.d0:
   definition: move in a specified direction
-  term_tags: [BT, N, N, BT, BT]
+  term_tags: [BT, T, N, BT, BT]
 head.OX.0.v.0.3.d0:
   definition: shoot or pass (the ball) with the head
   term_tags: [BT, N, BT, N, N, BT, N, N, N, BT]
@@ -4056,7 +4056,7 @@ heart.OX.0.n.0.0.d0:
     system by rhythmic contraction and dilation. In vertebrates there may be up to
     four chambers (as in humans), with two atria and two ventricles.
   term_tags: [N, BT, BT, BT, N, BT, N, BT, N, N, BT, T, N, BT, BT, N, BT, N, N, BT,
-    N, N, BT, BT, T, N, BT, N, N, N, BT, N, N, N, N, BT, N, N, BT, N]
+    N, N, BT, N, N, N, BT, N, N, N, BT, N, N, N, N, BT, N, N, BT, N]
 heart.OX.0.n.0.1.d0:
   definition: the central or innermost part of something
   term_tags: [N, BT, N, BT, BT, N, BT]
@@ -4064,10 +4064,10 @@ heart.OX.0.n.0.2.d0:
   definition: a conventional representation of a heart with two equal curves meeting
     at a point at the bottom and a cusp at the top.
   term_tags: [N, BT, BT, N, N, BT, N, N, BT, BT, BT, N, N, BT, N, N, BT, N, N, BT,
-    N, N, BT, N]
+    N, BT, T, N]
 heart.OX.0.n.0.3.d0:
   definition: the condition of agricultural land as regards fertility
-  term_tags: [N, BT, N, BT, BT, BT, T, BT]
+  term_tags: [N, BT, N, BT, BT, N, BT, BT]
 heart.OX.0.v.0.0.d0:
   definition: like very much; love
   term_tags: [N, BT, BT, N, BT]
@@ -4128,7 +4128,7 @@ honey.OX.0.n.0.1.d0:
   term_tags: [N, BT, BT, N, BT]
 honey.OX.0.n.0.1.0.d0:
   definition: darling; sweetheart (usually as a form of address)
-  term_tags: [BT, N, BT, N, BT, N, N, BT, T, T, N]
+  term_tags: [BT, N, BT, N, BT, N, N, BT, N, BT, N]
 hood.OX.0.n.0.0.d0:
   definition: a covering for the head and neck with an opening for the face, typically
     forming part of a coat or sweatshirt
@@ -4202,7 +4202,7 @@ horn.OX.0.n.0.0.d0:
   definition: a hard permanent outgrowth, often curved and pointed, found in pairs
     on the heads of cattle, sheep, goats, giraffes, etc. and consisting of a core
     of bone encased in keratinized skin.
-  term_tags: [N, BT, BT, BT, N, BT, BT, N, BT, N, BT, BT, T, N, N, BT, N, BT, N, BT,
+  term_tags: [N, BT, BT, BT, N, BT, BT, N, BT, N, BT, N, BT, N, N, BT, N, BT, N, BT,
     N, BT, N, BT, N, N, N, N, BT, N, N, BT, N, BT, BT, N, BT, BT, N]
 horn.OX.0.n.0.1.d0:
   definition: the substance of which horns are composed
@@ -4250,7 +4250,7 @@ horseshoe.OX.0.n.0.0.d0:
 horseshoe.OX.0.n.0.0.0.d0:
   definition: a shoe for a horse or a representation of one, regarded as bringing
     good luck.
-  term_tags: [N, BT, N, N, BT, N, N, BT, N, N, N, BT, N, BT, BT, T, N]
+  term_tags: [N, BT, N, N, BT, N, N, BT, N, N, N, BT, N, BT, BT, BT, N]
 horseshoe.OX.0.n.0.0.1.d0:
   definition: something resembling a horseshoe in shape
   term_tags: [BT, BT, N, BT, N, BT]
@@ -4260,7 +4260,7 @@ horseshoe.OX.0.n.0.0.2.d0:
 hospital.OX.0.n.0.0.d0:
   definition: an institution providing medical and surgical treatment and nursing
     care for sick or injured people.
-  term_tags: [N, BT, BT, BT, N, BT, BT, N, BT, BT, N, BT, N, BT, BT, N]
+  term_tags: [N, BT, BT, BT, N, BT, BT, N, BT, BT, T, BT, N, BT, BT, N]
 hospital.OX.0.n.0.1.d0:
   definition: a hospice, especially one run by the Knights Hospitaller.
   term_tags: [N, BT, N, BT, N, BT, N, N, BT, T, N]
@@ -4310,7 +4310,7 @@ ice.OX.3.v.0.2.d0:
   term_tags: [BT]
 ice.OX.3.v.0.3.d0:
   definition: shoot (the puck) so as to commit icing.
-  term_tags: [BT, N, N, BT, N, N, BT, T, BT, BT, N]
+  term_tags: [BT, N, N, BT, N, N, N, N, BT, BT, N]
 india.OX.0.n.0.0.d0:
   definition: a country in southern Asia that occupies the greater part of the Indian
     subcontinent; population 1,311,000,000 (estimated 2015); capital, New Delhi; official
@@ -4354,7 +4354,7 @@ ivory.OX.0.n.0.0.d0:
     an elephant, walrus, or narwhal, often (especially formerly) used to make ornaments
     and other articles
   term_tags: [N, BT, BT, N, BT, BT, BT, BT, T, BT, N, N, BT, N, N, BT, N, BT, N, N,
-    BT, N, BT, N, BT, BT, N, BT, N, BT, BT, N, BT, BT]
+    BT, N, BT, N, BT, BT, N, BT, T, BT, BT, N, BT, BT]
 ivory.OX.0.n.0.1.d0:
   definition: a creamy-white color
   term_tags: [N, BT, N, BT, BT]
@@ -4375,7 +4375,7 @@ jack.OX.0.n.0.2.d0:
 jack.OX.0.n.0.3.d0:
   definition: a plug used in a jack socket, consisting of a shaft used to make a connection
     that transmits a signal, typically used in sound equipment.
-  term_tags: [N, BT, BT, N, N, BT, T, N, BT, N, N, BT, BT, N, BT, N, BT, N, BT, N,
+  term_tags: [N, BT, BT, N, N, BT, T, N, BT, N, N, BT, BT, T, BT, N, BT, N, BT, N,
     BT, N, BT, BT, N, BT, BT, N]
 jack.OX.0.n.0.4.d0:
   definition: in lawn bowling, the small ball at which the players aim.
@@ -4383,11 +4383,11 @@ jack.OX.0.n.0.4.d0:
 jack.OX.0.n.0.5.d0:
   definition: a game played by tossing and catching small round pebbles or star-shaped
     pieces of metal or plastic.
-  term_tags: [N, BT, BT, N, BT, N, BT, BT, T, BT, N, BT, N, BT, BT, N, BT, N, BT,
+  term_tags: [N, BT, BT, N, BT, N, BT, BT, BT, BT, N, BT, N, BT, BT, N, BT, N, BT,
     N]
 jack.OX.0.n.0.6.d0:
   definition: used as a form of address to a man whose name is not known.
-  term_tags: [BT, N, N, BT, T, T, N, N, BT, N, BT, BT, BT, BT, N]
+  term_tags: [BT, N, N, BT, N, BT, N, N, BT, N, BT, BT, BT, BT, N]
 jack.OX.0.n.0.7.d0:
   definition: a lumberjack.
   term_tags: [N, BT, N]
@@ -4445,7 +4445,7 @@ jam.OX.0.v.0.0.d0:
 jam.OX.0.v.0.1.d0:
   definition: become or make unable to move or work due to a part seizing or becoming
     stuck
-  term_tags: [BT, N, BT, BT, N, BT, N, BT, BT, T, N, BT, BT, N, BT, BT]
+  term_tags: [BT, N, BT, BT, N, BT, N, BT, N, N, N, BT, BT, N, BT, BT]
 jam.OX.0.v.0.2.d0:
   definition: improvise with other musicians, especially in jazz or blues
   term_tags: [BT, N, BT, BT, N, BT, N, BT, N, BT]
@@ -4468,7 +4468,7 @@ jam.OX.1.n.0.0.d0:
   term_tags: [N, BT, BT, BT, N, BT, N, BT, BT, N, N, BT, BT, N, BT, BT, BT, N, BT]
 jet.OX.0.n.0.0.d0:
   definition: a rapid stream of liquid or gas forced out of a small opening
-  term_tags: [N, BT, BT, N, BT, N, BT, BT, BT, T, N, BT, BT]
+  term_tags: [N, BT, BT, N, BT, N, BT, BT, N, N, N, BT, BT]
 jet.OX.0.n.0.1.d0:
   definition: a jet engine.
   term_tags: [N, BT, T, N]
@@ -4524,7 +4524,7 @@ key.OX.0.n.0.3.d0:
   definition: a group of notes based on a particular note and comprising a scale,
     regarded as forming the tonal basis of a piece or passage of music
   term_tags: [N, BT, N, BT, BT, N, N, BT, BT, N, BT, N, BT, N, BT, N, BT, N, BT, BT,
-    BT, T, T, N, BT, N, BT]
+    N, N, BT, N, BT, N, BT]
 key.OX.0.n.0.4.d0:
   definition: the dry winged fruit of an ash, maple, or sycamore maple, typically
     growing in bunches; a samara.
@@ -4557,7 +4557,7 @@ key.OX.0.v.0.3.d0:
     the form of the address given, so as to identify the publication generating particular
     responses
   term_tags: [BT, N, N, BT, N, N, BT, BT, N, N, BT, N, BT, N, BT, N, N, BT, BT, N,
-    N, BT, T, BT, N, BT, BT, BT, BT]
+    N, N, N, BT, N, BT, BT, BT, BT]
 key.OX.0.v.0.4.d0:
   definition: vandalize a car by scraping the paint from it with a key
   term_tags: [BT, N, BT, N, BT, N, BT, N, N, N, N, BT]
@@ -4566,7 +4566,7 @@ key.OX.0.v.0.5.d0:
   term_tags: [BT, N, BT, BT, N, BT]
 key.OX.1.n.0.0.d0:
   definition: a low-lying island or reef, especially in the Caribbean
-  term_tags: [N, BT, T, T, BT, N, BT, N, BT, N, N, BT]
+  term_tags: [N, BT, T, T, BT, N, BT, N, BT, N, BT, T]
 kid.OX.0.n.0.0.d0:
   definition: a child or young person
   term_tags: [N, BT, N, BT, T]
@@ -4578,7 +4578,7 @@ kid.OX.0.n.0.1.0.d0:
   term_tags: [BT, BT, N, N, BT, BT, N, BT]
 kid.OX.0.v.0.0.d0:
   definition: (of a goat) give birth
-  term_tags: [N, N, N, BT, N, BT, T]
+  term_tags: [N, N, N, BT, N, BT, BT]
 kid.OX.1.v.0.0.d0:
   definition: deceive (someone) in a playful or teasing way
   term_tags: [BT, N, BT, N, N, N, BT, N, BT, BT]
@@ -4598,7 +4598,7 @@ king.OX.0.n.0.1.d0:
     including diagonally, to any adjacent square that is not attacked by an opponent's
     piece or pawn.
   term_tags: [N, BT, BT, BT, BT, N, N, N, N, BT, BT, N, N, N, N, BT, BT, N, BT, N,
-    BT, N, BT, N, N, BT, N, BT, N, N, BT, N, BT, BT, N, N, N, BT, BT, N, BT, BT, BT,
+    BT, N, BT, N, N, BT, N, BT, T, N, BT, N, BT, BT, N, N, N, BT, BT, N, BT, BT, BT,
     N, N, BT, N, BT, N, BT, N]
 king.OX.0.n.0.1.0.d0:
   definition: a piece in the game of checkers with extra capacity for moving, made
@@ -4647,7 +4647,7 @@ knight.OX.0.n.0.1.d0:
     \ recognition of merit or service and entitled to use the honorific \u201CSir\u201D\
     \ in front of his name."
   term_tags: [N, N, N, BT, N, N, BT, BT, N, BT, BT, N, N, BT, N, BT, N, BT, N, BT,
-    N, BT, N, BT, N, BT, N, BT, N, BT, T, T, N, BT, N]
+    N, BT, N, BT, N, BT, N, BT, N, N, BT, N, N, BT, N]
 knight.OX.0.n.0.2.d0:
   definition: a chess piece, typically with its top shaped like a horse's head, that
     moves by jumping to the opposite corner of a rectangle two squares by three.
@@ -4699,7 +4699,7 @@ lap.OX.1.v.0.3.d0:
   term_tags: [BT, N, N, BT, N, N, BT, N, BT, BT, N, N, N, BT, T]
 lap.OX.2.v.0.0.d0:
   definition: (of an animal) take up (liquid) with the tongue in order to drink
-  term_tags: [N, N, N, BT, N, BT, T, N, BT, N, N, N, BT, N, BT, N, BT]
+  term_tags: [N, N, N, BT, N, BT, N, N, BT, N, N, N, BT, N, BT, N, BT]
 lap.OX.2.v.0.1.d0:
   definition: (of water) wash against (something) with a gentle rippling sound
   term_tags: [N, N, BT, N, BT, N, N, BT, N, N, N, BT, BT, BT]
@@ -4730,7 +4730,7 @@ lawyer.OX.0.v.0.0.0.d0:
 lead.OX.0.v.0.0.d0:
   definition: cause (a person or animal) to go with one by holding them by the hand,
     a halter, a rope, etc. while moving forward
-  term_tags: [BT, N, N, BT, N, BT, N, BT, T, N, N, N, BT, N, N, N, BT, N, N, BT, N,
+  term_tags: [BT, N, N, BT, N, BT, N, N, BT, N, N, N, BT, N, N, N, BT, N, N, BT, N,
     N, BT, N, N, N, N, BT, BT]
 lead.OX.0.v.0.1.d0:
   definition: be a route or means of access to a particular place or in a particular
@@ -4738,16 +4738,16 @@ lead.OX.0.v.0.1.d0:
   term_tags: [BT, N, BT, N, BT, N, BT, N, N, BT, BT, N, N, N, BT, BT]
 lead.OX.0.v.0.2.d0:
   definition: be in charge or command of
-  term_tags: [BT, BT, T, N, BT, N]
+  term_tags: [BT, N, BT, N, BT, N]
 lead.OX.0.v.0.3.d0:
   definition: have the first place in (a competition); be ahead of (competitors)
   term_tags: [BT, N, BT, BT, N, N, N, BT, N, N, BT, BT, N, N, BT, N]
 lead.OX.0.v.0.4.d0:
   definition: have or experience (a particular way of life)
-  term_tags: [BT, N, BT, N, N, BT, BT, T, T, N]
+  term_tags: [BT, N, BT, N, N, BT, BT, N, BT, N]
 lead.OX.0.n.0.0.d0:
   definition: the initiative in an action; an example for others to follow
-  term_tags: [N, BT, N, N, BT, N, N, BT, N, BT, N, BT]
+  term_tags: [BT, T, N, N, BT, N, N, BT, N, BT, N, BT]
 lead.OX.0.n.0.1.d0:
   definition: a position of advantage in a contest; first place
   term_tags: [N, BT, N, BT, N, N, BT, N, BT, BT]
@@ -4777,7 +4777,7 @@ lead.OX.1.n.0.0.d0:
     radiation shields, etc., and its compounds have been used in crystal glass, as
     an antiknock agent in gasoline, and (formerly) in paints.
   term_tags: [N, BT, N, BT, N, BT, N, BT, N, BT, BT, N, N, BT, T, N, BT, T, N, N,
-    N, BT, BT, BT, N, BT, N, BT, N, BT, N, BT, BT, N, BT, BT, N, N, N, N, N, N, BT,
+    N, BT, BT, BT, N, BT, N, BT, N, BT, N, BT, T, N, BT, BT, N, N, N, N, N, N, BT,
     BT, BT, BT, N, BT, T, N, N, N, BT, BT, N, BT, N, N, N, BT, N, N, BT, N]
 lead.OX.1.n.0.1.d0:
   definition: an item or implement made of lead.
@@ -4843,7 +4843,7 @@ light.OX.0.n.0.4.d0:
   term_tags: [N, BT, N, BT, BT, BT, BT, N, N, N, BT, N, BT, N, N, BT]
 light.OX.0.n.0.5.d0:
   definition: a window or opening in a wall to let light in
-  term_tags: [N, BT, N, BT, N, N, BT, BT, T, BT, N]
+  term_tags: [N, BT, N, BT, N, N, BT, N, BT, BT, N]
 light.OX.0.n.0.6.d0:
   definition: a person notable or eminent in a particular sphere of activity or place
   term_tags: [N, BT, BT, N, BT, N, N, BT, BT, N, BT, N, BT]
@@ -4882,7 +4882,7 @@ light.OX.1.a.0.5.d0:
   term_tags: [N, N, N, BT, N, BT, BT, BT, BT, BT, N, BT, N]
 light.OX.2.v.0.0.d0:
   definition: come upon or discover by chance
-  term_tags: [BT, T, N, BT, N, BT]
+  term_tags: [BT, N, N, BT, N, BT]
 light.OX.2.v.0.1.d0:
   definition: descend
   term_tags: [BT]
@@ -4897,7 +4897,7 @@ limousine.OX.0.n.0.0.d0:
 limousine.OX.0.n.0.0.0.d0:
   definition: a car licensed to transport passengers in return for payment, typically
     more luxurious than a taxi and not fitted with a taximeter.
-  term_tags: [N, BT, BT, N, BT, BT, BT, T, N, BT, N, BT, BT, BT, N, N, BT, N, BT,
+  term_tags: [N, BT, BT, N, BT, BT, N, BT, N, BT, N, BT, BT, BT, N, N, BT, N, BT,
     BT, N, N, BT, N]
 limousine.OX.0.n.0.0.1.d0:
   definition: a large passenger vehicle carrying people to and from an airport.
@@ -4929,7 +4929,7 @@ line.OX.0.n.0.5.0.d0:
 line.OX.0.n.0.5.1.d0:
   definition: regular army regiments (as opposed to auxiliary forces or household
     troops).
-  term_tags: [BT, BT, BT, N, N, BT, N, BT, BT, N, BT, T, N, N]
+  term_tags: [BT, BT, BT, N, N, BT, T, BT, BT, N, BT, T, N, N]
 line.OX.0.v.0.0.d0:
   definition: stand or be positioned at intervals along
   term_tags: [BT, N, BT, BT, BT, T, N]
@@ -4946,18 +4946,18 @@ line.OX.1.v.0.0.d0:
 line.OX.1.v.0.0.0.d0:
   definition: form a layer on the inside surface of (an area); cover as if with a
     lining
-  term_tags: [BT, N, BT, BT, T, T, BT, N, N, N, BT, N, N, BT, BT, T, N, N, BT]
+  term_tags: [BT, N, BT, N, N, BT, BT, N, N, N, BT, N, N, BT, N, N, N, N, BT]
 link.OX.0.n.0.0.d0:
   definition: a relationship between two things or situations, especially where one
     thing affects the other
   term_tags: [N, BT, N, N, BT, N, BT, N, BT, N, N, BT, BT, N, BT]
 link.OX.0.n.0.1.d0:
   definition: a ring or loop in a chain
-  term_tags: [N, BT, N, BT, T, N, BT]
+  term_tags: [N, BT, N, BT, N, N, BT]
 link.OX.0.n.0.1.0.d0:
   definition: a unit of measurement of length equal to one hundredth of a surveying
     chain (7.92 inches).
-  term_tags: [N, BT, N, BT, N, BT, BT, N, N, BT, N, N, BT, BT, N, N, BT, N, N]
+  term_tags: [N, BT, N, BT, N, BT, BT, T, N, BT, N, N, BT, BT, N, N, BT, N, N]
 link.OX.0.v.0.0.d0:
   definition: make, form, or suggest a connection with or between
   term_tags: [BT, N, BT, N, N, BT, N, BT, N, N, N]
@@ -4966,7 +4966,7 @@ link.OX.0.v.0.0.0.d0:
   term_tags: [BT, N, BT, BT]
 link.OX.0.v.0.0.1.d0:
   definition: create a hyperlink between (web pages or hypertext documents)
-  term_tags: [BT, N, BT, N, N, BT, BT, N, BT, BT, N]
+  term_tags: [BT, N, BT, N, N, BT, T, N, BT, BT, N]
 link.OX.0.v.0.0.2.d0:
   definition: clasp; intertwine
   term_tags: [BT, N, BT]
@@ -4989,11 +4989,11 @@ litter.OX.0.n.0.0.d0:
     BT]
 litter.OX.0.n.0.1.d0:
   definition: the group of young animals born to an animal at one time
-  term_tags: [N, BT, N, BT, BT, BT, N, N, BT, BT, T, T]
+  term_tags: [N, BT, N, BT, BT, BT, N, N, BT, N, N, BT]
 litter.OX.0.n.0.2.d0:
   definition: absorbent material, typically in granular form, used to line a shallow
     receptacle in which a cat can urinate and defecate when indoors
-  term_tags: [BT, BT, N, BT, N, BT, BT, N, BT, N, BT, N, BT, BT, N, N, N, BT, N, BT,
+  term_tags: [BT, BT, N, BT, N, BT, BT, N, BT, T, BT, N, BT, BT, N, N, N, BT, N, BT,
     N, BT, N, BT]
 litter.OX.0.n.0.3.d0:
   definition: straw or other plant matter used as bedding for animals
@@ -5036,14 +5036,14 @@ lock.OX.0.v.0.1.d0:
   definition: restrict access to the full functionality or data of (a computer, mobile
     phone, file, etc.), especially by requiring a user to verify their identity with
     a passcode or other form of authentication
-  term_tags: [BT, BT, BT, T, T, BT, N, BT, N, N, N, BT, N, BT, T, N, BT, N, N, N,
+  term_tags: [BT, BT, N, BT, T, BT, N, BT, N, N, N, BT, N, BT, T, N, BT, N, N, N,
     N, N, BT, N, BT, N, BT, N, BT, N, BT, N, N, BT, N, BT, BT, N, BT]
 lock.OX.0.v.0.2.d0:
   definition: make or become rigidly fixed or immovable
   term_tags: [BT, N, BT, BT, BT, N, BT]
 lock.OX.0.v.0.3.d0:
   definition: go through a lock on a canal
-  term_tags: [BT, N, N, BT, T, N, BT]
+  term_tags: [BT, T, N, BT, T, N, BT]
 lock.OX.1.n.0.0.d0:
   definition: a piece of a person's hair that coils or hangs together
   term_tags: [N, BT, N, N, BT, N, BT, N, BT, N, BT, BT]
@@ -5064,7 +5064,7 @@ log.OX.0.n.0.2.d0:
   definition: an apparatus for determining the speed of a ship, originally consisting
     of a float attached to a knotted line wound on a reel, the distance run out in
     a certain time being used as an estimate of the vessel's speed.
-  term_tags: [N, BT, N, BT, N, BT, N, N, BT, N, BT, BT, N, N, BT, BT, N, N, BT, BT,
+  term_tags: [N, BT, N, BT, N, BT, N, N, BT, N, BT, BT, N, N, BT, BT, T, N, BT, BT,
     BT, N, N, BT, N, N, BT, BT, T, N, N, BT, BT, BT, BT, N, N, BT, N, N, BT, N, BT,
     N]
 log.OX.0.n.0.3.d0:
@@ -5248,7 +5248,7 @@ match.OX.0.n.0.2.d0:
 match.OX.0.n.0.3.d0:
   definition: a person viewed in regard to their eligibility for marriage, especially
     as regards class or wealth
-  term_tags: [N, BT, BT, N, BT, N, N, BT, N, BT, N, BT, BT, T, BT, N, BT]
+  term_tags: [N, BT, BT, N, BT, N, N, BT, N, BT, N, BT, N, BT, BT, N, BT]
 match.OX.0.n.0.3.0.d0:
   definition: a marriage
   term_tags: [N, BT]
@@ -5258,14 +5258,14 @@ match.OX.0.v.0.0.d0:
   term_tags: [BT, N, BT, N, BT, N, N, BT, BT, N, BT, N, BT, BT]
 match.OX.0.v.0.1.d0:
   definition: be equal to (something) in quality or strength
-  term_tags: [BT, BT, N, N, BT, N, N, BT, N, BT]
+  term_tags: [BT, BT, T, N, BT, N, N, BT, N, BT]
 match.OX.0.v.0.2.d0:
   definition: place (a person or group) in contest or competition with another
   term_tags: [BT, N, N, BT, N, BT, N, N, BT, N, BT, N, N]
 match.OX.1.n.0.0.d0:
   definition: a short, thin piece of wood or cardboard used to light a fire, being
     tipped with a composition that ignites when rubbed against a rough surface
-  term_tags: [N, BT, N, BT, BT, N, BT, N, BT, BT, N, BT, N, BT, N, BT, BT, N, N, BT,
+  term_tags: [N, BT, N, BT, BT, N, BT, N, BT, BT, T, BT, N, BT, N, BT, BT, N, N, BT,
     N, BT, N, BT, N, N, BT, BT]
 match.OX.1.n.0.0.0.d0:
   definition: a piece of wick or cord designed to burn at a uniform rate, used for
@@ -5291,8 +5291,8 @@ mercury.OX.1.n.0.0.d0:
 mercury.OX.2.n.0.0.d0:
   definition: a small planet that is the closest to the sun in the solar system, sometimes
     visible to the naked eye just after sunset.
-  term_tags: [N, BT, BT, N, BT, N, BT, N, N, BT, N, N, BT, T, N, BT, BT, N, BT, T,
-    T, BT, N, BT, N]
+  term_tags: [N, BT, BT, N, BT, N, BT, N, N, BT, N, N, BT, T, N, BT, BT, N, N, BT,
+    BT, BT, N, BT, N]
 mercury.OX.2.n.0.1.d0:
   definition: the Roman god of eloquence, skill, trading, and thieving, herald and
     messenger of the gods, who was identified with Hermes.
@@ -5333,8 +5333,8 @@ mine.OX.1.n.0.1.d0:
 mine.OX.1.n.0.1.0.d0:
   definition: a subterranean passage under the wall of a besieged fortress, especially
     one in which explosives are put to blow up fortifications.
-  term_tags: [N, BT, BT, N, N, BT, N, N, BT, BT, N, BT, N, N, N, BT, BT, BT, T, BT,
-    N, BT, N]
+  term_tags: [N, BT, BT, N, N, BT, N, N, BT, BT, N, BT, N, N, N, BT, BT, BT, N, BT,
+    T, BT, N]
 mine.OX.1.v.0.0.d0:
   definition: obtain (coal or other minerals) from a mine
   term_tags: [BT, N, BT, N, BT, BT, N, N, N, BT]
@@ -5465,7 +5465,7 @@ moon.OX.0.n.0.0.2.d0:
   term_tags: [BT, N, N, N, BT]
 moon.OX.0.v.0.0.d0:
   definition: behave or move in a listless and aimless manner
-  term_tags: [BT, N, BT, N, N, BT, N, BT, BT]
+  term_tags: [BT, N, BT, T, N, BT, N, BT, BT]
 moon.OX.0.v.0.1.d0:
   definition: expose one's buttocks to (someone) in order to insult or amuse them
   term_tags: [BT, N, N, BT, N, N, BT, N, N, BT, N, BT, N, BT, N]
@@ -5478,7 +5478,7 @@ moscow.OX.0.n.0.0.d0:
     with its center in the Kremlin.
   term_tags: [N, BT, N, BT, N, BT, N, N, BT, N, BT, BT, N, N, N, BT, BT, N, BT, N,
     N, BT, BT, N, N, N, N, BT, N, BT, N, BT, N, BT, BT, N, N, BT, BT, N, N, BT, BT,
-    N, BT, T, T, BT, N, BT, N, BT, T, N, N, N, N, N, N, N, BT, BT, N, N, N, BT, BT,
+    N, BT, N, BT, BT, N, BT, N, BT, T, N, N, N, N, N, N, N, BT, BT, N, N, N, BT, BT,
     BT, N, BT, N, N, BT, BT, BT, N, N, N, BT, N, N, BT, N]
 moscow.OX.0.n.0.1.d0:
   definition: a city in northwestern Idaho, home to the University of Idaho; population
@@ -5499,7 +5499,7 @@ mount.OX.0.v.0.3.d0:
   term_tags: [BT, N, BT, N, N, BT, N, N, N, BT, BT]
 mount.OX.0.v.0.3.0.d0:
   definition: set in or attach to a backing or setting
-  term_tags: [BT, N, N, BT, N, N, BT, N, BT]
+  term_tags: [BT, T, N, BT, N, N, BT, N, BT]
 mount.OX.0.v.0.3.1.d0:
   definition: fix (an object for viewing) on a microscope slide.
   term_tags: [BT, N, N, BT, N, BT, N, N, N, BT, T, N]
@@ -5521,7 +5521,7 @@ mount.OX.0.n.0.2.0.d0:
   term_tags: [N, BT, N, BT, N, BT, N, BT, N, N, BT]
 mount.OX.1.n.0.0.d0:
   definition: a mountain or hill (archaic except in place names)
-  term_tags: [N, BT, N, BT, N, BT, N, BT, T, BT, N]
+  term_tags: [N, BT, N, BT, N, BT, N, N, BT, T, N]
 mount.OX.1.n.0.0.0.d0:
   definition: any of several fleshy prominences on the palm of the hand regarded in
     palmistry as signifying the degree of influence of a particular planet
@@ -5600,7 +5600,7 @@ mug.OX.0.v.0.1.d0:
   term_tags: [BT, BT, N, BT, BT, N, BT, BT, N, N, N, BT, N, N, BT]
 mug.OX.1.v.0.0.d0:
   definition: learn or review a subject as much as possible in a short time; cram
-  term_tags: [BT, N, BT, N, BT, BT, BT, T, BT, N, N, BT, T, N, BT]
+  term_tags: [BT, N, BT, N, BT, BT, BT, N, BT, N, N, BT, T, N, BT]
 nail.OX.0.n.0.0.d0:
   definition: a small metal spike with a broadened flat head, driven typically into
     wood with a hammer to join things together or to serve as a peg or hook
@@ -5612,11 +5612,11 @@ nail.OX.0.n.0.1.d0:
   term_tags: [N, BT, BT, N, N, BT, BT, N, N, BT, N, N, BT, N, BT, N, BT, N, BT, BT]
 nail.OX.0.n.0.2.d0:
   definition: a measure of length for cloth, equal to 21/4 inches.
-  term_tags: [N, BT, N, BT, N, BT, N, BT, N, N, BT, N]
+  term_tags: [N, BT, N, BT, N, BT, N, BT, T, N, BT, N]
 nail.OX.0.n.0.3.d0:
   definition: a measure of wool, beef, or other commodity, roughly equal to 7 or 8
     pounds.
-  term_tags: [N, BT, N, BT, N, BT, N, N, BT, BT, N, BT, BT, N, N, N, N, BT, N]
+  term_tags: [N, BT, N, BT, N, BT, N, N, BT, BT, N, BT, BT, T, N, N, N, BT, N]
 nail.OX.0.v.0.0.d0:
   definition: fasten to a surface or to something else with a nail or nails
   term_tags: [BT, N, N, BT, N, N, BT, BT, N, N, BT, N, BT]
@@ -5646,7 +5646,7 @@ needle.OX.0.n.0.2.d0:
   term_tags: [N, BT, BT, N, N, BT, N, BT, N, N, BT, BT]
 needle.OX.0.n.0.3.d0:
   definition: a stylus used to play records.
-  term_tags: [N, BT, BT, N, BT, BT, N]
+  term_tags: [N, BT, BT, T, BT, BT, N]
 needle.OX.0.n.0.4.d0:
   definition: the sharp, stiff, slender leaf of a fir or pine tree.
   term_tags: [N, BT, N, BT, N, BT, BT, N, N, BT, N, BT, T, N]
@@ -5658,7 +5658,7 @@ needle.OX.0.n.0.6.d0:
   term_tags: [N, BT, BT, N, N, BT, BT, N, BT, N]
 needle.OX.0.v.0.0.d0:
   definition: prick or pierce (something) with or as if with a needle
-  term_tags: [BT, N, BT, N, BT, N, N, N, BT, T, N, N, BT]
+  term_tags: [BT, N, BT, N, BT, N, N, N, N, N, N, N, BT]
 needle.OX.0.v.0.1.d0:
   definition: provoke or annoy (someone) by continual criticism or questioning
   term_tags: [BT, N, BT, N, BT, N, N, BT, BT, N, BT]
@@ -5771,10 +5771,10 @@ novel.OX.1.a.0.0.d0:
   term_tags: [BT, N, BT, N, N, BT, BT]
 nurse.OX.0.n.0.0.d0:
   definition: a person trained to care for the sick or infirm, especially in a hospital.
-  term_tags: [N, BT, BT, N, BT, N, N, BT, N, BT, N, BT, N, N, BT, N]
+  term_tags: [N, BT, BT, N, BT, T, N, BT, N, BT, N, BT, N, N, BT, N]
 nurse.OX.0.n.0.0.0.d0:
   definition: a person employed or trained to take charge of young children
-  term_tags: [N, BT, BT, N, BT, N, BT, T, N, BT, BT]
+  term_tags: [N, BT, BT, N, BT, N, BT, BT, N, BT, BT]
 nurse.OX.0.n.0.0.1.d0:
   definition: a wet nurse.
   term_tags: [N, BT, T, N]
@@ -5826,7 +5826,7 @@ nut.OX.0.v.0.1.d0:
 nut.OX.1.n.0.0.d0:
   definition: the sky goddess, thought to swallow the sun at night and give birth
     to it in the morning.
-  term_tags: [N, BT, T, N, BT, N, BT, N, BT, N, BT, N, BT, T, N, N, N, N, BT, N]
+  term_tags: [N, BT, T, N, BT, N, BT, N, BT, N, BT, N, BT, BT, N, N, N, N, BT, N]
 octopus.OX.0.n.0.0.d0:
   definition: a cephalopod mollusc with eight sucker-bearing arms, a soft body, strong
     beaklike jaws, and no internal shell.
@@ -5856,7 +5856,7 @@ olive.OX.0.n.0.1.d0:
   term_tags: [N, BT, BT, BT, BT, N, BT, N, BT, N, BT, N, BT, BT, N, N, BT, T, N]
 olive.OX.0.n.0.2.d0:
   definition: a grayish-green color like that of an unripe olive
-  term_tags: [N, BT, N, BT, BT, BT, T, N, N, BT, BT]
+  term_tags: [N, BT, N, BT, BT, N, N, N, N, BT, BT]
 olive.OX.0.n.0.3.d0:
   definition: a marine mollusk with a smooth, roughly cylindrical shell which is typically
     brightly colored.
@@ -5909,7 +5909,7 @@ orange.OX.2.n.0.1.d0:
     T, N, BT, BT, N, BT, BT, BT, N, BT, BT, BT, N, N, BT, N]
 orange.OX.2.n.0.2.d0:
   definition: a bright reddish-yellow color like that of the skin of a ripe orange
-  term_tags: [N, BT, BT, N, BT, BT, BT, T, N, N, BT, N, N, BT, BT]
+  term_tags: [N, BT, BT, N, BT, BT, N, N, N, N, BT, N, N, BT, BT]
 orange.OX.2.a.0.0.d0:
   definition: reddish yellow in color
   term_tags: [BT, BT, N, BT]
@@ -6042,7 +6042,7 @@ parachute.OX.0.n.0.0.d0:
   definition: a cloth canopy which fills with air and allows a person or heavy object
     attached to it to descend slowly when dropped from an aircraft, or which is released
     from the rear of an aircraft on landing to act as a brake
-  term_tags: [N, BT, BT, N, BT, N, BT, N, BT, N, BT, N, BT, BT, BT, N, N, N, BT, BT,
+  term_tags: [N, BT, BT, N, BT, N, BT, N, BT, N, BT, N, BT, BT, BT, T, N, N, BT, BT,
     N, BT, N, N, BT, N, N, N, BT, BT, N, N, BT, N, N, BT, N, BT, N, BT, N, N, BT]
 parachute.OX.0.v.0.0.d0:
   definition: drop or cause to drop from an aircraft by parachute
@@ -6056,7 +6056,7 @@ park.OX.0.n.0.0.d0:
   term_tags: [N, BT, BT, BT, BT, N, N, BT, N, BT, N, BT]
 park.OX.0.n.0.1.d0:
   definition: an area devoted to a specified purpose
-  term_tags: [N, BT, BT, N, N, BT, BT]
+  term_tags: [N, BT, BT, T, N, BT, BT]
 park.OX.0.n.0.2.d0:
   definition: (in a car with automatic transmission) the position of the gear selector
     in which the gears are locked, preventing the vehicle's movement.
@@ -6066,7 +6066,7 @@ park.OX.0.v.0.0.d0:
   definition: bring (a vehicle that one is driving) to a halt and leave it temporarily,
     typically in a parking lot or by the side of the road
   term_tags: [BT, N, N, BT, N, N, BT, BT, N, N, N, BT, N, BT, N, BT, N, BT, N, N,
-    BT, T, N, BT, T, T, T, N, BT]
+    BT, T, N, N, N, BT, N, N, BT]
 park.OX.0.v.0.1.d0:
   definition: deposit and leave in a convenient place until required
   term_tags: [BT, N, BT, N, N, BT, BT, N, BT]
@@ -6110,19 +6110,19 @@ part.OX.0.v.0.0.2.d0:
   term_tags: [BT, N, BT, N, BT]
 part.OX.0.v.0.0.3.d0:
   definition: give up possession of; hand over
-  term_tags: [BT, N, BT, N, N, BT, T]
+  term_tags: [BT, T, BT, N, N, BT, T]
 part.OX.0.v.0.0.4.d0:
   definition: separate (the hair of the head on either side of the part) with a comb.
   term_tags: [BT, N, N, BT, N, N, BT, N, N, BT, N, N, BT, N, N, N, BT, N]
 pass.OX.0.v.0.0.d0:
   definition: move or cause to move in a specified direction
-  term_tags: [BT, N, BT, N, BT, N, N, BT, BT]
+  term_tags: [BT, N, BT, N, BT, T, N, BT, BT]
 pass.OX.0.v.0.1.d0:
   definition: go past or across; leave behind or on one side in proceeding
-  term_tags: [BT, BT, N, BT, N, BT, BT, N, BT, T, T, N, BT]
+  term_tags: [BT, BT, N, BT, N, BT, BT, N, N, N, BT, N, BT]
 pass.OX.0.v.0.2.d0:
   definition: (of time or a point in time) elapse; go by
-  term_tags: [N, N, BT, N, N, BT, BT, T, N, BT, N, BT, T]
+  term_tags: [N, N, BT, N, N, BT, N, BT, N, BT, N, BT, N]
 pass.OX.0.v.0.3.d0:
   definition: transfer (something) to someone, especially by handing or bequeathing
     it to the next person in a series
@@ -6143,7 +6143,7 @@ pass.OX.0.v.0.7.d0:
   term_tags: [BT, N, BT, N, BT, BT, N, BT, N, N, N, BT]
 pass.OX.0.v.0.8.d0:
   definition: forgo one's turn in a game or an offered opportunity
-  term_tags: [BT, N, N, BT, T, N, BT, N, N, BT, BT]
+  term_tags: [BT, N, N, BT, N, N, BT, N, N, BT, BT]
 pass.OX.0.v.0.8.0.d0:
   definition: (of a company) not declare or pay (a dividend)
   term_tags: [N, N, N, BT, N, BT, BT, N, BT, N, N, BT, N]
@@ -6233,7 +6233,7 @@ phoenix.OX.2.n.0.0.d0:
     in the Arabian desert, after this time burning itself on a funeral pyre and rising
     from the ashes with renewed youth to live through another cycle.
   term_tags: [N, N, BT, BT, N, N, BT, BT, N, BT, N, N, N, N, BT, N, N, BT, BT, N,
-    N, N, BT, BT, N, N, N, BT, T, N, BT, N, N, BT, N, BT, BT, N, BT, T, N, BT, N]
+    N, N, BT, BT, N, N, N, BT, T, N, BT, N, N, BT, N, BT, BT, N, BT, N, N, BT, N]
 phoenix.OX.2.n.0.0.0.d0:
   definition: a person or thing regarded as uniquely remarkable in some respect
   term_tags: [N, BT, N, BT, BT, N, BT, BT, N, N, BT]
@@ -6269,14 +6269,14 @@ pie.OX.1.n.0.0.0.d0:
 pie.OX.2.n.0.0.d0:
   definition: a former monetary unit of India and Pakistan, equal to one twelfth of
     an anna.
-  term_tags: [N, BT, BT, T, N, BT, N, BT, N, BT, N, N, BT, N, N, BT, N]
+  term_tags: [N, BT, BT, T, N, BT, N, BT, N, BT, T, N, BT, N, N, BT, N]
 pilot.OX.0.n.0.0.d0:
   definition: a person who operates the flying controls of an aircraft
   term_tags: [N, BT, N, BT, N, BT, BT, N, N, BT]
 pilot.OX.0.n.0.1.d0:
   definition: a television program made to test audience reaction with a view to the
     production of a series.
-  term_tags: [N, BT, BT, BT, N, BT, BT, BT, BT, T, T, T, N, BT, N, N, BT, N]
+  term_tags: [N, BT, BT, BT, N, BT, BT, BT, N, N, BT, N, N, BT, N, N, BT, N]
 pilot.OX.0.n.0.2.d0:
   definition: an unmodulated reference signal transmitted with another signal for
     the purposes of control or synchronization.
@@ -6337,7 +6337,7 @@ pin.OX.1.n.0.0.d0:
 pipe.OX.0.n.0.0.d0:
   definition: a tube of metal, plastic, or other material used to convey water, gas,
     oil, or other fluid substances.
-  term_tags: [N, BT, N, BT, N, BT, N, N, BT, BT, BT, N, BT, BT, N, BT, N, BT, N, N,
+  term_tags: [N, BT, N, BT, N, BT, N, N, BT, BT, BT, T, BT, BT, N, BT, N, BT, N, N,
     BT, BT, BT, N]
 pipe.OX.0.n.0.1.d0:
   definition: a narrow tube made from wood, clay, etc., with a bowl at one end for
@@ -6356,7 +6356,7 @@ pipe.OX.0.n.0.3.d0:
 pipe.OX.0.n.0.4.d0:
   definition: a cask for wine, especially as a measure equal to two hogsheads, usually
     equivalent to 105 gallons (about 477 liters)
-  term_tags: [N, BT, N, BT, N, BT, N, N, BT, BT, N, N, BT, N, BT, BT, N, N, BT, N,
+  term_tags: [N, BT, N, BT, N, BT, N, N, BT, BT, T, N, BT, N, BT, BT, N, N, BT, N,
     BT, N, BT, N]
 pipe.OX.0.v.0.0.d0:
   definition: convey (water, gas, oil, or other fluid substances) through a pipe or
@@ -6416,11 +6416,11 @@ pit.OX.0.n.0.2.d0:
   term_tags: [N, BT, N, N, BT, N, N, BT, N, BT, T, BT, BT, N, BT]
 pit.OX.0.n.0.3.d0:
   definition: an orchestra pit.
-  term_tags: [N, BT, BT, N]
+  term_tags: [N, BT, T, N]
 pit.OX.0.n.0.4.d0:
   definition: a part of the floor of an exchange in which a particular stock or commodity
     is traded, typically by open outcry
-  term_tags: [N, BT, N, N, BT, N, N, BT, N, N, N, BT, BT, N, BT, BT, BT, N, BT, N,
+  term_tags: [N, BT, N, BT, T, N, N, BT, N, N, N, BT, BT, N, BT, BT, BT, N, BT, N,
     BT, T]
 pit.OX.0.n.0.5.d0:
   definition: an enclosure in which animals are made to fight
@@ -6474,8 +6474,8 @@ pitch.OX.0.n.0.7.0.d0:
   definition: a measure of the angle of the blades of a screw propeller, equal to
     the distance forward a blade would move in one revolution if it exerted no thrust
     on the medium.
-  term_tags: [N, BT, N, N, BT, N, N, BT, N, N, BT, T, N, BT, N, N, BT, N, N, BT, N,
-    BT, N, N, BT, N, N, BT, N, BT, N, N, BT, N]
+  term_tags: [N, BT, N, N, BT, N, N, BT, N, N, BT, T, N, BT, T, N, BT, N, N, BT, N,
+    BT, T, N, BT, N, N, BT, N, BT, N, N, BT, N]
 pitch.OX.0.n.0.7.1.d0:
   definition: the density of typed or printed characters on a line, typically expressed
     as numbers of characters per inch.
@@ -6533,7 +6533,7 @@ plane.OX.0.a.0.0.0.d0:
   term_tags: [BT, N, BT, BT, T, T, BT, N, BT]
 plane.OX.0.v.0.0.d0:
   definition: (of a bird or an airborne object) soar without moving the wings; glide
-  term_tags: [N, N, N, BT, N, N, BT, BT, N, BT, N, BT, N, BT, N, BT]
+  term_tags: [N, N, N, BT, N, N, BT, BT, N, BT, N, BT, BT, T, N, BT]
 plane.OX.0.v.0.0.0.d0:
   definition: (of a boat, surfboard, etc.) skim over the surface of water as a result
     of lift produced hydrodynamically.
@@ -6548,7 +6548,7 @@ plane.OX.1.v.0.0.d0:
 plane.OX.2.n.0.0.d0:
   definition: a tool consisting of a block with a projecting steel blade, used to
     smooth a wooden or other surface by paring shavings from it.
-  term_tags: [N, BT, BT, N, N, BT, N, N, BT, BT, BT, N, BT, N, BT, N, BT, N, BT, BT,
+  term_tags: [N, BT, BT, N, N, BT, N, N, BT, BT, BT, N, BT, T, BT, N, BT, N, BT, BT,
     N, BT, BT, N, N, N]
 plane.OX.2.v.0.0.d0:
   definition: smooth (wood or other material) with a plane
@@ -6572,7 +6572,7 @@ plastic.OX.0.n.0.0.d0:
     N, N, N, N, N, BT, BT, N, BT, N, BT, N, BT, BT, N, N, BT, N, BT, BT, BT]
 plastic.OX.0.n.0.0.0.d0:
   definition: credit cards or other types of plastic card that can be used as money
-  term_tags: [BT, BT, N, BT, BT, N, BT, T, N, N, BT, BT, N, BT]
+  term_tags: [BT, T, N, BT, BT, N, BT, T, N, N, BT, BT, N, BT]
 plastic.OX.0.a.0.0.d0:
   definition: made of plastic
   term_tags: [BT, N, BT]
@@ -6584,7 +6584,7 @@ plastic.OX.0.a.0.1.0.d0:
   term_tags: [BT, BT, N, BT]
 plastic.OX.0.a.0.1.1.d0:
   definition: exhibiting adaptability to change or variety in the environment.
-  term_tags: [BT, BT, N, BT, N, BT, N, N, BT, N]
+  term_tags: [BT, BT, N, BT, N, BT, N, BT, T, N]
 plastic.OX.0.a.0.1.2.d0:
   definition: (in art) relating to molding or modeling in three dimensions, or producing
     three-dimensional effects
@@ -6605,7 +6605,7 @@ plate.OX.0.n.0.1.d0:
 plate.OX.0.n.0.2.d0:
   definition: a thin, flat sheet or strip of metal or other material, typically one
     used to join or strengthen things or forming part of a machine
-  term_tags: [N, BT, N, BT, T, N, BT, N, BT, N, BT, BT, N, BT, N, BT, N, BT, N, BT,
+  term_tags: [N, BT, N, BT, T, N, BT, N, BT, N, BT, BT, N, BT, N, BT, T, BT, N, BT,
     BT, N, BT, BT, N, N, BT]
 plate.OX.0.n.0.3.d0:
   definition: a thin, flat organic structure or formation
@@ -6613,7 +6613,7 @@ plate.OX.0.n.0.3.d0:
 plate.OX.0.n.0.4.d0:
   definition: each of the several rigid pieces of the earth's lithosphere which together
     make up the earth's surface.
-  term_tags: [N, N, N, BT, BT, BT, N, N, BT, N, BT, N, BT, BT, N, N, BT, N, BT, N]
+  term_tags: [N, N, N, BT, BT, BT, N, N, BT, N, BT, N, BT, BT, T, N, BT, N, BT, N]
 plate.OX.0.n.0.5.d0:
   definition: a sheet of metal, plastic, or some other material bearing an image of
     type or illustrations from which multiple copies are printed
@@ -6645,13 +6645,13 @@ plate.OX.0.v.0.3.d0:
     with the object of isolating a particular strain of microorganisms or estimating
     viable cell numbers.
   term_tags: [BT, N, BT, N, BT, BT, N, BT, T, N, BT, T, N, BT, N, N, BT, N, BT, N,
-    BT, BT, N, BT, N, BT, BT, BT, BT, N]
+    BT, BT, N, BT, N, BT, BT, BT, T, N]
 platypus.OX.0.n.0.0.d0:
   definition: a semiaquatic egg-laying mammal which frequents lakes and streams in
     eastern Australia. It has a sensitive pliable bill shaped like that of a duck,
     webbed feet with venomous spurs, and dense fur.
   term_tags: [N, BT, BT, N, BT, BT, N, BT, BT, N, BT, N, BT, BT, N, N, BT, N, BT,
-    BT, BT, BT, BT, T, N, N, BT, N, BT, BT, N, BT, BT, N, N, BT, BT, N]
+    BT, BT, BT, N, N, N, N, BT, N, BT, BT, N, BT, BT, N, N, BT, BT, N]
 play.OX.0.v.0.0.d0:
   definition: engage in activity for enjoyment and recreation rather than a serious
     or practical purpose
@@ -6667,7 +6667,7 @@ play.OX.0.v.0.3.d0:
   term_tags: [BT, N, N, N, BT, T, N]
 play.OX.0.v.0.4.d0:
   definition: move lightly and quickly, so as to appear and disappear; flicker
-  term_tags: [BT, BT, N, BT, N, N, BT, T, BT, N, BT, N, BT]
+  term_tags: [BT, BT, N, BT, N, N, N, N, BT, N, BT, N, BT]
 play.OX.0.v.0.5.d0:
   definition: allow (a fish) to exhaust itself pulling against a line before reeling
     it in
@@ -6699,7 +6699,7 @@ plot.OX.0.n.0.1.d0:
 plot.OX.0.n.0.2.d0:
   definition: a small piece of ground marked out for a purpose such as building or
     gardening
-  term_tags: [N, BT, BT, N, BT, BT, BT, T, N, BT, BT, N, BT, N, BT]
+  term_tags: [N, BT, BT, N, BT, BT, N, N, N, BT, BT, N, BT, N, BT]
 plot.OX.0.n.0.3.d0:
   definition: a graph showing the relation between two variables.
   term_tags: [N, BT, BT, N, BT, N, N, BT, N]
@@ -6708,7 +6708,7 @@ plot.OX.0.n.0.3.0.d0:
   term_tags: [N, BT, N, BT, N, N, BT, N]
 plot.OX.0.v.0.0.d0:
   definition: secretly make plans to carry out (an illegal or harmful action)
-  term_tags: [BT, BT, BT, N, BT, T, N, N, BT, N, BT, BT, N]
+  term_tags: [BT, BT, BT, N, BT, N, N, N, BT, N, BT, BT, N]
 plot.OX.0.v.0.1.d0:
   definition: devise the sequence of events in (a play, novel, movie, or similar work)
   term_tags: [BT, N, BT, N, BT, N, N, N, BT, N, BT, N, BT, N, N, BT, BT, N]
@@ -6717,7 +6717,7 @@ plot.OX.0.v.0.2.d0:
   term_tags: [BT, N, N, BT, N, BT, N, N, N, BT]
 plot.OX.0.v.0.2.0.d0:
   definition: mark out or allocate (points) on a graph
-  term_tags: [BT, T, N, BT, N, BT, N, N, N, BT]
+  term_tags: [BT, N, N, BT, N, BT, N, N, N, BT]
 plot.OX.0.v.0.2.1.d0:
   definition: make (a curve) by marking out a number of points on a graph
   term_tags: [BT, N, N, BT, N, N, BT, N, N, BT, N, BT, N, N, BT]
@@ -6753,7 +6753,7 @@ point.OX.0.n.0.8.d0:
   definition: a unit of measurement for type sizes and spacing, which in the US and
     UK is one twelfth of a pica, or 0.013835 inch (0.351 mm), and in Europe is 0.015
     inch (0.376 mm).
-  term_tags: [N, BT, N, BT, N, BT, BT, N, BT, N, N, N, N, BT, N, BT, BT, N, BT, N,
+  term_tags: [N, BT, N, BT, N, BT, T, N, BT, N, N, N, N, BT, N, BT, BT, N, BT, N,
     N, BT, N, N, N, BT, N, N, BT, N, N, N, N, BT, BT, N, BT, N, N, BT, N, N]
 point.OX.0.n.0.9.d0:
   definition: either of two areas in each attacking zone, just inside the blue line
@@ -6796,12 +6796,12 @@ point.OX.0.v.0.1.d0:
 point.OX.0.v.0.2.d0:
   definition: extend (the toes or feet) in line with the leg by tensing the foot and
     ankle in such a way as to form a point
-  term_tags: [BT, N, N, BT, N, BT, N, BT, T, T, N, BT, N, BT, N, BT, N, BT, N, N,
-    N, BT, BT, T, BT, N, BT]
+  term_tags: [BT, N, N, BT, N, BT, N, N, BT, N, N, BT, N, BT, N, BT, N, BT, N, N,
+    N, BT, N, N, BT, N, BT]
 point.OX.0.v.0.3.d0:
   definition: fill in or repair the joints of (brickwork, a brick structure, or tiling)
     with smoothly finished mortar or cement
-  term_tags: [BT, N, N, BT, N, BT, N, N, BT, N, N, BT, BT, N, N, BT, N, N, BT, BT,
+  term_tags: [BT, T, N, BT, N, BT, N, N, BT, N, N, BT, BT, N, N, BT, N, N, BT, BT,
     BT, N, BT]
 point.OX.0.v.0.4.d0:
   definition: give a sharp, tapered point to
@@ -6888,7 +6888,7 @@ police.OX.0.n.0.0.1.d0:
 police.OX.0.v.0.0.d0:
   definition: (of a police force) have the duty of maintaining law and order in or
     for (an area or event).
-  term_tags: [N, N, N, BT, T, N, BT, N, BT, N, BT, BT, T, T, N, N, N, N, N, BT, N,
+  term_tags: [N, N, N, BT, T, N, BT, N, BT, N, BT, BT, N, BT, N, N, N, N, N, BT, N,
     BT, N, N]
 police.OX.0.v.0.0.0.d0:
   definition: enforce regulations or an agreement in (a particular area or domain)
@@ -6910,7 +6910,7 @@ pool.OX.0.n.0.0.2.d0:
   term_tags: [N, BT, BT, N, N, BT]
 pool.OX.0.v.0.0.d0:
   definition: (of water or another liquid) form a pool on the ground or another surface
-  term_tags: [N, N, BT, N, N, BT, N, BT, N, BT, BT, T, T, N, N, BT]
+  term_tags: [N, N, BT, N, N, BT, N, BT, N, BT, N, BT, T, N, N, BT]
 pool.OX.0.v.0.0.0.d0:
   definition: (of blood) accumulate in parts of the venous system.
   term_tags: [N, N, BT, N, BT, N, BT, N, N, BT, BT, N]
@@ -6925,7 +6925,7 @@ pool.OX.1.n.0.1.d0:
 pool.OX.1.n.0.2.d0:
   definition: a group of contestants who compete against each other in a tournament
     for the right to advance to the next round
-  term_tags: [N, BT, N, BT, N, BT, N, BT, T, N, N, BT, N, N, BT, N, BT, N, N, BT,
+  term_tags: [N, BT, N, BT, N, BT, N, BT, T, N, N, BT, N, BT, T, N, BT, N, N, BT,
     BT]
 pool.OX.1.n.0.3.d0:
   definition: an arrangement, illegal in many countries, between competing parties
@@ -6938,11 +6938,11 @@ pool.OX.1.v.0.0.d0:
   term_tags: [N, N, N, N, BT, BT, N, BT, N, BT, N, BT, N, BT, BT, N, N, N, BT, BT]
 pool.OX.1.v.0.0.0.d0:
   definition: share (things) for the benefit of all those involved
-  term_tags: [BT, N, BT, N, N, N, BT, BT, T, N, BT]
+  term_tags: [BT, N, BT, N, N, N, BT, N, N, N, BT]
 port.OX.0.n.0.0.d0:
   definition: a town or city with a harbor where ships load or unload, especially
     one where customs officers are stationed
-  term_tags: [N, BT, N, BT, N, N, BT, N, BT, BT, N, BT, N, BT, N, N, BT, BT, BT, BT]
+  term_tags: [N, BT, N, BT, N, N, BT, N, BT, BT, N, BT, N, BT, N, N, BT, T, BT, BT]
 port.OX.0.n.0.0.0.d0:
   definition: a harbor
   term_tags: [N, BT]
@@ -6959,7 +6959,7 @@ port.OX.1.n.0.0.d0:
 port.OX.2.n.0.0.d0:
   definition: the side of a ship or aircraft that is on the left when one is facing
     forward
-  term_tags: [N, BT, N, N, BT, N, BT, N, BT, N, N, BT, N, N, BT, BT, BT]
+  term_tags: [N, BT, N, N, BT, N, BT, N, BT, N, BT, T, N, N, BT, BT, BT]
 port.OX.2.v.0.0.d0:
   definition: turn (a ship or its helm) to port
   term_tags: [BT, N, N, BT, N, N, BT, N, N, BT]
@@ -6979,7 +6979,7 @@ port.OX.4.v.0.1.d0:
   definition: carry (a rifle or other weapon) diagonally across and close to the body
     with the barrel or blade near the left shoulder
   term_tags: [BT, N, N, BT, N, BT, BT, N, BT, N, N, BT, N, N, BT, N, N, BT, N, BT,
-    N, N, BT, BT]
+    N, BT, T, BT]
 port.OX.4.n.0.0.d0:
   definition: the position required by an order to port a rifle or other weapon
   term_tags: [N, BT, BT, N, N, BT, N, BT, N, BT, N, BT, BT]
@@ -6995,7 +6995,7 @@ port.OX.5.n.0.0.d0:
 post.OX.0.n.0.0.d0:
   definition: a long, sturdy piece of timber or metal set upright in the ground and
     used to support something or as a marker
-  term_tags: [N, BT, N, BT, BT, N, BT, N, BT, BT, BT, N, BT, T, N, BT, N, BT, BT,
+  term_tags: [N, BT, N, BT, BT, N, BT, N, BT, BT, BT, N, BT, T, N, BT, T, BT, BT,
     N, N, N, BT]
 post.OX.0.n.0.1.d0:
   definition: a piece of writing, image, or other item of content published online,
@@ -7044,13 +7044,13 @@ post.OX.2.n.0.0.d0:
 post.OX.2.n.0.1.d0:
   definition: a place where someone is on duty or where a particular activity is carried
     out
-  term_tags: [N, BT, N, BT, BT, BT, T, N, N, N, BT, BT, BT, BT, N]
+  term_tags: [N, BT, N, BT, BT, N, BT, N, N, N, BT, BT, BT, BT, N]
 post.OX.2.n.0.2.d0:
   definition: the status or rank of full-grade captain in the Royal Navy
   term_tags: [N, BT, N, BT, N, BT, N, BT, BT, N, N, BT, T]
 post.OX.2.v.0.0.d0:
   definition: send (someone) to a particular place to take up an appointment
-  term_tags: [BT, N, BT, N, N, N, BT, BT, N, BT, T, N, BT]
+  term_tags: [BT, N, BT, N, N, N, BT, BT, N, BT, N, N, BT]
 post.OX.2.v.0.0.0.d0:
   definition: station (someone, especially a soldier, guard, or police officer) in
     a particular place
@@ -7062,17 +7062,17 @@ post.OX.4.n.0.0.d0:
 pound.OX.0.n.0.0.d0:
   definition: a unit of weight in general use equal to 16 oz. avoirdupois (0.4536
     kg).
-  term_tags: [N, BT, N, BT, N, BT, BT, BT, N, N, BT, BT, BT, N, N, BT, N, N]
+  term_tags: [N, BT, N, BT, N, BT, BT, BT, T, N, BT, BT, BT, N, N, BT, N, N]
 pound.OX.0.n.0.1.d0:
   definition: the basic monetary unit of the UK, equal to 100 pence.
-  term_tags: [N, BT, BT, T, N, N, BT, N, BT, N, N, BT, N]
+  term_tags: [N, BT, BT, T, N, N, BT, N, BT, T, N, BT, N]
 pound.OX.0.n.0.1.1.d0:
   definition: the basic monetary unit of several Middle Eastern countries, equal to
     100 piastres.
-  term_tags: [N, BT, BT, T, N, BT, BT, T, BT, N, BT, N, N, BT, N]
+  term_tags: [N, BT, BT, T, N, BT, BT, T, BT, N, BT, T, N, BT, N]
 pound.OX.0.n.0.1.2.d0:
   definition: the former basic monetary unit of Cyprus, equal to 100 cents.
-  term_tags: [N, BT, BT, BT, T, N, BT, N, BT, N, N, BT, N]
+  term_tags: [BT, T, BT, BT, T, N, BT, N, BT, T, N, BT, N]
 pound.OX.0.n.0.1.3.d0:
   definition: the basic monetary unit of Sudan.
   term_tags: [N, BT, BT, T, N, BT, N]
@@ -7166,7 +7166,7 @@ princess.OX.0.n.0.1.d0:
   term_tags: [N, BT, N, BT, BT, T]
 princess.OX.0.n.0.2.d0:
   definition: a form of address used by a man to a girl or woman
-  term_tags: [N, BT, T, T, BT, N, N, BT, N, N, BT, N, BT]
+  term_tags: [N, BT, N, BT, BT, N, N, BT, N, N, BT, N, BT]
 pumpkin.OX.0.n.0.0.d0:
   definition: a large rounded orange-yellow fruit with a thick rind, edible flesh,
     and many seeds.
@@ -7188,7 +7188,7 @@ pyramid.OX.0.n.0.0.d0:
   definition: a monumental structure with a square or triangular base and sloping
     sides that meet in a point at the top, especially one built of stone as a royal
     tomb in ancient Egypt.
-  term_tags: [N, BT, BT, N, N, BT, N, BT, BT, N, BT, BT, N, BT, N, N, BT, N, N, BT,
+  term_tags: [N, BT, BT, N, N, BT, N, BT, BT, N, BT, BT, N, BT, N, N, BT, N, BT, T,
     N, BT, N, BT, N, BT, N, N, BT, BT, N, BT, BT, N]
 pyramid.OX.0.n.0.1.d0:
   definition: an object, shape, or arrangement in the form of a pyramid
@@ -7259,7 +7259,7 @@ rabbit.OX.0.v.0.0.d0:
   term_tags: [BT, BT]
 rabbit.OX.0.v.0.1.d0:
   definition: talk at length, especially about trivial matters
-  term_tags: [BT, T, BT, N, BT, N, BT, BT]
+  term_tags: [BT, N, BT, N, BT, N, BT, BT]
 rabbit.OX.0.v.0.2.d0:
   definition: move quickly; run away
   term_tags: [BT, BT, N, BT, T]
@@ -7279,7 +7279,7 @@ racket.OX.1.n.0.1.d0:
   term_tags: [N, BT, N, BT, BT, N, BT, BT]
 racket.OX.1.n.0.1.0.d0:
   definition: a person's line of business or way of life
-  term_tags: [N, BT, N, BT, N, BT, N, BT, T, T]
+  term_tags: [N, BT, N, BT, N, BT, N, BT, N, BT]
 racket.OX.1.v.0.0.d0:
   definition: make a loud unpleasant noise
   term_tags: [BT, N, BT, BT, BT]
@@ -7312,7 +7312,7 @@ ray.OX.0.n.0.2.2.d0:
   term_tags: [N, BT, BT, N, N, BT, N]
 ray.OX.0.v.0.0.d0:
   definition: spread from or as if from a central point
-  term_tags: [BT, N, N, BT, T, N, N, BT, BT]
+  term_tags: [BT, N, N, N, N, N, N, BT, BT]
 ray.OX.0.v.0.0.0.d0:
   definition: radiate (light)
   term_tags: [BT, N, BT, N]
@@ -7325,7 +7325,7 @@ ray.OX.1.n.0.0.d0:
 revolution.OX.0.n.0.0.d0:
   definition: a forcible overthrow of a government or social order, in favor of a
     new system
-  term_tags: [N, BT, BT, N, N, BT, N, BT, T, N, BT, T, T, N, BT, BT]
+  term_tags: [N, BT, BT, N, N, BT, N, BT, T, N, N, BT, N, N, BT, BT]
 revolution.OX.0.n.0.1.d0:
   definition: an instance of revolving
   term_tags: [N, BT, N, BT]
@@ -7353,7 +7353,7 @@ ring.OX.0.n.0.2.d0:
 ring.OX.0.n.0.3.d0:
   definition: a group of people drawn together due to a shared interest or goal, especially
     one involving illegal or unscrupulous activity
-  term_tags: [N, BT, N, BT, BT, BT, BT, T, N, BT, BT, N, BT, N, BT, BT, BT, BT, N,
+  term_tags: [N, BT, N, BT, BT, BT, N, N, N, BT, BT, N, BT, N, BT, BT, BT, BT, N,
     BT, BT]
 ring.OX.0.n.0.5.d0:
   definition: a set of elements with two binary operations, addition and multiplication,
@@ -7429,13 +7429,13 @@ rock.OX.0.n.0.1.d0:
 rock.OX.0.n.0.2.d0:
   definition: used to refer to someone or something that is extremely strong, reliable,
     or hard
-  term_tags: [BT, N, BT, N, BT, N, BT, N, BT, BT, BT, N, BT, N, N, BT]
+  term_tags: [BT, T, BT, T, BT, N, BT, N, BT, BT, BT, N, BT, N, N, BT]
 rock.OX.0.n.0.3.d0:
   definition: money.
   term_tags: [BT, N]
 rock.OX.1.v.0.0.d0:
   definition: move gently to and fro or from side to side
-  term_tags: [BT, BT, BT, T, T, N, BT, T, T, T]
+  term_tags: [BT, BT, BT, T, T, N, N, BT, T, T]
 rock.OX.1.v.0.1.d0:
   definition: dance to or play rock music
   term_tags: [BT, N, N, BT, BT, T]
@@ -7449,7 +7449,7 @@ rock.OX.1.n.0.0.d0:
   term_tags: [BT, T]
 rock.OX.1.n.0.1.d0:
   definition: a gentle movement to and fro or from side to side
-  term_tags: [N, BT, BT, BT, T, T, N, BT, T, T, T]
+  term_tags: [N, BT, BT, BT, T, T, N, N, BT, T, T]
 rome.OX.0.n.0.0.d0:
   definition: the capital of Italy, situated in the west central part of the country,
     on the Tiber River, about 16 miles (25 km) inland; population 2,724,347 (2008).
@@ -7502,7 +7502,7 @@ root.OX.0.v.0.3.d0:
   term_tags: [BT, BT, N, N, BT, BT, N, N, N, BT, N, BT, N]
 root.OX.1.v.0.0.d0:
   definition: (of an animal) turn up the ground with its snout in search of food
-  term_tags: [N, N, N, BT, N, BT, N, BT, T, N, N, BT, N, BT, N, BT]
+  term_tags: [N, N, N, BT, N, BT, T, BT, T, N, N, BT, N, BT, N, BT]
 root.OX.1.v.0.0.0.d0:
   definition: search unsystematically through an untidy mass or area; rummage
   term_tags: [BT, BT, N, N, BT, BT, N, BT, N, BT]
@@ -7526,7 +7526,7 @@ rose.OX.0.n.0.2.d0:
 rose.OX.0.n.0.3.d0:
   definition: a perforated cap attached to a shower, the spout of a watering can,
     or the end of a hose to produce a spray.
-  term_tags: [N, BT, BT, BT, N, N, BT, N, N, BT, N, N, BT, T, N, N, N, BT, N, N, BT,
+  term_tags: [N, BT, BT, BT, T, N, BT, N, N, BT, N, N, BT, T, N, N, N, BT, N, N, BT,
     N, BT, N, BT, N]
 rose.OX.0.v.0.0.d0:
   definition: make rosy
@@ -7536,7 +7536,7 @@ roulette.OX.0.n.0.0.d0:
     wheel) with numbered compartments, the players betting on the number at which
     the ball will come to rest.
   term_tags: [N, BT, BT, N, N, N, BT, BT, BT, N, N, BT, BT, N, BT, BT, N, N, BT, BT,
-    N, N, BT, BT, N, N, BT, N, N, N, BT, N, BT, N, BT, N]
+    N, N, BT, BT, N, N, BT, N, N, N, BT, N, BT, T, BT, N]
 roulette.OX.0.n.0.1.d0:
   definition: a tool or machine with a revolving toothed wheel, used in engraving
     or for making slit-shaped perforations between postage stamps.
@@ -7583,8 +7583,8 @@ round.OX.0.n.0.4.d0:
   definition: a song for three or more unaccompanied voices or parts, each singing
     the same theme but starting one after another, at the same pitch or in octaves;
     a simple canon.
-  term_tags: [N, BT, N, N, N, BT, BT, BT, N, BT, N, N, BT, BT, T, BT, N, BT, BT, T,
-    T, N, N, BT, T, BT, N, N, BT, N, N, BT, BT, N]
+  term_tags: [N, BT, N, N, N, BT, BT, BT, N, BT, N, N, BT, BT, T, BT, N, BT, N, N,
+    N, N, N, BT, T, BT, N, N, BT, N, N, BT, BT, N]
 round.OX.0.n.0.5.d0:
   definition: the amount of ammunition needed to fire one shot
   term_tags: [N, BT, N, BT, BT, N, BT, N, BT]
@@ -7593,7 +7593,7 @@ round.OX.0.n.0.5.0.d0:
   term_tags: [N, BT, BT, N, BT, BT, N, N, BT, BT, N]
 round.OX.0.v.0.0.d0:
   definition: pass and go around (something) so as to move on in a changed direction
-  term_tags: [BT, N, BT, T, N, BT, N, N, BT, T, BT, T, N, N, BT, BT]
+  term_tags: [BT, N, BT, T, N, BT, N, N, N, N, BT, T, N, N, BT, BT]
 round.OX.0.v.0.1.d0:
   definition: alter (a number) to one less exact but more convenient for calculations
   term_tags: [BT, N, N, BT, N, N, N, BT, BT, N, BT, BT, N, BT]
@@ -7675,7 +7675,7 @@ satellite.OX.0.n.0.2.d0:
 satellite.OX.0.n.0.3.d0:
   definition: a portion of the DNA of a genome with repeating base sequences and of
     different density from the main sequence.
-  term_tags: [N, BT, N, N, BT, N, N, BT, N, BT, BT, BT, N, N, BT, BT, N, BT, T, BT,
+  term_tags: [N, BT, N, N, BT, N, N, BT, N, BT, BT, T, N, N, BT, BT, N, BT, T, BT,
     N]
 saturn.OX.0.n.0.0.d0:
   definition: the sixth planet from the sun in the solar system, circled by a system
@@ -7687,8 +7687,8 @@ saturn.OX.0.n.0.1.d0:
 saturn.OX.0.n.0.2.d0:
   definition: "a series of US space rockets, of which the very large Saturn V was\
     \ used as the launch vehicle for the Apollo missions of 1968\u201372."
-  term_tags: [N, BT, N, BT, BT, BT, N, N, N, N, BT, BT, BT, BT, BT, BT, N, N, BT,
-    T, N, N, BT, BT, N, N, N]
+  term_tags: [N, BT, N, BT, BT, T, N, N, N, N, BT, BT, BT, BT, BT, BT, N, N, BT, T,
+    N, N, BT, BT, N, N, N]
 scale.OX.0.n.0.0.d0:
   definition: each of the small, thin horny or bony plates protecting the skin of
     fish and reptiles, typically overlapping one another.
@@ -7778,7 +7778,7 @@ school.OX.0.n.0.2.0.d0:
   term_tags: [N, BT, N, BT, N, N, BT, N, N, BT, BT]
 school.OX.0.v.0.0.d0:
   definition: send to school; educate
-  term_tags: [BT, T, BT, N, BT]
+  term_tags: [BT, N, BT, N, BT]
 school.OX.0.v.0.0.0.d0:
   definition: train or discipline (someone) in a particular skill or activity
   term_tags: [BT, N, BT, N, BT, N, N, N, BT, BT, N, BT]
@@ -7811,7 +7811,7 @@ scorpion.OX.0.n.0.0.2.d0:
 screen.OX.0.n.0.0.d0:
   definition: a fixed or movable upright partition used to divide a room, give shelter
     from drafts, heat, or light, or to provide concealment or privacy
-  term_tags: [N, BT, N, BT, BT, BT, BT, N, BT, N, BT, N, BT, BT, N, BT, N, BT, N,
+  term_tags: [N, BT, N, BT, BT, BT, BT, T, BT, N, BT, N, BT, BT, N, BT, N, BT, N,
     N, BT, N, N, N, BT, BT, N, BT]
 screen.OX.0.n.0.1.d0:
   definition: a flat panel or area on an electronic device such as a television, computer,
@@ -7843,24 +7843,24 @@ screen.OX.0.v.0.2.d0:
 screen.OX.0.v.0.3.d0:
   definition: pass (a substance such as grain or coal) through a large sieve or screen,
     especially so as to sort it into different sizes
-  term_tags: [BT, N, N, BT, BT, N, BT, N, BT, N, N, N, BT, BT, N, BT, N, BT, N, BT,
-    T, BT, N, N, BT, BT]
+  term_tags: [BT, N, N, BT, BT, N, BT, N, BT, N, N, N, BT, BT, N, BT, N, BT, N, N,
+    N, BT, N, N, BT, BT]
 screen.OX.0.v.0.4.d0:
   definition: project (a photograph or other image) through a transparent ruled plate
     so as to be able to reproduce it as a halftone.
-  term_tags: [BT, N, N, BT, N, BT, BT, N, N, N, BT, BT, BT, N, BT, T, BT, BT, N, BT,
+  term_tags: [BT, N, N, BT, N, BT, BT, N, N, N, BT, BT, BT, N, N, N, BT, BT, N, BT,
     N, N, N, BT, N]
 seal.OX.0.n.0.0.d0:
   definition: a device or substance that is used to join two things together so as
     to prevent them from coming apart or to prevent anything from passing between
     them
-  term_tags: [N, BT, N, BT, N, BT, BT, N, BT, N, BT, BT, N, BT, T, BT, N, N, BT, BT,
+  term_tags: [N, BT, N, BT, N, BT, BT, T, BT, N, BT, BT, N, N, N, BT, N, N, BT, BT,
     N, N, BT, BT, N, BT, N, N]
 seal.OX.0.n.0.1.d0:
   definition: a piece of wax, lead, or other material with an individual design stamped
     into it, attached to a document to show that it has come from the person who claims
     to have issued it.
-  term_tags: [N, BT, N, BT, N, BT, N, N, BT, BT, N, N, BT, BT, BT, N, N, N, BT, N,
+  term_tags: [N, BT, N, BT, N, BT, N, N, BT, BT, N, N, BT, BT, BT, N, N, N, BT, T,
     N, BT, N, BT, N, N, BT, BT, N, N, BT, N, BT, N, BT, BT, N, N]
 seal.OX.0.n.0.2.d0:
   definition: a thing regarded as a confirmation or guarantee of something
@@ -7910,13 +7910,13 @@ shadow.OX.0.n.0.0.d0:
 shadow.OX.0.n.0.1.d0:
   definition: used in reference to proximity, ominous oppressiveness, or sadness and
     gloom
-  term_tags: [BT, BT, T, T, BT, N, BT, BT, N, N, BT, N, BT]
+  term_tags: [BT, N, BT, N, BT, N, BT, BT, N, N, BT, N, BT]
 shadow.OX.0.n.0.2.d0:
   definition: an inseparable attendant or companion
   term_tags: [N, BT, BT, N, BT]
 shadow.OX.0.v.0.0.d0:
   definition: envelop in shadow; cast a shadow over
-  term_tags: [BT, N, BT, N, BT, T, T, T]
+  term_tags: [BT, N, BT, N, BT, N, BT, N]
 shadow.OX.0.v.0.1.d0:
   definition: follow and observe (someone) closely and secretly
   term_tags: [BT, N, BT, N, BT, N, BT, N, BT]
@@ -7927,7 +7927,7 @@ shadow.OX.0.v.0.1.0.d0:
 shadow.OX.0.v.0.1.1.d0:
   definition: accompany (someone) in their daily activities at work in order to gain
     experience at or insight into a job
-  term_tags: [BT, N, BT, N, N, N, BT, BT, BT, T, N, BT, N, BT, BT, N, N, BT, N, N,
+  term_tags: [BT, N, BT, N, N, N, BT, BT, N, BT, N, BT, N, BT, BT, N, N, BT, N, N,
     BT]
 shark.OX.0.n.0.0.d0:
   definition: a long-bodied chiefly marine fish with a cartilaginous skeleton, a prominent
@@ -8009,7 +8009,7 @@ shoe.OX.0.n.0.1.3.d0:
 shoe.OX.0.n.0.1.4.d0:
   definition: a box from which cards are dealt in casinos at baccarat or some other
     card games.
-  term_tags: [N, BT, N, N, BT, BT, BT, N, BT, N, BT, N, N, BT, BT, BT, N]
+  term_tags: [N, BT, N, N, BT, BT, BT, N, BT, N, BT, N, N, BT, BT, T, N]
 shoe.OX.0.v.0.0.d0:
   definition: fit (a horse) with a shoe or shoes.
   term_tags: [BT, N, N, BT, N, N, N, BT, N, BT, N]
@@ -8155,7 +8155,7 @@ slip.OX.0.n.0.0.d0:
   term_tags: [N, BT, N, BT, BT, N, N, BT, BT]
 slip.OX.0.n.0.1.d0:
   definition: a fall to a lower level or standard
-  term_tags: [N, BT, T, N, BT, BT, N, BT]
+  term_tags: [N, BT, N, N, BT, BT, N, BT]
 slip.OX.0.n.0.2.d0:
   definition: a woman's loose-fitting, dress- or skirt-length undergarment, suspended
     by shoulder straps (full slip) or by an elasticized waistband (half slip)
@@ -8220,12 +8220,12 @@ smuggler.OX.0.n.0.0.d0:
 snow.OX.0.n.0.0.d0:
   definition: atmospheric water vapor frozen into ice crystals and falling in light
     white flakes or lying on the ground as a white layer
-  term_tags: [BT, BT, BT, BT, N, BT, BT, N, BT, T, BT, BT, BT, N, BT, BT, T, T, N,
+  term_tags: [BT, BT, BT, BT, N, BT, BT, N, BT, T, BT, BT, BT, N, BT, N, BT, T, N,
     N, BT, BT]
 snow.OX.0.n.0.1.d0:
   definition: a mass of flickering white spots on a television or radar screen, caused
     by interference or a poor signal
-  term_tags: [N, BT, N, BT, BT, BT, N, N, BT, N, BT, T, N, BT, N, BT, N, N, BT, BT]
+  term_tags: [N, BT, N, BT, BT, T, N, N, BT, N, BT, T, N, BT, N, BT, N, N, BT, BT]
 snow.OX.0.n.0.2.d0:
   definition: a dessert or other dish resembling snow
   term_tags: [N, BT, N, BT, BT, BT, BT]
@@ -8302,11 +8302,11 @@ sound.OX.0.n.0.0.d0:
     BT, N, BT]
 sound.OX.0.n.0.1.d0:
   definition: sound produced by continuous and regular vibrations, as opposed to noise.
-  term_tags: [BT, BT, N, BT, N, BT, BT, N, N, BT, N, BT, N]
+  term_tags: [BT, BT, N, BT, N, BT, BT, N, N, BT, T, BT, N]
 sound.OX.0.n.0.2.d0:
   definition: music, speech, and sound effects when recorded, used to accompany a
     film or video production, or broadcast
-  term_tags: [BT, N, BT, N, N, BT, T, N, BT, N, BT, N, BT, N, BT, N, BT, BT, N, N,
+  term_tags: [BT, N, BT, N, N, BT, T, N, BT, N, BT, T, BT, N, BT, N, BT, BT, N, N,
     BT]
 sound.OX.0.n.0.3.d0:
   definition: the ideas or impressions conveyed by words
@@ -8340,7 +8340,7 @@ sound.OX.2.v.0.0.d0:
 sound.OX.2.v.0.1.d0:
   definition: question (someone), typically in a cautious or discreet way, as to their
     opinions or feelings on a subject
-  term_tags: [BT, N, BT, N, N, BT, N, N, BT, N, BT, BT, N, BT, T, N, BT, N, BT, N,
+  term_tags: [BT, N, BT, N, N, BT, N, N, BT, N, BT, BT, N, N, N, N, BT, N, BT, N,
     N, BT]
 sound.OX.2.v.0.2.d0:
   definition: (especially of a whale) dive down steeply to a great depth
@@ -8363,7 +8363,7 @@ space.OX.0.n.0.1.d0:
 space.OX.0.n.0.2.d0:
   definition: an interval of time (often used to suggest that the time is short considering
     what has happened or been achieved in it)
-  term_tags: [N, BT, N, BT, N, BT, BT, N, BT, N, N, BT, BT, BT, BT, N, BT, BT, N,
+  term_tags: [N, BT, N, BT, N, BT, BT, T, BT, N, N, BT, BT, BT, BT, N, BT, BT, N,
     BT, BT, N, N, N]
 space.OX.0.n.0.3.d0:
   definition: the portion of a text or document available or needed to write about
@@ -8372,7 +8372,7 @@ space.OX.0.n.0.3.d0:
 space.OX.0.n.0.4.d0:
   definition: the freedom and scope to live, think, and develop in a way that suits
     one
-  term_tags: [N, BT, N, BT, N, BT, N, BT, N, N, BT, BT, T, T, N, BT, N]
+  term_tags: [N, BT, N, BT, N, BT, N, BT, N, N, BT, N, N, BT, N, BT, N]
 space.OX.0.n.0.5.d0:
   definition: one of two possible states of a signal in certain systems.
   term_tags: [N, N, N, BT, BT, N, N, BT, N, BT, BT, N]
@@ -8438,7 +8438,7 @@ spider.OX.0.n.0.1.d0:
   term_tags: [N, BT, BT, N, BT, N, BT, BT, BT, BT, N, BT, BT, N, BT, BT, N]
 spider.OX.0.v.0.0.d0:
   definition: move in a scuttling manner suggestive of a spider
-  term_tags: [BT, N, N, BT, BT, BT, N, N, BT]
+  term_tags: [BT, T, N, BT, BT, BT, N, N, BT]
 spike.OX.0.n.0.0.d0:
   definition: a thin, pointed piece of metal, wood, or another rigid material.
   term_tags: [N, BT, N, BT, BT, N, BT, N, BT, N, N, N, BT, BT, N]
@@ -8471,7 +8471,7 @@ spike.OX.0.v.0.3.0.d0:
 spike.OX.1.n.0.0.d0:
   definition: a flower cluster formed of many flower heads attached directly to a
     long stem.
-  term_tags: [N, BT, BT, BT, N, BT, BT, BT, BT, BT, N, N, BT, BT, N]
+  term_tags: [N, BT, BT, BT, N, BT, BT, T, BT, BT, N, N, BT, BT, N]
 spine.OX.0.n.0.0.d0:
   definition: a series of vertebrae extending from the skull to the small of the back,
     enclosing the spinal cord and providing support for the thorax and abdomen; the
@@ -8497,7 +8497,7 @@ spine.OX.0.n.0.3.d0:
 spot.OX.0.n.0.0.d0:
   definition: a small round or roundish mark, differing in color or texture from the
     surface around it
-  term_tags: [N, BT, T, N, BT, BT, N, BT, N, BT, N, BT, N, N, BT, N, N]
+  term_tags: [N, BT, BT, N, BT, BT, N, BT, N, BT, N, BT, N, N, BT, N, N]
 spot.OX.0.n.0.1.d0:
   definition: a particular place or point
   term_tags: [N, BT, BT, N, BT]
@@ -8591,7 +8591,7 @@ spy.OX.0.v.0.0.0.d0:
   term_tags: [BT, N, BT, N, BT]
 spy.OX.0.v.0.0.1.d0:
   definition: discern or make out, especially by careful observation
-  term_tags: [BT, N, BT, T, N, BT, N, BT, BT]
+  term_tags: [BT, N, BT, N, N, BT, N, BT, BT]
 spy.OX.0.v.0.0.2.d0:
   definition: collect information about something to use in deciding how to act
   term_tags: [BT, BT, N, BT, N, BT, N, BT, N, N, BT]
@@ -8622,7 +8622,7 @@ square.OX.0.a.0.0.d0:
 square.OX.0.a.0.1.d0:
   definition: denoting a unit of measurement equal to the area of a square whose side
     is of the unit specified
-  term_tags: [BT, N, BT, N, BT, BT, N, N, BT, N, N, BT, N, BT, BT, N, N, BT, BT]
+  term_tags: [BT, N, BT, N, BT, BT, T, N, BT, N, N, BT, N, BT, BT, N, N, BT, BT]
 square.OX.0.a.0.2.d0:
   definition: at right angles; perpendicular
   term_tags: [N, BT, T, N, BT]
@@ -8772,7 +8772,7 @@ stick.OX.0.n.0.3.d0:
   term_tags: [BT, BT, N, BT]
 stick.OX.0.n.0.4.d0:
   definition: rural areas far from cities
-  term_tags: [BT, BT, BT, T, BT]
+  term_tags: [BT, BT, BT, N, BT]
 stick.OX.0.n.0.5.d0:
   definition: a person of a specified kind
   term_tags: [N, BT, N, N, BT, BT]
@@ -8794,7 +8794,7 @@ stick.OX.1.v.0.4.d0:
 stock.OX.0.n.0.0.d0:
   definition: the goods or merchandise kept on the premises of a business or warehouse
     and available for sale or distribution
-  term_tags: [N, BT, N, BT, BT, N, N, BT, N, N, BT, N, BT, N, BT, BT, T, N, BT]
+  term_tags: [N, BT, N, BT, BT, N, N, BT, N, N, BT, N, BT, N, BT, N, BT, N, BT]
 stock.OX.0.n.0.1.d0:
   definition: the capital raised by a business or corporation through the issue and
     subscription of shares
@@ -8836,15 +8836,15 @@ stock.OX.0.n.0.8.d0:
 stock.OX.0.n.0.9.d0:
   definition: a frame used to support a ship or boat out of water, especially when
     under construction.
-  term_tags: [N, BT, BT, N, BT, N, BT, N, BT, BT, T, BT, N, BT, N, N, BT, N]
+  term_tags: [N, BT, BT, T, BT, N, BT, N, BT, N, N, BT, N, BT, N, N, BT, N]
 stock.OX.0.a.0.0.d0:
   definition: (of a product or type of product) usually kept in stock and thus regularly
     available for sale
-  term_tags: [N, N, N, BT, N, BT, N, BT, N, BT, BT, N, BT, N, BT, BT, BT, BT, T]
+  term_tags: [N, N, N, BT, N, BT, N, BT, N, BT, BT, N, BT, N, BT, BT, BT, N, BT]
 stock.OX.0.a.0.1.d0:
   definition: (of a phrase or expression) so regularly used as to be automatic or
     hackneyed
-  term_tags: [N, N, N, BT, N, BT, N, BT, BT, BT, BT, T, BT, BT, N, BT]
+  term_tags: [N, N, N, BT, N, BT, N, BT, BT, BT, N, N, BT, BT, N, BT]
 stock.OX.0.a.0.1.0.d0:
   definition: denoting a conventional character type or situation that recurs in a
     particular genre of literature, theater, or film
@@ -8854,11 +8854,11 @@ stock.OX.0.a.0.1.1.d0:
     in different productions, typically that of outdoor scenes used to add realism
     to a production shot in an indoor set.
   term_tags: [BT, N, BT, N, BT, BT, N, N, BT, BT, BT, N, BT, BT, N, BT, N, N, BT,
-    BT, BT, N, BT, BT, N, N, BT, BT, N, N, BT, BT, N]
+    BT, BT, T, BT, BT, N, N, BT, BT, N, N, BT, BT, N]
 stock.OX.0.v.0.0.d0:
   definition: have or keep a supply of (a particular product or type or product) available
     for sale
-  term_tags: [BT, N, BT, N, BT, N, N, N, BT, BT, N, BT, N, BT, N, BT, BT, T]
+  term_tags: [BT, N, BT, N, BT, N, N, N, BT, BT, N, BT, N, BT, N, BT, N, BT]
 stock.OX.0.v.0.1.d0:
   definition: fit (a rifle or other firearm) with a stock
   term_tags: [BT, N, N, BT, N, BT, BT, N, N, N, BT]
@@ -8920,7 +8920,7 @@ strike.OX.0.v.0.5.d0:
     N, BT, BT, N, BT, N, N, BT]
 strike.OX.0.v.0.6.d0:
   definition: cancel, remove, or cross out with or as if with a pen
-  term_tags: [BT, N, BT, N, N, BT, BT, T, N, BT, T, N, N, BT]
+  term_tags: [BT, N, BT, N, N, BT, N, N, N, N, N, N, N, BT]
 strike.OX.0.v.0.7.d0:
   definition: make (a coin or medal) by stamping metal
   term_tags: [BT, N, N, BT, N, BT, N, N, BT, BT]
@@ -9021,11 +9021,11 @@ suit.OX.0.n.0.1.d0:
   definition: any of the sets distinguished by their pictorial symbols into which
     a deck of playing cards is divided, in conventional decks comprising spades, hearts,
     diamonds, and clubs.
-  term_tags: [N, N, N, BT, BT, N, N, BT, BT, N, N, N, BT, N, BT, BT, BT, BT, N, N,
+  term_tags: [N, N, N, BT, BT, N, N, BT, BT, N, N, N, BT, N, BT, T, BT, BT, N, N,
     BT, BT, BT, BT, N, BT, N, BT, N, N, BT, N]
 suit.OX.0.n.0.3.d0:
   definition: the process of trying to win a woman's affection with a view to marriage
-  term_tags: [N, BT, N, BT, N, BT, N, BT, N, BT, BT, T, T, T, BT]
+  term_tags: [N, BT, N, BT, N, BT, N, BT, N, BT, N, N, BT, N, BT]
 suit.OX.0.n.0.4.d0:
   definition: a complete set of sails required for a ship or for a set of spars
   term_tags: [N, BT, BT, N, BT, BT, N, N, BT, N, N, N, BT, N, BT]
@@ -9044,13 +9044,13 @@ superhero.OX.0.n.0.0.d0:
 swing.OX.0.v.0.0.d0:
   definition: move or cause to move back and forth or from side to side while suspended
     or on an axis
-  term_tags: [BT, N, BT, N, BT, BT, T, T, N, BT, T, T, T, N, BT, N, N, N, BT]
+  term_tags: [BT, N, BT, N, BT, BT, N, BT, N, N, BT, T, T, N, BT, N, N, N, BT]
 swing.OX.0.v.0.1.d0:
   definition: move by grasping a support from below and leaping
   term_tags: [BT, N, BT, N, BT, N, BT, N, BT]
 swing.OX.0.v.0.2.d0:
   definition: move or cause to move in a smooth, curving line
-  term_tags: [BT, N, BT, N, BT, N, N, BT, N, BT, BT]
+  term_tags: [BT, N, BT, N, BT, T, N, BT, N, BT, BT]
 swing.OX.0.v.0.3.d0:
   definition: shift or cause to shift from one opinion, mood, or state of affairs
     to another
@@ -9060,7 +9060,7 @@ swing.OX.0.v.0.4.d0:
   term_tags: [BT, BT, N, N, BT, BT, N, BT, BT]
 swing.OX.0.v.0.5.d0:
   definition: (of an event, place, or way of life) be lively, exciting, or fashionable.
-  term_tags: [N, N, N, BT, N, BT, N, N, BT, T, T, N, BT, BT, N, BT, N, N, BT, N]
+  term_tags: [N, N, N, BT, N, BT, N, N, BT, N, BT, N, BT, BT, N, BT, N, N, BT, N]
 swing.OX.0.v.0.6.d0:
   definition: engage in group sex or swap sexual partners within a group, especially
     on a habitual basis.
@@ -9068,7 +9068,7 @@ swing.OX.0.v.0.6.d0:
 swing.OX.0.n.0.0.d0:
   definition: a seat suspended by ropes or chains, on which someone may sit and swing
     back and forth.
-  term_tags: [N, BT, BT, N, BT, N, BT, N, N, N, BT, N, BT, N, BT, BT, T, T, N]
+  term_tags: [N, BT, BT, N, BT, N, BT, N, N, N, BT, N, BT, N, BT, BT, N, BT, N]
 swing.OX.0.n.0.1.d0:
   definition: an act of swinging
   term_tags: [N, BT, N, BT]
@@ -9093,7 +9093,7 @@ switch.OX.0.n.0.0.d0:
 switch.OX.0.n.0.1.d0:
   definition: an act of adopting one policy or way of life, or choosing one type of
     item, in place of another; a change, especially a radical one
-  term_tags: [N, BT, N, BT, N, BT, N, BT, T, T, N, N, BT, N, BT, N, BT, N, BT, T,
+  term_tags: [N, BT, N, BT, N, BT, N, BT, N, BT, N, N, BT, N, BT, N, BT, N, N, BT,
     N, N, N, N, BT, N, BT, N, BT, BT]
 switch.OX.0.n.0.2.d0:
   definition: a slender, flexible shoot cut from a tree.
@@ -9101,7 +9101,7 @@ switch.OX.0.n.0.2.d0:
 switch.OX.0.n.0.3.d0:
   definition: a junction of two railroad tracks, with a pair of linked tapering rails
     that can be moved laterally to allow a train to pass from one line to the other.
-  term_tags: [N, BT, N, N, BT, BT, N, N, N, BT, N, BT, BT, BT, N, N, BT, BT, BT, N,
+  term_tags: [N, BT, N, N, BT, T, N, N, N, BT, N, BT, BT, BT, N, N, BT, BT, BT, N,
     BT, N, BT, N, BT, N, N, BT, N, N, BT, N]
 switch.OX.0.n.0.4.d0:
   definition: a tress of false or detached hair tied at one end, used in hairdressing
@@ -9113,7 +9113,7 @@ switch.OX.0.v.0.0.d0:
   term_tags: [BT, N, BT, N, BT, N, N, BT, N]
 switch.OX.0.v.0.1.d0:
   definition: beat or flick with or as if with a switch.
-  term_tags: [BT, N, BT, N, N, BT, T, N, N, BT, N]
+  term_tags: [BT, N, BT, N, N, N, N, N, N, BT, N]
 table.OX.0.n.0.0.d0:
   definition: a piece of furniture with a flat top and one or more legs, providing
     a level surface on which objects may be placed, and that can be used for such
@@ -9166,10 +9166,10 @@ tablet.OX.0.n.0.3.d0:
 tag.OX.0.n.0.0.d0:
   definition: a label attached to someone or something for the purpose of identification
     or to give other information
-  term_tags: [N, BT, BT, N, BT, N, BT, N, N, BT, N, BT, N, N, BT, BT, BT]
+  term_tags: [N, BT, BT, T, BT, N, BT, N, N, BT, N, BT, N, N, BT, BT, BT]
 tag.OX.0.n.0.1.d0:
   definition: a small piece or part that is attached to a main body.
-  term_tags: [N, BT, BT, N, BT, N, BT, BT, N, N, BT, BT, N]
+  term_tags: [N, BT, BT, N, BT, N, BT, BT, T, N, BT, BT, N]
 tag.OX.0.n.0.2.d0:
   definition: a frequently repeated quotation or stock phrase
   term_tags: [N, BT, BT, BT, N, BT, BT]
@@ -9242,7 +9242,7 @@ tail.OX.0.n.0.4.d0:
   term_tags: [N, BT, N, BT]
 tail.OX.0.n.0.5.d0:
   definition: the reverse side of a coin (used when tossing a coin)
-  term_tags: [N, BT, BT, N, N, BT, N, BT, N, BT, N, BT, N]
+  term_tags: [BT, T, BT, N, N, BT, N, BT, N, BT, N, BT, N]
 tail.OX.0.v.0.0.d0:
   definition: follow and observe (someone) closely, especially in secret
   term_tags: [BT, N, BT, N, BT, N, BT, N, BT, N, BT]
@@ -9324,7 +9324,7 @@ telescope.OX.0.v.0.0.0.d0:
   term_tags: [BT, N, N, BT, N, N, N, BT, N, N, BT]
 telescope.OX.0.v.0.0.1.d0:
   definition: condense or conflate so as to occupy less space or time
-  term_tags: [BT, N, BT, N, BT, T, BT, BT, BT, N, BT]
+  term_tags: [BT, N, BT, N, N, N, BT, BT, BT, N, BT]
 temple.OX.0.n.0.0.d0:
   definition: a building for religious worship, especially in religions other than
     Christianity.
@@ -9333,7 +9333,7 @@ temple.OX.0.n.0.1.d0:
   definition: a group of buildings in Fleet Street, London, which stand on land formerly
     occupied by the headquarters of the Knights Templar. Located there are the Inner
     and Outer Temple, two of the Inns of Court.
-  term_tags: [N, BT, N, BT, N, BT, T, N, BT, N, N, BT, N, BT, BT, BT, N, N, BT, N,
+  term_tags: [N, BT, N, BT, N, BT, T, N, BT, N, N, BT, T, BT, BT, BT, N, N, BT, N,
     N, BT, T, N, BT, N, BT, N, BT, N, BT, BT, N, N, N, N, BT, T, T, N]
 temple.OX.1.n.0.0.d0:
   definition: the flat part of either side of the head between the forehead and the
@@ -9341,7 +9341,7 @@ temple.OX.1.n.0.0.d0:
   term_tags: [N, BT, BT, N, N, BT, N, N, BT, N, N, BT, N, N, BT]
 temple.OX.2.n.0.0.d0:
   definition: a device in a loom for keeping the cloth stretched.
-  term_tags: [N, BT, N, N, BT, N, BT, N, BT, BT, N]
+  term_tags: [N, BT, N, N, BT, N, BT, BT, T, BT, N]
 temple.OX.3.n.0.0.d0:
   definition: an industrial and commercial city in central Texas; population 59,654
     (est. 2008).
@@ -9391,21 +9391,21 @@ thumb.OX.0.v.0.0.d0:
   term_tags: [BT, N, BT, N, N, BT, N, BT, N, N, N, N, BT]
 thumb.OX.0.v.0.0.0.d0:
   definition: turn over (pages) with or as if with one's thumb
-  term_tags: [BT, N, N, BT, N, N, N, BT, T, N, N, N, BT]
+  term_tags: [BT, T, N, BT, N, N, N, N, N, N, N, N, BT]
 thumb.OX.0.v.0.0.1.d0:
   definition: wear or soil (a book's pages) by repeated handling
   term_tags: [BT, N, BT, N, N, BT, N, BT, N, N, BT, BT]
 thumb.OX.0.v.0.0.2.d0:
   definition: request or obtain (a free ride in a passing vehicle) by signaling with
     one's thumb
-  term_tags: [BT, N, BT, N, BT, T, T, N, N, BT, BT, N, N, BT, N, N, N, BT]
+  term_tags: [BT, N, BT, N, N, BT, BT, N, N, BT, BT, N, N, BT, N, N, N, BT]
 tick.OX.0.n.0.0.d0:
   definition: a regular short, sharp sound, especially that made by a clock or watch.
   term_tags: [N, BT, BT, N, BT, BT, N, BT, N, BT, N, N, BT, N, BT, N]
 tick.OX.0.n.0.1.d0:
   definition: "a mark (\u2713) used to indicate that an item in a list or text is\
     \ correct or has been chosen, checked, or dealt with; a check mark."
-  term_tags: [N, BT, N, BT, N, BT, N, BT, N, N, BT, N, N, BT, N, BT, BT, BT, N, BT,
+  term_tags: [N, BT, N, BT, N, BT, T, BT, N, N, BT, N, N, BT, N, BT, BT, BT, N, BT,
     BT, BT, N, BT, N, N, BT, N, N, N, BT, T, N]
 tick.OX.0.n.0.2.d0:
   definition: the smallest recognized amount by which a price of a security or future
@@ -9486,7 +9486,7 @@ time.OX.0.n.0.4.d0:
   term_tags: [N, BT, N, BT, N, BT, BT]
 time.OX.0.n.0.5.d0:
   definition: the rhythmic pattern of a piece of music, as expressed by a time signature
-  term_tags: [N, BT, BT, BT, T, T, N, BT, N, N, BT, N, N, BT, T]
+  term_tags: [N, BT, BT, N, N, BT, N, BT, N, N, BT, N, N, BT, T]
 time.OX.0.n.0.5.0.d0:
   definition: the tempo at which a piece of music is played or marked to be played.
   term_tags: [N, BT, N, N, N, BT, N, BT, BT, BT, N, BT, N, BT, BT, N]
@@ -9553,7 +9553,7 @@ tower.OX.0.v.0.0.d0:
 tower.OX.0.v.0.1.d0:
   definition: (of a bird) soar to a great height, especially (of a falcon) so as to
     be able to swoop down on the quarry.
-  term_tags: [N, N, N, BT, N, BT, N, N, BT, BT, N, BT, N, N, N, BT, N, N, BT, T, BT,
+  term_tags: [N, N, N, BT, N, BT, N, N, BT, BT, N, BT, N, N, N, BT, N, N, N, N, BT,
     BT, N, BT, N, N, N, BT, N]
 track.OX.0.n.0.0.d0:
   definition: a rough path or minor road, typically one beaten by use rather than
@@ -9561,7 +9561,7 @@ track.OX.0.n.0.0.d0:
   term_tags: [N, BT, BT, N, BT, BT, N, BT, N, BT, N, BT, BT, N, BT]
 track.OX.0.n.0.1.d0:
   definition: a mark or line of marks left by a person, animal, or vehicle in passing
-  term_tags: [N, BT, N, BT, N, BT, BT, N, N, BT, N, BT, N, N, BT, BT, T]
+  term_tags: [N, BT, N, BT, N, BT, BT, N, N, BT, N, BT, N, N, BT, N, BT]
 track.OX.0.n.0.2.d0:
   definition: a continuous line of rails on a railroad
   term_tags: [N, BT, BT, N, BT, N, N, BT]
@@ -9611,7 +9611,7 @@ train.OX.0.v.0.1.d0:
   term_tags: [BT, N, BT, BT, N, BT, N, BT, N, BT, N, N]
 train.OX.0.v.0.2.d0:
   definition: go by train
-  term_tags: [BT, T, BT]
+  term_tags: [BT, N, BT]
 train.OX.0.v.0.3.d0:
   definition: entice (someone) by offering pleasure or a reward.
   term_tags: [BT, N, BT, N, N, BT, BT, N, N, BT, N]
@@ -9625,7 +9625,7 @@ train.OX.0.n.0.1.d0:
 train.OX.0.n.0.2.d0:
   definition: a long piece of material attached to the back of a formal dress or robe
     that trails along the ground
-  term_tags: [N, BT, BT, N, BT, BT, N, N, BT, N, N, BT, T, N, BT, N, BT, N, BT, T]
+  term_tags: [N, BT, BT, N, BT, BT, T, N, BT, N, N, BT, T, N, BT, N, BT, N, BT, T]
 train.OX.0.n.0.3.d0:
   definition: a trail of gunpowder for firing an explosive charge.
   term_tags: [N, BT, N, BT, N, BT, N, BT, BT, N]
@@ -9647,14 +9647,14 @@ triangle.OX.0.n.0.0.2.d0:
     BT, BT, N]
 triangle.OX.0.n.0.0.3.d0:
   definition: a frame used to position the balls in pool and snooker.
-  term_tags: [N, BT, BT, N, BT, N, BT, N, BT, N, BT, N]
+  term_tags: [N, BT, BT, T, BT, N, BT, N, BT, N, BT, N]
 triangle.OX.0.n.0.0.4.d0:
   definition: a drawing instrument in the form of a right triangle.
   term_tags: [N, BT, BT, N, N, BT, N, N, BT, T, N]
 triangle.OX.0.n.0.0.5.d0:
   definition: a frame of three halberds joined at the top to which a soldier was bound
     for flogging.
-  term_tags: [N, BT, N, N, BT, BT, N, N, BT, N, N, N, BT, BT, BT, N, BT, N]
+  term_tags: [N, BT, N, N, BT, BT, N, BT, T, N, N, N, BT, BT, BT, N, BT, N]
 trip.OX.0.v.0.0.d0:
   definition: catch one's foot on something and stumble or fall
   term_tags: [BT, N, N, BT, N, BT, N, BT, N, BT]
@@ -9668,7 +9668,7 @@ trip.OX.0.v.0.2.d0:
 trip.OX.0.v.0.3.d0:
   definition: release and raise (an anchor) from the seabed by means of a buoyed line
     attached to the anchor's crown.
-  term_tags: [BT, N, BT, N, N, BT, N, N, N, BT, N, BT, N, N, BT, BT, BT, N, N, BT,
+  term_tags: [BT, N, BT, N, N, BT, N, N, N, BT, N, BT, N, N, BT, BT, BT, T, N, BT,
     N, BT, N]
 trip.OX.0.v.0.4.d0:
   definition: experience hallucinations induced by taking a psychedelic drug, especially
@@ -9683,7 +9683,7 @@ trip.OX.0.n.0.0.d0:
   term_tags: [N, BT, N, BT, N, N, BT, N, BT, N, N, BT, N, BT, N, BT, N, BT]
 trip.OX.0.n.0.1.d0:
   definition: a stumble or fall due to catching one's foot on something
-  term_tags: [N, BT, N, BT, BT, T, BT, N, N, BT, N, BT]
+  term_tags: [N, BT, N, BT, BT, N, BT, N, N, BT, N, BT]
 trip.OX.0.n.0.2.d0:
   definition: a hallucinatory experience caused by taking a psychedelic drug, especially
     LSD
@@ -9857,7 +9857,7 @@ wake.OX.1.n.0.0.d0:
   term_tags: [N, BT, N, BT, BT, N, BT, BT, N, N, BT, N, N, BT, N, BT, N]
 wake.OX.1.n.0.0.0.d0:
   definition: used to refer to the aftermath or consequences of something
-  term_tags: [BT, N, BT, N, N, BT, N, BT, N, BT]
+  term_tags: [BT, T, BT, T, N, BT, N, BT, N, BT]
 wall.OX.0.n.0.0.d0:
   definition: a continuous vertical brick or stone structure that encloses or divides
     an area of land
@@ -9869,7 +9869,7 @@ wall.OX.0.n.0.0.0.d0:
 wall.OX.0.n.0.0.1.d0:
   definition: any high vertical surface or facade, especially one that is imposing
     in scale
-  term_tags: [N, BT, BT, BT, N, BT, N, BT, BT, N, BT, BT, BT, T]
+  term_tags: [N, BT, BT, BT, N, BT, N, BT, BT, N, BT, BT, N, BT]
 wall.OX.0.n.0.0.2.d0:
   definition: a thing perceived as a protective or restrictive barrier
   term_tags: [N, BT, BT, N, N, BT, N, BT, BT]
@@ -9937,7 +9937,7 @@ washington.OX.0.n.0.1.d0:
     N, BT, N]
 washington.OX.0.n.0.1.0.d0:
   definition: used in reference to the US government
-  term_tags: [BT, BT, T, T, N, BT, BT]
+  term_tags: [BT, N, BT, N, N, BT, BT]
 watch.OX.0.v.0.0.d0:
   definition: look at or observe attentively over a period of time
   term_tags: [BT, T, N, BT, BT, N, N, BT, N, BT]
@@ -9957,14 +9957,14 @@ watch.OX.0.n.0.1.d0:
 watch.OX.0.n.0.1.0.d0:
   definition: a period of vigil during which a person is stationed to look out for
     danger or trouble, typically during the night
-  term_tags: [N, BT, N, BT, N, N, N, BT, BT, BT, N, BT, BT, T, BT, N, BT, N, BT, N,
+  term_tags: [N, BT, N, BT, N, N, N, BT, BT, BT, N, BT, T, N, BT, N, BT, N, BT, N,
     N, BT]
 watch.OX.0.n.0.1.1.d0:
   definition: a fixed period of duty on a ship, usually lasting four hours
   term_tags: [N, BT, BT, N, BT, N, N, BT, N, BT, BT, N, BT]
 watch.OX.0.n.0.1.2.d0:
   definition: the officers and crew on duty during a watch.
-  term_tags: [N, BT, N, BT, BT, T, N, N, BT, N]
+  term_tags: [N, BT, N, BT, N, BT, N, N, BT, N]
 watch.OX.0.n.0.1.3.d0:
   definition: a watchman or group of watchmen who patrolled and guarded the streets
     of a town before the introduction of the police force
@@ -10054,7 +10054,7 @@ wave.OX.0.n.0.4.1.d0:
 web.OX.0.n.0.0.d0:
   definition: a network of fine threads constructed by a spider from fluid secreted
     by its spinnerets, used to catch its prey.
-  term_tags: [N, BT, N, BT, BT, BT, N, N, BT, N, BT, BT, N, N, BT, N, BT, N, BT, N,
+  term_tags: [N, BT, N, BT, BT, BT, N, N, BT, N, BT, BT, N, N, BT, N, BT, T, BT, N,
     BT, N]
 web.OX.0.n.0.1.d0:
   definition: a complex system of interconnected elements
@@ -10086,7 +10086,7 @@ well.OX.1.n.0.1.d0:
 well.OX.1.n.0.2.d0:
   definition: an enclosed space in the middle of a building, giving room for stairs
     or an elevator, or to allow light or ventilation.
-  term_tags: [N, BT, BT, BT, T, T, T, N, BT, N, BT, BT, N, BT, N, N, BT, N, N, N,
+  term_tags: [N, BT, BT, N, N, BT, N, N, BT, N, BT, BT, N, BT, N, N, BT, N, N, N,
     BT, BT, N, BT, N]
 well.OX.1.n.0.3.d0:
   definition: a shelf beneath the counter of a bar on which bottles of liquor are
@@ -10105,8 +10105,8 @@ well.OX.1.v.0.0.0.d0:
 whale.OX.0.n.0.0.d0:
   definition: a very large marine mammal with a streamlined hairless body, a horizontal
     tail fin, and a blowhole on top of the head for breathing.
-  term_tags: [N, BT, BT, BT, BT, N, N, BT, BT, BT, N, N, BT, BT, T, N, N, N, BT, BT,
-    T, N, N, BT, N, BT, N]
+  term_tags: [N, BT, BT, BT, BT, N, N, BT, BT, BT, N, N, BT, BT, T, N, N, N, BT, N,
+    BT, N, N, BT, N, BT, N]
 whale.OX.1.v.0.0.d0:
   definition: beat; hit
   term_tags: [BT, N, BT]
@@ -10120,7 +10120,7 @@ whip.OX.0.n.0.1.d0:
     its members in Congress or Parliament, especially so as to ensure attendance and
     voting in debates.
   term_tags: [N, BT, N, N, BT, BT, BT, N, BT, BT, N, N, BT, N, BT, N, BT, N, BT, BT,
-    BT, T, BT, BT, N, BT, N, BT, N]
+    N, N, BT, BT, N, BT, N, BT, N]
 whip.OX.0.n.0.2.d0:
   definition: a dessert consisting of cream or eggs beaten into a light fluffy mass
     with fruit, chocolate, or other ingredients.
@@ -10173,7 +10173,7 @@ wind.OX.0.n.0.2.d0:
 wind.OX.0.n.0.3.d0:
   definition: wind instruments, or specifically woodwind instruments, forming a band
     or a section of an orchestra
-  term_tags: [BT, BT, N, N, BT, BT, BT, N, BT, N, BT, N, N, BT, N, N, BT]
+  term_tags: [BT, T, N, N, BT, BT, BT, N, BT, N, BT, N, N, BT, N, N, BT]
 wind.OX.0.v.0.0.d0:
   definition: cause (someone) to have difficulty breathing because of exertion or
     a blow to the stomach
@@ -10186,10 +10186,10 @@ wind.OX.0.v.0.2.d0:
   term_tags: [BT, N, N, BT, N, BT, N, N, BT]
 wind.OX.1.v.0.0.d0:
   definition: move in or take a twisting or spiral course
-  term_tags: [BT, BT, N, BT, N, BT, N, BT, BT]
+  term_tags: [BT, T, N, BT, N, BT, N, BT, BT]
 wind.OX.1.v.0.1.d0:
   definition: pass (something) around a thing or person so as to encircle or enfold
-  term_tags: [BT, N, BT, N, N, N, BT, N, BT, N, BT, T, BT, N, BT]
+  term_tags: [BT, N, BT, N, N, N, BT, N, BT, N, N, N, BT, N, BT]
 wind.OX.1.v.0.2.d0:
   definition: make (a clock or other device, typically one operated by clockwork)
     operate by turning a key or handle
@@ -10207,7 +10207,7 @@ wind.OX.1.v.0.2.2.d0:
   term_tags: [BT, N, BT, N, BT, N, N, N, BT, N, BT, N, N, BT, BT, N]
 wind.OX.1.n.0.0.d0:
   definition: a twist or turn in a course.
-  term_tags: [N, BT, N, BT, T, N, BT, N]
+  term_tags: [N, BT, N, BT, N, N, BT, N]
 wind.OX.1.n.0.1.d0:
   definition: a single turn made when winding.
   term_tags: [N, BT, BT, BT, N, BT, N]
@@ -10259,7 +10259,7 @@ worm.OX.0.v.0.3.d0:
   term_tags: [BT, N, N, BT, N, BT, N, BT, BT, BT, N, N, BT, N]
 yard.OX.0.n.0.0.d0:
   definition: a unit of linear measure equal to 3 feet (0.9144 meter)
-  term_tags: [N, BT, N, BT, BT, BT, N, N, BT, N, N, BT, N]
+  term_tags: [N, BT, N, BT, BT, BT, T, N, BT, N, N, BT, N]
 yard.OX.0.n.0.1.d0:
   definition: a cylindrical spar, tapering to each end, slung across a ship's mast
     for a sail to hang from.

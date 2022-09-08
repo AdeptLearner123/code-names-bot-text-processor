@@ -9,9 +9,6 @@ LABEL_COLORS = {
     Label.NONE: "#f7f7f7",  # white
     Label.UNRELATED: "#ebdd4b",  # yellow
     Label.RELATED: "#eb4b4b",  # red
-    Label.RELATED_ADJ: "#eb704b",  # red - orange
-    Label.RELATED_VERB: "#eb8e4b",  # orange - yellow
-    Label.RELATED_ADV: "#baa966",  # brown - yellow
     Label.IS: "#4b5eeb",  # blue
     Label.EXAMPLE: "#564beb",  # blue - purple
     Label.EQUALS: "#6b4beb",  # purple,
