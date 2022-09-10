@@ -7,5 +7,5 @@ class Model(ABC):
 
 
     @abstractmethod
-    def label(self, doc, term_labels):
+    def label(self, doc, term_labels, pos):
         pass

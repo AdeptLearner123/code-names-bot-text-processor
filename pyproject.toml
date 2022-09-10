@@ -21,6 +21,7 @@ format                  = "tasks:format"
 setup                   = "tasks:setup"
 
 dependency-parse        = "tools.dependency_parse:main"
+show-named-entities     = "tools.show_named_entities:main"
 custom-parse            = "tools.custom_parse:main"
 parse-key-terms         = "tools.parse_key_terms:main"
 get-oxford-definition   = "tools.get_oxford_definition:main"

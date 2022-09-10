@@ -5,9 +5,10 @@ def evaluate_doc(definition_labels, definitions, key, term_chunker, model):
     labels = definition_labels[key]
     text = definitions[key]["definition"]
     term_chunk_labels = definitions[key]["term_tags"]
+    pos = key.split(".")[3]
 
     doc, term_labels, labels = term_chunker.chunk_and_merge(text, term_chunk_labels, labels)
-    predicted_labels = model.label(doc, term_labels)
+    predicted_labels = model.label(doc, term_labels, pos)
 
     return filter_none_labels(labels, predicted_labels, doc)
 

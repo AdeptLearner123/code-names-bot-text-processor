@@ -5,7 +5,7 @@ from labeler.labels import Label
 class BaselineModel(Model):
     TAGS = ["NN", "JJ"]
 
-    def label(self, doc, term_labels):
+    def label(self, doc, term_labels, pos):
         labels = []
 
         for i in range(len(doc)):
