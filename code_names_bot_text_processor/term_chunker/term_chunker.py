@@ -21,14 +21,54 @@ class TermChunker:
 
         self._stopwords = set(stopwords.words("english"))
 
+
+    def chunk_and_merge(self, text, term_chunk_labels = None, labels=None):
+        doc = self._nlp(text, disable=["parser", "ner"])
+    
+        if term_chunk_labels is not None:
+            term_chunk_labels = self._get_term_chunk_labels(doc)
+    
+        self._merge_terms(doc, term_chunk_labels)
+        term_labels = list(filter(lambda label: label != "T", term_chunk_labels))
+
+        if labels is not None:
+            new_labels = []
+            for i in range(len(term_chunk_labels)):
+                if term_chunk_labels[i] != "T":
+                    new_labels.append(labels[i])
+            return doc, term_labels, new_labels
+
+        return doc, term_labels, None
+
+
     def chunk(self, text):
         doc = self._nlp(text, disable=["parser", "ner"])
+        return self._get_term_chunk_labels(doc)
+
+
+    def _get_term_chunk_labels(self, doc):
         labels = [None for _ in doc]
         self._set_multi_word_terms(doc, self._four_word_lemmas, labels, 4)
         self._set_multi_word_terms(doc, self._three_word_lemmas, labels, 3)
         self._set_multi_word_terms(doc, self._two_word_lemmas, labels, 2)
         self._set_single_word_terms(doc, labels)
         return labels
+    
+
+    def _merge_terms(self, doc, term_chunk_labels):
+        with doc.retokenize() as retokenizer:
+            i = 0
+            start = None
+            while i < len(term_chunk_labels):
+                if start is not None and term_chunk_labels[i] != "T":
+                    if start != i:
+                        retokenizer.merge(doc[start:i])
+                    start = None
+                if term_chunk_labels[i] == "BT":
+                    start = i
+                i += 1
+            if start is not None:
+                retokenizer.merge(doc[start:])
 
     def _count_tokens(self, lemma):
         return 1 + lemma.count(" ") + lemma.count("-") * 2

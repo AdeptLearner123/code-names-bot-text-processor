@@ -4,7 +4,6 @@ import spacy
 import yaml
 from PySide6 import QtWidgets
 from PySide6.QtCore import Slot
-from tqdm import tqdm
 
 from config import DEFINITIONS_PATH, LABELS_PATH
 
