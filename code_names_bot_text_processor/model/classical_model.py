@@ -5,9 +5,9 @@ from labeler.labels import Label
 class ClassicalModel(Model):
     TAGS = ["NN", "JJ"]
 
-    def label(self, doc, term_labels, pos):
+    def label(self, doc, pos):
         if pos == "v" or pos == "a":
-            return [Label.NONE] * len(term_labels)
+            return [Label.NONE] * len(doc)
         return self.label_noun(doc)
 
 
@@ -17,7 +17,7 @@ class ClassicalModel(Model):
         self._process_noun_chunks(doc, token_labels)
 
         labels = []
-        for token in token_labels:
+        for token in doc:
             labels.append(token_labels[token] if token in token_labels else Label.UNRELATED)
         return labels
 
@@ -28,21 +28,21 @@ class ClassicalModel(Model):
         adjectives = []
 
         current = self._find_root_noun(doc)
-
+        prev = None
+        
         while current is not None:
             if self._get_first_by_dep(current, "det", "the") is not None:
                 is_noun = current
-            
-            prep = self._get_first_by_dep("prep", "of")
-            prev = current
-            current = None if prep is None else prep._get_first_by_dep("pobj")
+            unrelated_nouns.append(current)
 
             adjectives += self._get_children_by_dep(current, "amod")
+            prep = self._get_first_by_dep(current, "prep", "of")
+            prev = current
+            current = None if prep is None else self._get_first_by_dep(prep, "pobj")
 
-            if current == None and is_noun is not None:
-                is_noun = prev
-            else:
-                unrelated_nouns.append(prev)
+        if is_noun is None:
+            is_noun = prev
+        unrelated_nouns.remove(is_noun)
         
         token_labels[is_noun] = Label.IS
         for token in unrelated_nouns:
@@ -63,10 +63,13 @@ class ClassicalModel(Model):
     def _find_root_noun(self, doc):
         root = [token for token in doc if token.head == token][0]
 
-        if root.tag_[:2] == "NN":
-            return root        
-        elif root.tag_[:2] == "VB":
-            return self._get_first_by_dep(root, "nsubj")
+        # BFS for noun
+        queue = [root]
+        while len(queue) > 0:
+            current = queue.pop(0)
+            if current.tag_[:2] == "NN":
+                return current
+            queue += current.children
         return None
 
 

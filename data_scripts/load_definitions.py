@@ -16,7 +16,7 @@ def add_definition(output, key, definition):
 
     output[key] = {
         "definition": definition,
-        "term_tags": term_chunker.chunk(definition),
+        "term_tags": term_chunker.get_term_chunk_labels(definition),
     }
 
 

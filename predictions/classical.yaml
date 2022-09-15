@@ -1,0 +1,296 @@
+africa.OX.0.n.0.0.d0: [UR, UR, RE, IS, UR, UR, UR, UR, RE, UR, UR, UR, RE, RE, UR,
+  UR, UR, UR, RE, UR, UR, RE, RE, UR, UR, UR, RE, UR, UR, RE, UR, UR, UR, RE, UR,
+  UR, UR, RE, UR, UR, UR, RE, UR]
+agent.OX.0.n.0.0.d0: [UR, IS, UR, UR, UR, RE, UR, UR, RE, UR, RE]
+air.OX.0.n.0.0.d0: [UR, RE, RE, IS, UR, UR, RE, UR, UR, RE, UR, UR, RE, UR, RE, UR]
+air.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X]
+alien.OX.0.a.0.0.d0: [X, X, X, X, X, X, X, X]
+alien.OX.0.n.0.0.d0: [UR, IS, UR, UR, RE, UR, UR, UR, UR, UR, RE, UR, UR, RE, UR,
+  UR, UR, UR]
+alps.OX.0.n.0.0.d0: [UR, IS, UR, RE, UR, UR, UR, UR, RE, UR, UR, RE, UR, UR, RE, UR,
+  UR, RE, UR, RE, UR, RE, UR, UR, RE, UR, UR, RE, UR, UR, RE, UR, UR, UR, RE, UR,
+  RE, UR, UR, UR, UR, RE, UR, UR, RE, UR, UR, UR, UR, UR]
+amazon.OX.0.n.0.0.d0: [UR, IS, UR, RE, UR, UR, UR, UR, UR, RE, UR, UR, RE, UR, UR,
+  RE, UR, RE, UR, UR, RE, UR, UR, RE, UR, UR, UR, UR, UR, RE, UR, UR, RE, UR, UR,
+  UR, RE, UR, RE, UR, RE, UR, UR, UR, UR, RE, UR, UR, RE, UR]
+ambulance.OX.0.n.0.0.d0: [UR, IS, UR, UR, UR, UR, UR, UR, UR, RE, UR, UR, UR, UR,
+  RE, UR, UR, UR, RE]
+america.OX.0.n.0.0.d0: [UR, UR, UR, IS, UR, UR, RE, UR]
+angel.OX.0.n.0.0.d0: [UR, RE, IS, UR, UR, UR, UR, UR, UR, UR, UR, UR, UR, UR, UR,
+  RE, UR, UR, UR, UR, UR, RE, UR, RE, UR, UR, UR, UR]
+antarctica.OX.0.n.0.0.d0: [UR, IS, UR, UR, RE, UR, UR, UR, UR, UR, RE, UR, UR, UR,
+  UR, UR, RE, UR, UR, RE, UR, UR, UR, UR, UR, RE, UR, UR, UR, UR, UR, UR, UR, UR,
+  UR]
+apple.OX.0.n.0.0.d0: [UR, RE, UR, UR, UR, UR, UR, UR, UR, IS, UR, UR, UR, UR, UR,
+  UR, UR, UR, RE, UR, UR, RE, UR, UR, RE, UR, UR, UR, UR, RE, UR, UR, RE, UR, UR,
+  UR, RE, UR]
+arm.OX.0.n.0.0.d0: [UR, UR, UR, UR, RE, UR, UR, UR, RE, IS, UR, UR, RE, UR, UR, RE]
+atlantis.OX.0.n.0.0.d0: [UR, RE, IS, UR, RE, UR, UR, UR, UR, UR, UR, UR, RE, UR]
+australia.OX.0.n.0.0.d0: [UR, RE, IS, UR, RE, UR, UR, RE, UR, UR, UR, UR, RE, UR,
+  UR, RE, RE, UR, RE, UR, RE, UR, UR, UR, UR, UR, UR, RE, UR, RE, UR, UR, RE, UR,
+  RE, UR]
+aztec.OX.0.n.0.0.d0: [UR, UR, UR, UR, RE, IS, RE, UR, RE, UR, UR, UR, RE, UR, UR,
+  UR, RE, UR]
+aztec.OX.0.a.0.0.d0: [X, X, X, X, X, X, X, X]
+back.OX.0.n.0.0.d0: [UR, RE, UR, UR, UR, RE, IS, UR, UR, RE, UR, UR, RE]
+back.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X]
+back.OX.0.a.0.0.d0: [X, X, X, X, X, X, X]
+ball.OX.0.n.0.0.d0: [UR, RE, UR, UR, UR, UR, UR, IS, UR, UR, UR, UR, UR, UR, UR, UR,
+  UR, UR, RE]
+ball.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X]
+band.OX.0.n.0.0.d0: [UR, RE, UR, RE, IS, UR, RE, UR, RE, UR, UR, RE, UR, UR, UR, UR,
+  UR, UR, UR, UR, UR, UR]
+band.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X]
+bank.OX.0.n.0.0.d0: [UR, IS, UR, UR, UR, UR, UR, UR, RE, UR, RE]
+bank.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X]
+bar.OX.0.n.0.0.d0: [UR, RE, IS, UR, UR, RE, UR, RE, UR, RE, UR, UR, UR, RE, UR, UR,
+  UR, UR, UR, RE, UR, RE, UR, UR, RE]
+bar.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X, X, X, X, X]
+bark.OX.0.n.0.0.d0: [UR, RE, RE, IS, UR, RE, UR, UR, UR, UR, RE, UR, RE, UR, UR, UR,
+  UR]
+bark.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X]
+bat.OX.0.n.0.0.d0: [UR, IS, UR, UR, RE, UR, UR, UR, RE, UR, UR, UR, RE, UR, UR, UR,
+  UR, UR, RE, UR, RE, UR, UR, RE, UR, RE, UR, UR, RE, UR]
+bat.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X,
+  X, X]
+battery.OX.0.n.0.0.d0: [UR, IS, UR, UR, UR, UR, UR, RE, UR, UR, UR, RE, UR, UR, UR,
+  RE, UR, UR, UR, UR, RE, UR, RE]
+beach.OX.0.n.0.0.d0: [UR, UR, UR, IS, UR, UR, RE, UR, RE, UR, UR, UR, RE, UR, UR,
+  RE, UR, UR, RE, UR, RE, UR, UR, UR, UR, RE, UR, RE, UR, RE]
+beach.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X, X, X]
+bear.OX.0.v.0.0.d0: [X, X, X, X, X, X]
+beat.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X,
+  X, X, X, X, X, X, X, X]
+beat.OX.0.n.0.0.d0: [UR, RE, RE, UR, UR, IS, UR, RE, UR, RE]
+beat.OX.0.a.0.0.d0: [X, X]
+bed.OX.0.n.0.0.d0: [UR, UR, UR, IS, UR, RE, UR, UR, UR, UR, UR, RE, UR, UR, RE, UR,
+  RE]
+bed.OX.0.v.0.0.d0: [X, X, X, X]
+beijing.OX.0.n.0.0.d0: [UR, IS, UR, UR, UR, UR, UR, RE, UR, UR, RE, UR, UR, UR, UR,
+  UR, UR, UR, UR, UR, RE, UR, UR, RE, UR, RE, UR, UR, UR, UR, UR, RE, UR, UR, RE,
+  RE, UR, UR, UR, UR, UR, RE, UR, UR, RE, UR, UR, RE, UR, UR, UR]
+belt.OX.0.n.0.0.d0: [UR, UR, UR, IS, UR, UR, RE, UR, UR, UR, RE, UR, UR, UR, RE, UR,
+  UR, UR, RE, UR, UR, RE, UR, UR, RE]
+belt.OX.0.v.0.0.d0: [X, X, X, X]
+bell.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X, X, X]
+bell.OX.0.n.0.0.d0: [UR, RE, IS, UR, UR, UR, UR, RE, UR, UR, UR, RE, UR, UR, UR, UR,
+  RE, UR, UR, UR, RE, UR, UR, UR, UR, UR, UR, RE, UR, UR, UR, UR, UR, RE, UR, UR,
+  RE, UR]
+berlin.OX.0.n.0.0.d0: [UR, IS, UR, UR, UR, RE, UR, UR, RE, UR, UR, UR, UR, UR, UR,
+  RE, UR, RE, UR, UR, RE, UR, UR, UR, UR, RE, UR, UR, UR, UR, RE, UR, RE, UR, RE,
+  UR, UR, UR, UR, UR, UR, UR, RE, UR, UR, UR, RE, UR, UR, UR, UR, UR, UR, UR]
+bermuda.OX.0.n.0.0.d0: [UR, RE, IS, UR, UR, UR, UR, UR, UR, RE, UR, UR, RE, UR, UR,
+  RE, UR, RE, UR, UR, RE, UR, RE, UR, RE, UR, UR, UR, UR, UR, UR, RE, UR, RE, UR,
+  UR, UR, UR, UR, RE, UR]
+berry.OX.0.n.0.0.d0: [UR, RE, UR, RE, IS, UR, UR, RE]
+berry.OX.0.v.0.0.d0: [X, X]
+bill.OX.0.n.0.0.d0: [UR, UR, UR, IS, UR, UR, RE, UR, UR, UR, UR, UR, UR, UR, UR, UR,
+  UR, UR, RE, UR, RE]
+bill.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X]
+block.OX.0.n.0.0.d0: [UR, RE, RE, UR, UR, RE, IS, UR, UR, RE, UR, RE, UR, UR, RE,
+  UR, UR, UR, UR, RE, UR, UR, RE]
+block.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X]
+board.OX.0.n.0.0.d0: [UR, RE, UR, RE, UR, RE, UR, UR, IS, UR, UR, UR, RE, UR, UR,
+  UR, RE, UR, UR, RE, RE]
+board.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X, X, X, X]
+bolt.OX.0.n.0.0.d0: [UR, IS, UR, UR, UR, UR, RE, UR, UR, UR, RE, UR, RE, UR]
+bolt.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X, X, X, X, X]
+bomb.OX.0.n.0.0.d0: [UR, IS, UR, UR, UR, UR, UR, RE, UR, RE, UR, RE, UR, UR, UR, UR,
+  RE, UR, UR, UR, UR, UR, RE, UR, UR, UR, UR, UR, RE, RE, UR, RE, RE, UR, UR, UR,
+  RE]
+bomb.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X, X]
+bond.OX.0.n.0.0.d0: [UR, IS, UR, RE, UR, RE, UR, UR, UR, RE, UR, RE, UR, UR, UR]
+bond.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X]
+boom.OX.0.n.0.0.d0: [UR, RE, UR, RE, UR, RE, IS]
+boom.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X]
+boot.OX.0.n.0.0.d0: [UR, RE, UR, UR, IS, UR, UR, RE, UR, UR, RE, UR, UR, UR, UR, RE,
+  UR, UR, RE, UR]
+boot.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X]
+bottle.OX.0.n.0.0.d0: [UR, IS, UR, UR, UR, UR, RE, UR, RE, UR, UR, UR, UR, RE, UR,
+  UR, UR, UR, RE, UR, UR, RE]
+bottle.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X]
+bow.OX.0.n.0.0.d0: [UR, IS, UR, UR, UR, RE, UR, UR, RE, UR, UR, UR, UR, UR, RE, UR,
+  UR, RE]
+bow.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X]
+box.OX.0.n.0.0.d0: [UR, IS, UR, UR, UR, RE, UR, RE, UR, UR, UR, UR, UR, UR, UR, UR,
+  RE]
+box.OX.0.v.0.0.d0: [X, X, X, X, X, X]
+bridge.OX.0.n.0.0.d0: [UR, IS, UR, UR, RE, UR, RE, UR, RE, UR, UR, RE, UR, UR, RE,
+  UR, RE, UR, RE, UR, RE, UR, UR, UR, RE]
+bridge.OX.0.v.0.0.d0: [X, X, X, X, X, X, X]
+brush.OX.0.n.0.0.d0: [UR, IS, UR, UR, RE, UR, UR, UR, RE, UR, RE, UR, UR, RE, UR,
+  UR, UR, RE, UR, UR, UR, RE, UR, RE, UR, UR, UR, RE, UR, RE, UR, UR, RE, UR, UR,
+  UR, RE, UR, UR, UR, RE]
+brush.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X]
+buck.OX.0.n.0.0.d0: [UR, IS, UR, UR, RE, UR, UR, UR, UR, RE, UR, RE, UR, RE, UR, UR,
+  RE, UR]
+buck.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X]
+buck.OX.0.a.0.0.d0: [X, X, X, X, X]
+buffalo.OX.0.n.0.0.d0: [UR, RE, RE, IS, UR, UR, RE, UR, UR, UR, UR, UR, RE, RE, UR]
+buffalo.OX.0.v.0.0.d0: [X, X, X, X, X, X]
+bug.OX.0.n.0.0.d0: [UR, RE, IS, UR]
+bug.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X]
+bugle.OX.0.n.0.0.d0: [UR, IS, UR, UR, UR, RE, UR, UR, UR, RE, UR, RE, UR, UR, UR,
+  UR, RE]
+bugle.OX.0.v.0.0.d0: [X, X, X, X]
+button.OX.0.n.0.0.d0: [UR, RE, IS, UR, RE, UR, UR, UR, RE, UR, UR, UR, UR, UR, UR,
+  UR, UR, UR, UR, RE, UR, UR, UR, RE, UR, UR, RE]
+button.OX.0.v.0.0.d0: [X, X, X, X, X, X]
+calf.OX.0.n.0.0.d0: [UR, RE, RE, IS, UR, UR, UR, UR, RE, UR, RE, UR, UR, UR, RE]
+canada.OX.0.n.0.0.d0: [UR, IS, UR, UR, RE, UR, UR, UR, UR, RE, UR, UR, RE, UR, RE,
+  UR, UR, UR, UR, UR, UR, RE, UR, RE, UR, UR, RE, UR, RE, UR, RE, UR]
+cap.OX.0.n.0.0.d0: [UR, UR, UR, RE, UR, RE, IS, UR, UR, UR, UR, RE]
+cap.OX.0.v.0.0.d0: [X, X, X, X, X, X]
+capital.OX.0.n.0.0.d0: [UR, UR, RE, IS, UR, RE, UR, UR, UR, UR, RE, UR, UR, UR, RE,
+  UR, RE, UR, UR, RE]
+capital.OX.0.a.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X]
+car.OX.0.n.0.0.d0: [UR, UR, UR, RE, RE, IS, UR, UR, UR, UR, UR, RE, UR, UR, UR, UR,
+  UR, UR, UR, RE, UR, RE]
+card.OX.0.n.0.0.d0: [UR, UR, UR, RE, UR, RE, IS, UR, UR, RE, UR, UR, UR, RE, UR, UR,
+  RE, UR, UR, UR]
+card.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X, X]
+carrot.OX.0.n.0.0.d0: [UR, RE, UR, UR, RE, IS, UR, UR, UR, RE]
+casino.OX.0.n.0.0.d0: [UR, IS, UR, UR, UR, RE, RE, UR, UR, UR]
+cast.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X]
+cast.OX.0.n.0.0.d0: [UR, IS, UR, UR, UR, UR, RE, UR, UR, RE, UR, UR, RE]
+cat.OX.0.n.0.0.d0: [UR, UR, UR, RE, IS, UR, UR, RE, UR, UR, UR, RE, UR, UR, UR, RE,
+  UR, UR, UR, UR, UR, UR, UR, RE, UR, UR, UR, RE, UR, UR, UR, RE, UR, UR, UR, UR]
+cat.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X, X, X]
+cell.OX.0.n.0.0.d0: [UR, RE, IS, UR, UR, UR, RE, UR, UR, UR, UR, UR, UR, UR, RE, UR,
+  RE, UR]
+centaur.OX.0.n.0.0.d0: [UR, IS, UR, UR, RE, UR, RE, UR, UR, RE, UR, UR, RE, UR, UR,
+  RE, UR, RE, UR, UR, RE, UR]
+center.OX.0.n.0.0.d0: [UR, RE, IS, UR, UR, UR, UR, RE, UR, RE, UR, UR, RE, UR, UR,
+  RE, UR, RE, UR]
+center.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X]
+chair.OX.0.n.0.0.d0: [UR, RE, IS, UR, UR, RE, UR, UR, UR, UR, RE, UR, UR, RE, UR]
+chair.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X]
+change.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X]
+change.OX.0.n.0.0.d0: [UR, IS, UR, RE, UR, UR, UR, UR, UR]
+charge.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X]
+charge.OX.0.n.0.0.d0: [UR, IS, UR, UR, RE, UR, RE]
+check.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X,
+  X, X, X]
+check.OX.0.n.0.0.d0: [UR, IS, UR, UR, UR, UR, RE, UR, RE, UR, UR, UR, RE]
+chest.OX.0.n.0.0.d0: [UR, RE, IS, UR, UR, RE, UR, UR, RE, UR, UR, UR, UR, RE, UR,
+  UR, RE]
+chick.OX.0.n.0.0.d0: [UR, RE, IS, UR, UR, UR, UR, UR]
+china.OX.0.n.0.0.d0: [UR, UR, RE, UR, UR, RE, RE, IS]
+chocolate.OX.0.n.0.0.d0: [UR, RE, IS, UR, UR, RE, UR, UR, RE, UR, UR, RE, UR, UR,
+  UR, UR, RE, RE, RE, UR, UR, UR]
+church.OX.0.n.0.0.d0: [UR, IS, UR, UR, UR, UR, RE]
+church.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X]
+circle.OX.0.n.0.0.d0: [UR, RE, RE, IS, UR, UR, UR, UR, RE, UR, UR, UR, RE, UR, UR,
+  UR, RE, UR, UR, RE, UR]
+circle.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X, X, X, X, X]
+cliff.OX.0.n.0.0.d0: [UR, RE, IS, UR, UR, UR, UR, RE, UR, UR, RE]
+cloak.OX.0.n.0.0.d0: [UR, RE, IS, UR, UR, RE, UR, UR, UR, UR, UR, UR, RE, UR]
+cloak.OX.0.v.0.0.d0: [X, X, X, X]
+club.OX.0.n.0.0.d0: [UR, IS, UR, RE, UR, UR, UR, UR, RE, UR, RE]
+club.OX.0.v.0.0.d0: [X, X, X]
+code.OX.0.n.0.0.d0: [UR, UR, UR, IS, UR, RE, UR, RE, UR, UR, UR, RE, UR, UR, UR, RE,
+  UR, RE, UR, UR, UR, UR, UR, UR, UR, RE, UR, RE]
+code.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X]
+cold.OX.0.a.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X]
+cold.OX.0.n.0.0.d0: [UR, RE, IS, UR, UR, UR, UR, RE, UR, UR, RE, UR, UR, UR, RE]
+comic.OX.0.a.0.0.d0: [X, X, X, X, X, X]
+comic.OX.0.n.0.0.d0: [UR, IS, UR, UR, UR, UR, UR]
+compound.OX.0.n.0.0.d0: [UR, IS, UR, UR, UR, UR, UR, UR, UR, UR, RE, UR, UR, RE]
+compound.OX.0.a.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X, X]
+compound.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X]
+concert.OX.0.n.0.0.d0: [UR, RE, IS, UR, UR, UR, UR, UR, UR, UR, RE, UR, UR, UR, UR,
+  RE]
+concert.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X]
+conductor.OX.0.n.0.0.d0: [UR, IS, UR, UR, UR, RE, UR, UR, RE, UR, RE]
+contract.OX.0.n.0.0.d0: [UR, RE, UR, UR, IS, UR, UR, UR, UR, RE, UR, RE, UR, UR, RE,
+  UR, UR, UR, UR, UR, UR, UR, UR, RE]
+contract.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X]
+cook.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X]
+cook.OX.0.n.0.0.d0: [UR, IS, UR, UR, UR, UR, UR, UR, UR, UR, UR, RE, UR, UR, UR, UR,
+  RE]
+copper.OX.0.n.0.0.d0: [UR, RE, IS, UR, UR, RE, UR, RE, UR, UR]
+copper.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X]
+cotton.OX.0.n.0.0.d0: [UR, RE, RE, RE, IS, UR, UR, UR, RE, UR, UR, UR, UR, UR, RE,
+  UR, UR, UR, UR, RE, RE, UR, RE, UR, RE]
+court.OX.0.n.0.0.d0: [UR, IS, UR, UR, UR, UR, RE, UR, RE, UR, UR, UR, RE, UR, UR,
+  UR, UR, RE]
+court.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X]
+cover.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X,
+  X]
+cover.OX.0.n.0.0.d0: [UR, IS, UR, UR, UR, UR, UR, UR, UR, UR, RE, UR, UR, UR, RE,
+  UR, UR, UR, UR, UR]
+crane.OX.0.n.0.0.d0: [UR, RE, UR, RE, IS, UR, UR, UR, UR, RE, UR, UR, UR, UR, UR,
+  RE, RE, UR, RE]
+crane.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X, X]
+crash.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X, X, X]
+crash.OX.0.n.0.0.d0: [UR, RE, UR, UR, UR, UR, UR, IS, UR, UR, UR, UR, UR, RE]
+crash.OX.0.a.0.0.d0: [X, X, X, X, X, X, X, X, X]
+cricket.OX.0.n.0.0.d0: [UR, IS, UR, UR, UR, RE, UR, UR, RE, UR, UR, UR, UR, UR, RE,
+  UR]
+cross.OX.0.n.0.0.d0: [UR, IS, UR, RE, UR, UR, RE, UR, UR, UR, UR, UR, RE, UR, RE,
+  UR, UR, UR, RE, UR]
+cross.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X,
+  X, X]
+cross.OX.0.a.0.0.d0: [X]
+crown.OX.0.n.0.0.d0: [UR, RE, RE, IS, UR, UR, UR, RE, UR, UR, RE, UR, RE, UR, UR,
+  UR, UR, UR, UR, UR, RE, UR, RE, UR]
+crown.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X]
+cycle.OX.0.n.0.0.d0: [UR, UR, UR, IS, UR, UR, UR, UR, UR, UR, RE]
+cycle.OX.0.v.0.0.d0: [X, X, X]
+czech.OX.0.n.0.0.d0: [UR, RE, UR, UR, UR, UR, RE, UR, UR, UR, UR, IS, UR, UR, UR,
+  RE, UR, RE, RE, UR]
+czech.OX.0.a.0.0.d0: [X, X, X, X, X, X, X, X]
+dance.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X, X]
+dance.OX.0.n.0.0.d0: [UR, UR, UR, IS, UR, UR, UR, RE, UR, RE, UR, UR, RE, UR, RE]
+date.OX.0.n.0.0.d0: [UR, UR, UR, UR, IS, UR, RE, UR, UR, UR, UR, RE]
+date.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X, X]
+day.OX.0.n.0.0.d0: [UR, UR, UR, IS, UR, UR, RE, UR, RE, UR, UR, UR, UR, RE, UR, UR,
+  UR, UR, UR, UR, UR, RE, UR, UR, RE, UR, UR, RE]
+death.OX.0.n.0.0.d0: [UR, IS, UR, RE, UR, UR, UR, UR, UR, UR, UR, RE, UR, UR, RE,
+  UR, UR, RE, UR, RE]
+deck.OX.0.n.0.0.d0: [UR, UR, UR, IS, UR, RE, UR, UR, RE, UR, UR, UR, UR, RE, UR, RE,
+  UR, UR, UR, UR, RE, UR, UR, UR, UR, UR, UR, UR, UR, RE, UR, UR, UR, UR, RE]
+deck.OX.0.v.0.0.d0: [X, X, X, X, X, X]
+degree.OX.0.n.0.0.d0: [UR, IS, UR, RE, UR, UR, RE, UR, UR, RE, UR, UR, UR, UR]
+diamond.OX.0.n.0.0.d0: [UR, IS, UR, UR, UR, UR, UR, UR, RE, RE, UR, UR, RE, UR, UR,
+  UR, UR, UR, RE]
+dice.OX.0.n.0.0.d0: [UR, RE, IS, UR, UR, RE, UR, UR, UR, RE, UR, RE, UR, UR, UR, UR,
+  UR, UR, UR, UR, UR, UR, UR, UR, UR, RE, UR, UR, RE, UR, RE, UR]
+dice.OX.0.v.0.0.d0: [X, X, X, X, X]
+dinosaur.OX.0.n.0.0.d0: [UR, RE, UR, UR, UR, RE, IS, UR, UR, UR, RE, UR, UR, UR, RE,
+  UR]
+disease.OX.0.n.0.0.d0: [UR, UR, UR, IS, UR, RE, UR, UR, UR, UR, RE, UR, UR, RE, UR,
+  UR, RE, UR, UR, UR, UR, RE, UR, UR, UR, RE, UR, RE, UR, RE, UR, UR, UR, RE]
+doctor.OX.0.n.0.0.d0: [UR, RE, UR, UR, IS, UR, UR, RE]
+doctor.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X]
+dog.OX.0.n.0.0.d0: [UR, RE, RE, IS, UR, UR, UR, UR, UR, RE, UR, UR, UR, RE, UR, RE,
+  UR, UR, RE, UR, UR, UR, RE, UR, RE, UR, UR, UR, RE, UR]
+dog.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X]
+draft.OX.0.n.0.0.d0: [UR, RE, UR, UR, UR, IS, UR, UR]
+draft.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X]
+draft.OX.0.a.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X,
+  X, X, X]
+dragon.OX.0.n.0.0.d0: [UR, RE, IS, UR, UR, UR, RE, UR, UR, UR, UR, UR, RE, UR, UR,
+  UR, RE, UR, RE, UR, UR, RE, UR, UR, UR, UR, RE, UR, RE, UR, UR, UR, RE, UR, UR,
+  UR, UR, UR, RE, UR, RE, UR, UR, UR, RE, UR, UR, RE, UR]
+dress.OX.0.v.0.0.d0: [X, X, X, X, X]
+dress.OX.0.n.0.0.d0: [UR, RE, IS, UR, UR, UR, RE, UR, UR, UR, UR, UR, RE, UR, RE,
+  UR, UR, UR, UR, RE, UR, RE]
+drill.OX.0.n.0.0.d0: [UR, IS, UR, RE, UR, UR, RE, UR, UR, UR, RE, RE, UR, UR, RE,
+  UR, RE, UR, UR, UR, UR, RE, UR]
+drill.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X]
+drop.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X]
+drop.OX.0.n.0.0.d0: [UR, RE, RE, UR, RE, UR, UR, IS, UR, UR, UR, UR, UR, UR, UR, UR,
+  RE]
+duck.OX.0.n.0.0.d0: [UR, IS, UR, UR, UR, RE, RE, UR, UR, RE, UR, UR, RE, UR, UR, UR,
+  UR, RE, UR]
+dwarf.OX.0.n.0.0.d0: [UR, UR, IS, UR, RE, RE, UR, UR, RE, UR, UR, UR, RE, UR, UR,
+  UR, RE, RE, RE, UR, UR, UR, UR, UR, RE, UR, RE, UR]
+dwarf.OX.0.a.0.0.d0: [X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X, X,
+  X, X]
+dwarf.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X]
+eagle.OX.0.n.0.0.d0: [UR, RE, IS, UR, UR, UR, UR, RE, UR, UR, UR, RE, UR, UR, UR,
+  UR, UR, RE, UR, UR, UR, RE, UR]
+eagle.OX.0.v.0.0.d0: [X, X, X, X, X, X, X, X, X, X]
+egypt.OX.0.n.0.0.d0: [UR, UR, UR, UR, RE, UR, UR, UR, RE, UR, RE, UR, UR, UR, UR,
+  UR, UR, IS, UR, RE, UR, UR, RE, UR, UR, UR]

@@ -7,13 +7,8 @@ from code_names_bot_text_processor.model.baseline_model import BaselineModel
 
 def main():
     term_chunker = TermChunker()
-    doc, term_labels, _ = term_chunker.chunk_and_merge(sys.argv[1])
-
-    model = BaselineModel()
-    predicted_labels = model.label(doc, term_labels)
-
-    for i in range(len(doc)):
-        print("Token", doc[i], "Label", predicted_labels[i])
+    term_chunk_labels = term_chunker.get_term_chunk_labels(sys.argv[1])
+    print(term_chunk_labels)
 
 
 if __name__ == "__main__":

@@ -29,11 +29,14 @@ list-lemmas             = "tools.list_lemmas:main"
 test-term-chunker       = "tools.test_term_chunker:main"
 get-synsets             = "tools.get_synsets:main"
 download-terms          = "tools.download_terms:main"
+process-labels          = "tools.process_labels:main"
 
 labeler                 = "labeler.labeler:main"
+view-predictions        = "labeler.predicted_labels_viewer:main"
 
 load-definitions        = "data_scripts.load_definitions:main"
 process-compounds       = "data_scripts.compounds_processor:main"
+calc-doc-freq           = "data_scripts.calc_doc_frequencies:main"
 
 test-single             = "evaluation.test_single:main"
 evaluate                = "evaluation.evaluate:main"

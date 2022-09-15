@@ -1,11 +1,10 @@
 import sys
 import yaml
 
-from code_names_bot_text_processor.model.baseline_model import BaselineModel
 from code_names_bot_text_processor.term_chunker.term_chunker import TermChunker
-from labeler.labels import Label
 from config import DEFINITIONS_PATH, LABELS_PATH
 from .evaluation_utils import evaluate_doc
+from models import ModelType, get_model
 
 
 def main():
@@ -16,9 +15,9 @@ def main():
         definitions = yaml.safe_load(file)
 
     term_chunker = TermChunker()
-    model = BaselineModel()
+    model = get_model(ModelType.CLASSICAL)
 
-    y_true, y_pred, tokens = evaluate_doc(definition_labels, definitions, sys.argv[1], term_chunker, model)
+    (y_true, y_pred, tokens), _ = evaluate_doc(definition_labels, definitions, sys.argv[1], term_chunker, model)
 
     for i in range(len(y_true)):
         print(tokens[i], y_true[i], y_pred[i])

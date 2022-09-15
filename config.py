@@ -6,3 +6,7 @@ OXFORD_CACHE_PATH = (
 )
 COMPOUNDS_LIST_PATH = "static/compounds.txt"
 WORDLIST_PATH = "static/wordlist.txt"
+
+PREDICTIONS_DIR = "predictions/"
+
+DOC_FREQUENCY_PATH = "static/doc_frequencies.yaml"

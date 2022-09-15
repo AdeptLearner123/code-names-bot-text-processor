@@ -9,6 +9,7 @@ from config import DEFINITIONS_PATH, LABELS_PATH
 
 from .labeler_window import LabelerWindow
 from .labels import Label
+from code_names_bot_text_processor.term_chunker.term_chunker import TermChunker
 
 nlp = spacy.load("en_core_web_sm")
 
@@ -34,13 +35,15 @@ class Labeler:
         )
 
         self.current = 0
+        self.term_chunker = TermChunker()
+        self.nlp = spacy.load("en_core_web_sm")
 
     def start(self, current = 0):
         self.current = current
 
         app = QtWidgets.QApplication([])
 
-        self.widget = LabelerWindow()
+        self.widget = self._create_window()
         self.widget.resize(800, 600)
         self.widget.show()
 
@@ -74,16 +77,20 @@ class Labeler:
         print("Current", str(self.current) + " / " + str(len(self.keys)))
         current_key = self.keys[self.current]
         definition = self.definitions[current_key]["definition"]
-        print(definition)
-        doc = nlp(definition, disable=["parser", "ner"])
-        tokens = [token.text for token in doc]
         term_tags = self.definitions[current_key]["term_tags"]
+        doc = self.nlp(definition, disable=["parser", "ner"])
+        self.term_chunker.merge_terms(doc, term_tags)
         if current_key in self.definition_labels:
             labels = [Label(label) for label in self.definition_labels[current_key]]
         else:
-            labels = [Label.NONE for token in tokens]
+            labels = [Label.NONE] * len(doc)
+
+        print(definition)
         title = f"{str(self.current)} / {str(len(self.keys))}    {current_key}"
-        self.widget.set_definition(tokens, labels, term_tags, title)
+        self.widget.set_definition(doc, labels, title)
+    
+    def _create_window(self):
+        return LabelerWindow()
 
 
 def main():

@@ -20,9 +20,10 @@ LABEL_COLORS = {
 
 
 class LabelerWindow(QtWidgets.QWidget):
-
+    CONTENT_TAGS = {"NN", "JJ", "VB", "RB"}
     INPUT_KEYS = "0123456789abcdefg"
-    next_signal = Signal(list)  # Signal(list[Label])
+
+    next_signal = Signal(list)
     prev_signal = Signal(list)
 
     def __init__(self):
@@ -73,11 +74,10 @@ class LabelerWindow(QtWidgets.QWidget):
 
         self._add_sentence()
 
-    def set_definition(self, tokens, labels, term_labels, title):
+    def set_definition(self, doc, labels, title):
         self.current = -1
-        self.tokens = tokens
+        self.doc = doc
         self.labels = labels
-        self.term_labels = term_labels
         self.title.setText(f"<h1>{title}</h1>")
         self._next_term()
         self._render()
@@ -85,59 +85,56 @@ class LabelerWindow(QtWidgets.QWidget):
     def _render(self):
         self._clear()
 
-        for i in range(len(self.tokens)):
-            if self.term_labels[i] == "BT":
-                text = self.tokens[i]
-                index = i
-                while (
-                    index + 1 < len(self.tokens) and self.term_labels[index + 1] == "T"
-                ):
-                    index += 1
-                    text += " " + self.tokens[index]
-            elif self.term_labels[i] == "N":
-                text = self.tokens[i]
-            else:
-                continue
-            label = self.labels[i]
-
-            item_widget = QtWidgets.QWidget()
-            item_layout = QtWidgets.QVBoxLayout(self)
-            item_layout.addStretch()
-            item_widget.setLayout(item_layout)
-
-            token_label_widget = QtWidgets.QLabel(
-                f'<span style="color:{LABEL_COLORS[label]};">{self._underline_if_term(i, self._bold_if_current(i, text))}</span>'
-            )
-            label_label_widget = QtWidgets.QLabel(
-                f"<span style=\"color:{LABEL_COLORS[label]};\">{'' if label is Label.NONE else label.value}</span>"
-            )
-            item_layout.addWidget(token_label_widget)
-            item_layout.addWidget(label_label_widget)
-
-            self.sentence_layout.addWidget(item_widget)
+        for i in range(len(self.doc)):
+            self.sentence_layout.addWidget(self._create_token_widget(i)[0])
 
         self.sentence_layout.addStretch()
 
-    def _underline_if_term(self, i, text):
-        return f"{'<u>' if self.term_labels[i] == 'BT' else ''}{text}{'</u>' if self.term_labels[i] == 'BT' else ''}"
+    def _create_token_widget(self, i):
+        text = self.doc[i].text
+        label = self.labels[i]
+
+        item_widget = QtWidgets.QWidget()
+        item_layout = QtWidgets.QVBoxLayout(self)
+        item_layout.addStretch()
+        item_widget.setLayout(item_layout)
+
+        token_label_widget = QtWidgets.QLabel(
+            f'<span style="color:{LABEL_COLORS[label]};">{self._underline_if_content(i, self._bold_if_current(i, text))}</span>'
+        )
+        label_label_widget = self._create_label_widget(label)
+        item_layout.addWidget(token_label_widget)
+        item_layout.addWidget(label_label_widget)
+
+        return item_widget, item_layout
+
+    def _create_label_widget(self, label):
+        return QtWidgets.QLabel(
+            f"<span style=\"color:{LABEL_COLORS[label]};\">{'' if label is Label.NONE else label.value}</span>"
+        )
+
+    def _underline_if_content(self, i, text):
+        return f"{'<u>' if self._is_content(self.doc[i]) else ''}{text}{'</u>' if self._is_content(self.doc[i]) else ''}"
 
     def _bold_if_current(self, i, text):
         return f"{'<b>' if self.current == i else ''}{text}{'</b>' if self.current == i else ''}"
 
     def _prev_term(self):
         for i in range(self.current - 1, -1, -1):
-            if self.term_labels[i] == "BT":
+            if self._is_content(self.doc[i]):
                 self.current = i
                 return
 
     def _next_term(self):
-        for i in range(self.current + 1, len(self.term_labels)):
-            if self.term_labels[i] == "BT":
+        for i in range(self.current + 1, len(self.doc)):
+            if self._is_content(self.doc[i]):
                 self.current = i
                 return
 
+    def _is_content(self, token):
+        return token.tag_[:2] in self.CONTENT_TAGS
+
     def keyPressEvent(self, event):
-        print("Key pressed " + str(event.key()) + event.text())
         if event.key() == 16777237:  # Down
             self.next_signal.emit(self.labels)
             return
