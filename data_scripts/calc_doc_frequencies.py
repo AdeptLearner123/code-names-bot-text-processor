@@ -9,10 +9,8 @@ from oxford_definitions.oxford_model import OxfordResults
 nlp = spacy.load("en_core_web_sm", disable=['ner', 'tagger', 'parser'])
 
 
-def process_definition(doc_frequencies, definition, term):
+def process_definition(doc_frequencies, definition):
     doc = nlp(definition)
-    if term == "asia" or term == "europe" or term == "africa":
-        print([token.lemma_ for token in doc])
     for token in doc:
         if token.lemma_ not in doc_frequencies:
             doc_frequencies[token.lemma_] = 1
@@ -45,12 +43,12 @@ def main():
                     for sense in entry.senses:
                         if sense.definitions is not None:
                             for definition in sense.definitions:
-                                process_definition(doc_frequencies, definition, term)
+                                process_definition(doc_frequencies, definition)
                         if sense.subsenses is not None:
                             for subsense in sense.subsenses:
                                 if subsense.definitions is not None:
                                     for definition in subsense.definitions:
-                                        process_definition(doc_frequencies, definition, term)
+                                        process_definition(doc_frequencies, definition)
     
     with open(DOC_FREQUENCY_PATH, "w+") as file:
         yaml.dump(doc_frequencies, file)

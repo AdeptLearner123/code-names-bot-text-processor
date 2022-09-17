@@ -30,6 +30,7 @@ test-term-chunker       = "tools.test_term_chunker:main"
 get-synsets             = "tools.get_synsets:main"
 download-terms          = "tools.download_terms:main"
 process-labels          = "tools.process_labels:main"
+find-dict-occurrences   = "tools.find_dict_occurrences:main"
 
 labeler                 = "labeler.labeler:main"
 view-predictions        = "labeler.predicted_labels_viewer:main"
